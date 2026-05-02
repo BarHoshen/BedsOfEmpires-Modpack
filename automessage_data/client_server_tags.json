@@ -1,0 +1,26 @@
+{
+  "World Name": [
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin"
+  ],
+  "127.0.0.1": [
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin"
+  ],
+  "New Worldd": [
+    "default_message.firstJoin"
+  ],
+  "New World": [
+    "default_message.firstJoin"
+  ]
+}

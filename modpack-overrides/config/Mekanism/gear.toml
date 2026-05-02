@@ -1,0 +1,150 @@
+# Age of Beds Modpack - Mekanism Gear Config Override
+# This file replaces config/Mekanism/gear.toml in the instance root.
+#
+# BALANCING CHANGES:
+# - MekaSuit unspecifiedDamageReductionRatio: 1.0 -> 0.6 (line 362)
+#   This covers explosion damage, melee, projectile, and all other non-fall/non-magic damage.
+#   The primary goal is nerfing explosion immunity so that Create Big Cannons and nuclear
+#   warheads remain threatening against MekaSuit players.
+#
+# NOTE: There is no separate "explosion damage" config key. Explosions, melee, and projectile
+# all fall under unspecifiedDamageReductionRatio. If you want different values for explosions
+# vs melee (e.g. 60% explosion, 80% melee), you need to use the mekanism:mekasuit_absorption
+# data map (a datapack). See: https://github.com/mekanism/Mekanism/wiki
+#
+# NeoForge does NOT merge partial TOML configs - this must be the complete file.
+
+#Settings for configuring the Atomic Disassembler
+[atomic_disassembler]
+	maxEnergy = 1000000
+	chargeRate = 5000
+	energyUsage = 10
+	energyUsageWeapon = 2000
+	minDamage = 4
+	maxDamage = 20
+	attackSpeed = -2.4
+	slowMode = true
+	fastMode = true
+	veinMining = false
+	miningCount = 128
+
+#Settings for configuring the Electric Bow
+[electric_bow]
+	maxEnergy = 120000
+	chargeRate = 600
+	energyUsage = 120
+	energyUsageFlame = 1200
+
+#Settings for configuring Energy Tablets
+[energy_tablet]
+	maxEnergy = 1000000
+	chargeRate = 5000
+
+#Settings for configuring Gauge Droppers
+[gauge_dropper]
+	capacity = 16000
+	transferRate = 250
+
+#Settings for configuring the Flamethrower
+[flamethrower]
+	capacity = 24000
+	fillRate = 16
+	destroyItems = true
+
+#Settings for configuring Free Runners
+[free_runner]
+	maxEnergy = 64000
+	chargeRate = 320
+	fallEnergyCost = 50
+	fallDamageReductionRatio = 1.0
+
+#Settings for configuring Jetpacks
+[jetpack]
+	capacity = 24000
+	fillRate = 16
+
+#Settings for configuring Network Readers
+[network_reader]
+	maxEnergy = 60000
+	chargeRate = 300
+	energyUsage = 400
+
+#Settings for configuring the Portable Teleporter
+[portable_teleporter]
+	maxEnergy = 1000000
+	chargeRate = 5000
+	delay = 0
+
+#Settings for configuring Scuba Tanks
+[scuba_tank]
+	capacity = 24000
+	fillRate = 16
+
+#Settings for configuring Seismic Readers
+[seismic_reader]
+	maxEnergy = 12000
+	chargeRate = 60
+	energyUsage = 250
+
+#Settings for configuring Canteens
+[canteen]
+	maxStorage = 64000
+	transferRate = 128
+
+#Settings for configuring the Meka-Tool
+[mekatool]
+	baseEnergyCapacity = 16000000
+	chargeRate = 100000
+	baseDamage = 4
+	attackSpeed = -2.4
+	baseEfficiency = 4.0
+	extendedMining = true
+	maxTeleportReach = 100
+
+	[mekatool.energy_usage]
+		base = 10
+		silk = 100
+		weapon = 2000
+		hoe = 10
+		shovel = 10
+		axe = 10
+		shearEntity = 10
+		shearTrim = 10
+		teleport = 1000
+
+#Settings for configuring the MekaSuit
+[mekasuit]
+	baseEnergyCapacity = 16000000
+	chargeRate = 100000
+	inventoryChargeRate = 10000
+	solarRechargingRate = 500
+	gravitationalVibrations = true
+	nutritionalMaxStorage = 128000
+	nutritionalTransferRate = 256
+	jetpackMaxStorage = 24000
+	jetpackTransferRate = 256
+
+	[mekasuit.energy_usage]
+		damage = 100000
+		magicReduce = 1000
+		fall = 50
+		jump = 1000
+		elytra = 32000
+		energyUsagePotionTick = 40000
+		sprintBoost = 100
+		gravitationalModulation = 1000
+		visionEnhancement = 500
+		hydrostaticRepulsion = 500
+		nutritionalInjection = 20000
+		itemAttraction = 250
+
+	[mekasuit.damage_absorption]
+		# Fall damage: unchanged (MekaSuit boots absorb 100% of fall damage)
+		fallDamageReductionRatio = 1.0
+		# Magic damage: unchanged (helmet + purification unit absorbs 100%)
+		magicDamageReductionRatio = 1.0
+		# CHANGED: 1.0 -> 0.6 (was 100%, now 60%)
+		# This is the key balance change. Covers explosion, melee, projectile, and all
+		# other damage types that don't bypass armor. Nerfed primarily to make cannons
+		# and nuclear warheads effective against MekaSuit players in PvP.
+		unspecifiedDamageReductionRatio = 0.6

@@ -1,0 +1,25 @@
+# Client-only / runtime files - not needed on server
+.claude/
+.mixin.out/
+.sable/
+backup/
+crash-reports/
+downloads/
+journeymap/
+local/
+logs/
+saves/
+schematics/
+shaderpacks/
+dynamic-resource-pack-cache/
+
+# Client state files
+options.txt
+usercache.json
+usernamecache.json
+command_history.txt
+ponders_watched.json
+TrashSlotSaveState.json
+WaypointData.dat
+patchouli_data.json
+minecraftinstance.json
