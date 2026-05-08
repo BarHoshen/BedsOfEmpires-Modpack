@@ -39,9 +39,11 @@
     "your_message_identifier.firstJoin",
     "your_message_identifier.firstJoin",
     "your_message_identifier.firstJoin",
+    "your_message_identifier.firstJoin",
     "your_message_identifier.firstJoin"
   ],
   "127.0.0.1": [
+    "your_message_identifier.firstJoin",
     "your_message_identifier.firstJoin",
     "your_message_identifier.firstJoin",
     "your_message_identifier.firstJoin",
@@ -120,6 +122,9 @@
     "default_message.firstJoin"
   ],
   "New World 111": [
+    "default_message.firstJoin"
+  ],
+  "158.178.128.83:25565": [
     "default_message.firstJoin"
   ]
 }
