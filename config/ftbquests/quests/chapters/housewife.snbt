@@ -1,0 +1,1801 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "housewife"
+	group: ""
+	id: "0E3E56D58F1EEA44"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A0000000000001D"]
+			id: "0092C730747A57EF"
+			rewards: [
+				{
+					count: 2
+					id: "3F4A06083B46CD01"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "12F77972429D3BC6"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "58917F0228767261"
+					item: {
+						count: 1
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+				{
+					id: "6AB9A79E7A737F26"
+					item: {
+						count: 1
+						id: "farmersdelight:skillet"
+					}
+					type: "item"
+				}
+				{
+					id: "4A81156E7A71A61C"
+					item: {
+						count: 1
+						id: "farmersdelight:iron_knife"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "25ACBE142B445645"
+					item: {
+						count: 1
+						id: "farmersdelight:canvas"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1DB560A686BD4647"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0092C730747A57EF"]
+			id: "1223E4AEF1914C92"
+			rewards: [{
+				count: 2
+				id: "78B13131B4E24358"
+				item: {
+					count: 1
+					id: "farmersdelight:stove"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7F296A33D41FE555"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1223E4AEF1914C92"]
+			id: "4F7199AFE35B6F14"
+			rewards: [{
+				count: 4
+				id: "2338F80AE7DACA02"
+				item: {
+					count: 1
+					id: "farmersdelight:cutting_board"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "01A54B9E0AE0BF2C"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F7199AFE35B6F14"]
+			id: "0AB7B05C9B444F25"
+			rewards: [{
+				count: 4
+				id: "07951B5B3BAC5F2C"
+				item: {
+					count: 1
+					id: "farmersdelight:cooking_pot"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "399F214B05221914"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AB7B05C9B444F25"]
+			id: "366DE934C82728C0"
+			rewards: [{
+				count: 2
+				id: "5BDF70EEE349FDD3"
+				item: {
+					count: 1
+					id: "farmersdelight:skillet"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0840940CE36DEDAA"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["366DE934C82728C0"]
+			id: "6A554A4AE665977D"
+			rewards: [
+				{
+					id: "7CC1481CCA9D1ABE"
+					item: {
+						count: 1
+						id: "farmersdelight:golden_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "364EE8F2A79B02BB"
+					item: {
+						count: 1
+						id: "farmersdelight:diamond_knife"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "29028D1900B90280"
+				item: { count: 1, id: "farmersdelight:iron_knife" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6A554A4AE665977D"]
+			id: "0218FB3E4B7A2894"
+			rewards: [{
+				id: "73931E83864B30FA"
+				item: {
+					count: 1
+					id: "farmersdelight:netherite_knife"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "063770B9D782F4C7"
+				item: { count: 1, id: "farmersdelight:diamond_knife" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0092C730747A57EF"]
+			id: "56BE1250DD45B30E"
+			rewards: [
+				{
+					count: 16
+					id: "3E58B2D80AEF95D0"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7EA14E18A3B96316"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "26F220313DFEC746"
+				item: { count: 1, id: "farmersdelight:tomato_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["56BE1250DD45B30E"]
+			id: "4FD770D8BF6559A3"
+			rewards: [
+				{
+					count: 16
+					id: "34C685ECB1B74919"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4A9D433264952874"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "6E1FF0FF7BFA7740"
+				item: { count: 1, id: "farmersdelight:cabbage_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FD770D8BF6559A3"]
+			id: "02E99B35BED83712"
+			rewards: [{
+				count: 16
+				id: "599886C0A2F42FD2"
+				item: {
+					count: 1
+					id: "farmersdelight:onion"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "76635F4BED01C699"
+				item: { count: 1, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02E99B35BED83712"]
+			id: "53CB4D5646EBB687"
+			rewards: [
+				{
+					count: 16
+					id: "17192273842AB91D"
+					item: {
+						count: 1
+						id: "farmersdelight:rice"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4EAC74D3256835DC"
+					item: {
+						count: 1
+						id: "farmersdelight:rice_panicle"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "062FE399EB777718"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53CB4D5646EBB687"]
+			id: "5490DB6505C8C6E5"
+			rewards: [
+				{
+					count: 16
+					id: "275C136EDF54035E"
+					item: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4E3B9823A91DCF28"
+					item: {
+						count: 1
+						id: "farmersdelight:organic_compost"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "427443400E29DF6D"
+				item: { count: 1, id: "farmersdelight:rich_soil" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0218FB3E4B7A2894"
+				"5490DB6505C8C6E5"
+			]
+			id: "3CA7D8349C3910BA"
+			rewards: [{
+				count: 8
+				id: "32ED7A079CB46174"
+				item: {
+					count: 1
+					id: "farmersdelight:beef_stew"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6E8F448D93E4BB79"
+				item: { count: 1, id: "farmersdelight:beef_stew" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3CA7D8349C3910BA"]
+			id: "0677D6CA5EF461A3"
+			rewards: [
+				{
+					count: 8
+					id: "35616C4ED0077EEC"
+					item: {
+						count: 1
+						id: "farmersdelight:steak_and_potatoes"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "221DD8B8AFDEF14A"
+					item: {
+						count: 1
+						id: "farmersdelight:pasta_with_meatballs"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "25F908FDC096B035"
+				item: { count: 1, id: "farmersdelight:steak_and_potatoes" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0677D6CA5EF461A3"]
+			id: "5109E80E435C6134"
+			rewards: [
+				{
+					count: 2
+					id: "6A3636B318B7A758"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken_block"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1A7313DE862E5E27"
+					item: {
+						count: 1
+						id: "create_confectionery:cocoa_powder"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "74002C0A46402379"
+					item: {
+						count: 1
+						id: "create_winery:red_grapes"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4024D3623AB581BD"
+					item: {
+						count: 1
+						id: "create_winery:white_grapes"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42BB4D7AC503CA65"
+					item: {
+						count: 1
+						id: "oceansdelight:guardian_tail"
+					}
+					type: "item"
+				}
+				{
+					command: "/say 🏠 @p has risen to the rank of Chef!"
+					id: "48CCD038A369FD3E"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2E7C1671EC2CC9EC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5109E80E435C6134"]
+			id: "7399D950A451F21C"
+			rewards: [{
+				id: "27601ACA54380608"
+				item: {
+					count: 1
+					id: "farmersdelight:honey_glazed_ham_block"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6234E47A6BA9CE3A"
+				item: { count: 1, id: "farmersdelight:roast_chicken_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7399D950A451F21C"]
+			id: "3C4A7945B840660F"
+			rewards: [
+				{
+					id: "4D47368F5DB6966F"
+					item: {
+						count: 1
+						id: "farmersdelight:shepherds_pie_block"
+					}
+					type: "item"
+				}
+				{
+					id: "66C4FC41A47F40C8"
+					item: {
+						count: 1
+						id: "farmersdelight:stuffed_pumpkin_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "129926E230CF2DDC"
+				item: { count: 1, id: "farmersdelight:honey_glazed_ham_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3C4A7945B840660F"]
+			id: "7EDC8B49241FF9E9"
+			rewards: [
+				{
+					id: "2603245293A9B411"
+					item: {
+						count: 1
+						id: "farmersdelight:rice_roll_medley_block"
+					}
+					type: "item"
+				}
+				{
+					id: "506DFF5083D31D9B"
+					item: {
+						count: 1
+						id: "farmersdelight:apple_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "394B157F384666F8"
+					item: {
+						count: 1
+						id: "farmersdelight:sweet_berry_cheesecake"
+					}
+					type: "item"
+				}
+				{
+					id: "069BAFE49D1ACC88"
+					item: {
+						count: 1
+						id: "farmersdelight:chocolate_pie"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4053DF8774E82340"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7EDC8B49241FF9E9"]
+			id: "3E8CDAF4BDFB843A"
+			rewards: [{
+				id: "0E3CC21F26470E8C"
+				item: {
+					count: 1
+					id: "farmersdelight:gleaming_salad_block"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "05FC75D8AACA3501"
+				item: { count: 1, id: "farmersdelight:gleaming_salad_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5109E80E435C6134"]
+			id: "5E9C4C290150053C"
+			rewards: [
+				{
+					count: 16
+					id: "1BAD9087FB6FDEE6"
+					item: {
+						count: 1
+						id: "create_winery:red_grapes"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0EC4DCA31424A920"
+					item: {
+						count: 1
+						id: "create_winery:white_grapes"
+					}
+					type: "item"
+				}
+				{
+					id: "01E00A1E33D54B86"
+					item: {
+						count: 1
+						id: "create_winery:red_grape_crate"
+					}
+					type: "item"
+				}
+				{
+					id: "3F76BEE2D47BEC04"
+					item: {
+						count: 1
+						id: "create_winery:white_grape_crate"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "7B588CB1607045BE"
+				item: { count: 1, id: "create_winery:red_grapes" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5E9C4C290150053C"]
+			id: "32E707153148BC0E"
+			rewards: [{
+				count: 2
+				id: "0F59BB798821D48C"
+				item: {
+					count: 1
+					id: "create_winery:wine_cellar"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "44D807B5857FCECC"
+				item: { count: 1, id: "create_winery:wine_cellar" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["32E707153148BC0E"]
+			id: "4FCCE6936E8D4B5A"
+			rewards: [
+				{
+					count: 4
+					id: "26188E47A76269D3"
+					item: {
+						count: 1
+						id: "create_winery:merlot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0BA48213CCFE2C10"
+					item: {
+						count: 1
+						id: "create_winery:chardonnay"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "50034CCCC3D3460D"
+					item: {
+						count: 1
+						id: "create_winery:rose"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6543F793E9D0EA86"
+				item: { count: 1, id: "create_winery:cabernet_sauvignon" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4FCCE6936E8D4B5A"]
+			id: "624A982E61CE8902"
+			rewards: [
+				{
+					count: 4
+					id: "60727ED011BC2EC6"
+					item: {
+						count: 1
+						id: "create_winery:apple_juice"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0C5B6E9FEF99556D"
+					item: {
+						count: 1
+						id: "create_winery:grape_juice"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "619A9BBF9C33F265"
+				item: { count: 1, id: "create_winery:grape_juice" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["624A982E61CE8902"]
+			id: "68851EBC979797AB"
+			rewards: [
+				{
+					count: 4
+					id: "375CCCAC9F20DD9A"
+					item: {
+						count: 1
+						id: "create_winery:champaign"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "527B99E02193ADB4"
+					item: {
+						count: 1
+						id: "create_winery:cider"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "72C1FDC523CCCF1A"
+				item: { count: 1, id: "create_winery:champaign" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5109E80E435C6134"]
+			id: "06EF132C93B6FBD9"
+			rewards: [
+				{
+					count: 16
+					id: "78306088363066B1"
+					item: {
+						count: 1
+						id: "create_confectionery:cocoa_powder"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "165F68A3894EEFFA"
+					item: {
+						count: 1
+						id: "create_confectionery:cocoa_butter"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "21C8654960B895B3"
+				item: { count: 1, id: "create_confectionery:cocoa_powder" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06EF132C93B6FBD9"]
+			id: "6B2207048FD18974"
+			rewards: [
+				{
+					count: 4
+					id: "25EE8857C8AD8F67"
+					item: {
+						count: 1
+						id: "create_confectionery:full_black_chocolate_bar"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "33F079DEF7C14B6B"
+					item: {
+						count: 1
+						id: "create_confectionery:full_white_chocolate_bar"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3E1B4EA465372D0A"
+					item: {
+						count: 1
+						id: "create_confectionery:full_ruby_chocolate_bar"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2244823225C297C0"
+				item: { count: 1, id: "create_confectionery:full_chocolate_bar" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B2207048FD18974"]
+			id: "54A72E0FE0FF920C"
+			rewards: [
+				{
+					count: 8
+					id: "4C50AC1051040F71"
+					item: {
+						count: 1
+						id: "create_confectionery:candy_cane"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6CBC1A63987B2DF1"
+					item: {
+						count: 1
+						id: "create_confectionery:honey_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1FEC999B4D3434AE"
+					item: {
+						count: 1
+						id: "create_confectionery:caramel_glazed_berries"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "34B2492E9498B66C"
+				item: { count: 1, id: "create_confectionery:candy_cane" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["54A72E0FE0FF920C"]
+			id: "18D032BC91253887"
+			rewards: [{
+				count: 4
+				id: "4FDB4E7DD544FF86"
+				item: {
+					count: 1
+					id: "create_confectionery:hot_chocolate_bottle"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "123C51EFF7EACB93"
+				item: { count: 1, id: "create_confectionery:hot_chocolate_bottle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["18D032BC91253887"]
+			id: "111F4D02C843D2C3"
+			rewards: [{
+				count: 8
+				id: "36B8CA405CD9ADC9"
+				item: {
+					count: 1
+					id: "create_confectionery:soothing_hot_chocolate"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4C4ED31B729A9D46"
+				item: { count: 1, id: "create_confectionery:soothing_hot_chocolate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5109E80E435C6134"]
+			id: "7E0853F67577D46B"
+			rewards: [
+				{
+					count: 4
+					id: "3E06E2A0B5176D6C"
+					item: {
+						count: 1
+						id: "oceansdelight:guardian_tail"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "368A28854C8BBD4A"
+					item: {
+						count: 1
+						id: "oceansdelight:cooked_guardian_tail"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5B89A70A328295E7"
+				item: { count: 1, id: "oceansdelight:guardian_tail" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7E0853F67577D46B"]
+			id: "2B7F3C722BACB77E"
+			rewards: [{
+				count: 8
+				id: "31A519CC15D7DC15"
+				item: {
+					count: 1
+					id: "oceansdelight:baked_tentacle_on_a_stick"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "60DFBDF92AB134E3"
+				item: { count: 1, id: "oceansdelight:cut_tentacles" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2B7F3C722BACB77E"]
+			id: "6F58153587744610"
+			rewards: [
+				{
+					count: 4
+					id: "3A9623C47656E2DF"
+					item: {
+						count: 1
+						id: "oceansdelight:cooked_stuffed_cod"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B6CABA631704BC5"
+					item: {
+						count: 1
+						id: "oceansdelight:elder_guardian_roll"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "091DE6E54369C501"
+					item: {
+						count: 1
+						id: "oceansdelight:fugu_roll"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "09F24B8E0692B4B2"
+				item: { count: 1, id: "oceansdelight:bowl_of_guardian_soup" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3E8CDAF4BDFB843A"
+				"68851EBC979797AB"
+				"111F4D02C843D2C3"
+				"6F58153587744610"
+			]
+			id: "73BEFD29C4A96C6F"
+			rewards: [
+				{
+					id: "056D0D5424C1919C"
+					item: {
+						count: 1
+						id: "chipped:carpenters_table"
+					}
+					type: "item"
+				}
+				{
+					id: "782F28894A51FB83"
+					item: {
+						count: 1
+						id: "chipped:mason_table"
+					}
+					type: "item"
+				}
+				{
+					id: "39847856743B6EAD"
+					item: {
+						count: 1
+						id: "chipped:botanist_workbench"
+					}
+					type: "item"
+				}
+				{
+					id: "3F8449B3B42719CB"
+					item: {
+						count: 1
+						id: "chipped:loom_table"
+					}
+					type: "item"
+				}
+				{
+					id: "337E685DFD632950"
+					item: {
+						count: 1
+						id: "chipped:tinkering_table"
+					}
+					type: "item"
+				}
+				{
+					id: "5C9C8CD747AE2EC8"
+					item: {
+						count: 1
+						id: "chipped:alchemy_bench"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7ACE4F08F58CBF31"
+					item: {
+						count: 1
+						id: "create_furnitures:brass_chair"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A65FD217E35EED8"
+					item: {
+						count: 1
+						id: "create_furnitures:brass_table"
+					}
+					type: "item"
+				}
+				{
+					command: "/say 🏠 @p has risen to the rank of Interior Designer!"
+					id: "32D643304151F3AA"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "37421CABEE43E57A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["73BEFD29C4A96C6F"]
+			id: "1640AB6B13CE30ED"
+			rewards: [{
+				count: 8
+				id: "0B5C9F0060E93020"
+				item: {
+					count: 1
+					id: "chipped:carpenters_table"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5538F9E0C60D455A"
+				item: { count: 1, id: "chipped:carpenters_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1640AB6B13CE30ED"]
+			id: "0B58B998FD484508"
+			shape: "rsquare"
+			tasks: [{
+				id: "35745668DD4637BA"
+				item: { count: 1, id: "chipped:mason_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["0B58B998FD484508"]
+			id: "4A591BD3FD68D76F"
+			rewards: [
+				{
+					count: 64
+					id: "4857BAB21866BC23"
+					item: {
+						count: 1
+						id: "minecraft:stone"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0A0C93391DB9BFF9"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "59B15EED9886CF16"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5ADE6029675FEE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["73BEFD29C4A96C6F"]
+			id: "431679EBCC009D6C"
+			rewards: [
+				{
+					count: 32
+					id: "73E9BD2BA0635E77"
+					item: {
+						count: 1
+						id: "mcwwindows:window_base"
+					}
+					type: "item"
+				}
+				{
+					id: "5B3274E5444E4F5B"
+					item: {
+						count: 1
+						id: "mcwwindows:key"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "049D8F4E300CC883"
+					item: {
+						count: 1
+						id: "mcwwindows:window_centre_bar_base"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "18C9E997B95668D3"
+				item: { count: 1, id: "mcwwindows:hammer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["431679EBCC009D6C"]
+			id: "73D4FBE2535F6512"
+			rewards: [
+				{
+					count: 2
+					id: "26E12C5685F2E251"
+					item: {
+						count: 1
+						id: "createdeco:brass_door"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E19326A1C277AE6"
+					item: {
+						components: {
+							"ftbquests:missing_item": "createdeco:copper_door"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D6F23E43EDC5EC7"
+					item: {
+						components: {
+							"ftbquests:missing_item": "createdeco:iron_door"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "70759737F747FD02"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["73D4FBE2535F6512"]
+			id: "5981575E318AF316"
+			shape: "rsquare"
+			tasks: [{
+				id: "5B9502784EEE5B20"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5981575E318AF316"]
+			id: "449B851F919D32AD"
+			shape: "rsquare"
+			tasks: [{
+				id: "423342A511B1549B"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["73BEFD29C4A96C6F"]
+			id: "0F19B242183CA7EA"
+			rewards: [
+				{
+					count: 2
+					id: "333540708B4452E9"
+					item: {
+						count: 1
+						id: "create_furnitures:copper_chair"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6B16A1B9FEE5C215"
+					item: {
+						count: 1
+						id: "create_furnitures:andesite_chair"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A0C87B327D06C9D"
+					item: {
+						count: 1
+						id: "create_furnitures:railway_chair"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6788EEA060037E73"
+					item: {
+						count: 1
+						id: "create_furnitures:brass_table"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6BFE3DF28F4C9E78"
+					item: {
+						count: 1
+						id: "create_furnitures:copper_table"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0C09A196218D53CB"
+					item: {
+						count: 1
+						id: "create_furnitures:andesite_table"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1DB3E522D446B2BB"
+				item: { count: 1, id: "create_furnitures:brass_chair" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0F19B242183CA7EA"]
+			id: "3B441B834565DA1B"
+			rewards: [{
+				id: "2AEDCA31B384418B"
+				item: {
+					count: 1
+					id: "create_furnitures:brass_pillar"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "30E006BFBBF781E3"
+				item: { count: 1, id: "create_furnitures:andesite_pillar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3B441B834565DA1B"]
+			id: "4BD0094786BE8EC0"
+			shape: "rsquare"
+			tasks: [{
+				id: "1FEBB28DF3A9B9B8"
+				item: { count: 1, id: "createdeco:brass_bars" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["73BEFD29C4A96C6F"]
+			id: "148D364CC6FA0C2D"
+			rewards: [{
+				id: "63B4BDFD8DF4F1E3"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "497DB18CB927990E"
+				item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["148D364CC6FA0C2D"]
+			id: "2F1CD33DAE2210AA"
+			rewards: [{
+				id: "6BACDEEAF922BE8D"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:advanced_alchemy_upgrade"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "670FC8803DEAC848"
+				item: { count: 1, id: "sophisticatedbackpacks:alchemy_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2F1CD33DAE2210AA"]
+			id: "65D315815FFA3873"
+			rewards: [
+				{
+					id: "457AD38F5E0F4733"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+					}
+					type: "item"
+				}
+				{
+					id: "3386CE2B332EA771"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:inception_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "368C07A1EC904012"
+				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["73BEFD29C4A96C6F"]
+			id: "1CE896AD9A4DA705"
+			rewards: [
+				{
+					count: 8
+					id: "34FB3420F2F5CB8F"
+					item: {
+						count: 1
+						id: "farmersdelight:canvas_rug"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "065ADE0FCBA2D327"
+					item: {
+						count: 1
+						id: "farmersdelight:full_tatami_mat"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "3D27F22A99985FE3"
+				item: { count: 1, id: "farmersdelight:canvas_rug" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1CE896AD9A4DA705"]
+			id: "2F7150F3E5835A03"
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "44D71AF5C7E1F14B"
+				item: { count: 1, id: "farmersdelight:canvas_sign" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2F7150F3E5835A03"]
+			id: "3F6501D416CFE745"
+			shape: "rsquare"
+			tasks: [{
+				id: "6D8C371D56810576"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"4A591BD3FD68D76F"
+				"449B851F919D32AD"
+				"4BD0094786BE8EC0"
+				"65D315815FFA3873"
+			]
+			id: "76227C34BE273A14"
+			rewards: [
+				{
+					count: 32
+					id: "023398DDB2085087"
+					item: {
+						count: 1
+						id: "create_confectionery:gingerbread_block"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "342F6BB8BC560725"
+					item: {
+						count: 1
+						id: "create_confectionery:candy_cane_block"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "47D08A5F6801CA54"
+					item: {
+						count: 1
+						id: "create_confectionery:chocolate_bricks"
+					}
+					type: "item"
+				}
+				{
+					command: "/say 🏠 @p has risen to the rank of Matriarch!"
+					id: "3A8AABCE754DF454"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3EA16BF04713F98F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["76227C34BE273A14"]
+			id: "7816101FBEF2AA84"
+			rewards: [
+				{
+					count: 32
+					id: "68A100DFB36CF0B3"
+					item: {
+						count: 1
+						id: "create_confectionery:ruby_chocolate_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4785FA098480F526"
+					item: {
+						count: 1
+						id: "create_confectionery:black_chocolate_candy"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1C20315C6A6735EE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["7816101FBEF2AA84"]
+			id: "6895273DC869FFB6"
+			rewards: [
+				{
+					count: 32
+					id: "344D69A6EDB86B94"
+					item: {
+						count: 1
+						id: "create_confectionery:gingerbread_stairs"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "59A073607D03E533"
+					item: {
+						count: 1
+						id: "create_confectionery:gingerbread_slab"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0BD4312C80F3A9F4"
+					item: {
+						components: {
+							"ftbquests:missing_item": "create_confectionery:gingerbread_bricks"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 64L
+				id: "1A00A044040494EE"
+				item: { count: 1, id: "create_confectionery:gingerbread_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["6895273DC869FFB6"]
+			id: "2F3983B74A7D9F1E"
+			rewards: [
+				{
+					count: 16
+					id: "7785DC0D9C13EE9B"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "123C1F0058E8B595"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "59C8173ECCBD40BB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["76227C34BE273A14"]
+			id: "58F135B008334839"
+			rewards: [
+				{
+					id: "3E09809B57CF4E45"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					}
+					type: "item"
+				}
+				{
+					id: "37B8AA746B18E019"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:everlasting_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4FBE1C2D52A4787F"
+				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["58F135B008334839"]
+			id: "05F530A4DC277202"
+			rewards: [{
+				id: "7A6AB9E19F8A63D4"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "740019A4648E78EE"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["76227C34BE273A14"]
+			id: "053CB264E06F2E52"
+			rewards: [{
+				command: "/say 🏠 @p has prepared a Grand Feast! All are welcome."
+				id: "1D75D66E5642ED62"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "012D7CEE5D3ED0A5"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["053CB264E06F2E52"]
+			id: "4A8749AA43DEAE9C"
+			shape: "rsquare"
+			tasks: [{
+				id: "0600B0A887CF8CC1"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["65D315815FFA3873"]
+			id: "7D3E5236B782FA53"
+			rewards: [{
+				count: 16
+				id: "75EA63CDE42F97A8"
+				item: {
+					count: 1
+					id: "securitycraft:reinforced_glass"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "50E38B19BF2CFF90"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 30.0d
+		}
+		{
+			dependencies: [
+				"2F3983B74A7D9F1E"
+				"05F530A4DC277202"
+				"4A8749AA43DEAE9C"
+			]
+			id: "690419EE2EEF6E5A"
+			rewards: [{
+				command: "/say 🏠 @p has achieved Domestic Supremacy! Their home is legendary."
+				id: "10BBF5532971282D"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "418B4889D70BCF21"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 36.0d
+		}
+	]
+}

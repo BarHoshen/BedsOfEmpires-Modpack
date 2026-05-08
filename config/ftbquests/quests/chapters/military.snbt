@@ -1,0 +1,2050 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "military"
+	group: ""
+	id: "089E9B1D759A25CB"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A0000000000001D"]
+			id: "3A33DDA9BA48EE89"
+			rewards: [
+				{
+					id: "2F48E012DF97E811"
+					item: {
+						count: 1
+						id: "securitycraft:sc_manual"
+					}
+					type: "item"
+				}
+				{
+					id: "3779C1B5197B4A0C"
+					item: {
+						count: 1
+						id: "securitycraft:universal_block_reinforcer_lvl1"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "525E842C1A2676D6"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4A1679F23EA1936E"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "22776AB86110B829"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A33DDA9BA48EE89"]
+			id: "4EAAABA95BB07439"
+			rewards: [
+				{
+					count: 64
+					id: "403077F661A3F578"
+					item: {
+						count: 1
+						id: "securitycraft:reinforced_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6FF9B69FB66692CC"
+					item: {
+						count: 1
+						id: "securitycraft:reinforced_glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "5AFD2333885C9A51"
+				item: { count: 1, id: "securitycraft:reinforced_stone" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4EAAABA95BB07439"]
+			id: "6CE8086AA6C3B43A"
+			rewards: [{
+				id: "274D0F1D9A7CF675"
+				item: {
+					count: 1
+					id: "securitycraft:universal_block_reinforcer_lvl2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "128461709C606C2F"
+				item: { count: 1, id: "securitycraft:universal_block_reinforcer_lvl2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6CE8086AA6C3B43A"]
+			id: "60E576800919A28C"
+			rewards: [{
+				count: 16
+				id: "73DF98958705C57E"
+				item: {
+					count: 1
+					id: "securitycraft:reinforced_obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "534D842AD34A534A"
+				item: { count: 1, id: "securitycraft:reinforced_obsidian" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["60E576800919A28C"]
+			id: "2F435C7965E8090F"
+			rewards: [{
+				count: 16
+				id: "7DF277207F6BF00A"
+				item: {
+					count: 1
+					id: "securitycraft:electrified_iron_fence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "4E9EDDD30C073527"
+				item: { count: 1, id: "securitycraft:electrified_iron_fence" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A33DDA9BA48EE89"]
+			id: "2771B56D324A0AB8"
+			rewards: [{
+				count: 4
+				id: "3AA2542291C2AA35"
+				item: {
+					count: 1
+					id: "securitycraft:portable_radar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "203A80CF108435A0"
+				item: { count: 1, id: "securitycraft:portable_radar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2771B56D324A0AB8"]
+			id: "0215C2DBFE30AD64"
+			rewards: [
+				{
+					count: 4
+					id: "0A62C5FC684E6E90"
+					item: {
+						count: 1
+						id: "securitycraft:security_camera"
+					}
+					type: "item"
+				}
+				{
+					id: "0BFB17680C9A8ADD"
+					item: {
+						count: 1
+						id: "securitycraft:camera_monitor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "3435227EB04B4F9B"
+				item: { count: 1, id: "securitycraft:security_camera" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0215C2DBFE30AD64"]
+			id: "480AF4B45CFD13F0"
+			rewards: [{
+				count: 4
+				id: "5E2DEA981AD5702F"
+				item: {
+					count: 1
+					id: "securitycraft:motion_activated_light"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3747B56B30B34F67"
+				item: { count: 1, id: "securitycraft:motion_activated_light" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["480AF4B45CFD13F0"]
+			id: "036FBB4142E68871"
+			rewards: [{
+				count: 2
+				id: "68DBE9D3DB48CF8D"
+				item: {
+					count: 1
+					id: "securitycraft:username_logger"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C20CF0B8AF4EC85"
+				item: { count: 1, id: "securitycraft:username_logger" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["036FBB4142E68871"]
+			id: "44C411267763457E"
+			rewards: [
+				{
+					count: 4
+					id: "56CECE96E071A1E9"
+					item: {
+						count: 1
+						id: "securitycraft:alarm"
+					}
+					type: "item"
+				}
+				{
+					id: "122D0AFF5B8AAA61"
+					item: {
+						count: 1
+						id: "securitycraft:panic_button"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "258D6D45FCA14D2C"
+				item: { count: 1, id: "securitycraft:alarm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A33DDA9BA48EE89"]
+			id: "1C8ED019FE6FC99B"
+			rewards: [
+				{
+					count: 8
+					id: "02CA143BBBD82474"
+					item: {
+						count: 1
+						id: "securitycraft:mine"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "09321D71B408B42D"
+					item: {
+						count: 1
+						id: "securitycraft:track_mine"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0DB4F9D97E9F8EFD"
+				item: { count: 1, id: "securitycraft:mine" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C8ED019FE6FC99B"]
+			id: "1C8B242C62575ADC"
+			rewards: [{
+				count: 4
+				id: "244986BE1E5EE197"
+				item: {
+					count: 1
+					id: "securitycraft:bouncing_betty"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "22280761671B4F31"
+				item: { count: 1, id: "securitycraft:bouncing_betty" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1C8B242C62575ADC"]
+			id: "1D05BC86A7FA7A53"
+			rewards: [{
+				count: 4
+				id: "1E8E3E45E174F145"
+				item: {
+					count: 1
+					id: "securitycraft:claymore"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "792612172DCB50BB"
+				item: { count: 1, id: "securitycraft:claymore" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D05BC86A7FA7A53"]
+			id: "4BECFA21B74A2EAA"
+			rewards: [{
+				count: 2
+				id: "3C1918D7D1434A13"
+				item: {
+					count: 1
+					id: "securitycraft:ims"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "257ECE5E4568E96E"
+				item: { count: 1, id: "securitycraft:ims" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4BECFA21B74A2EAA"]
+			id: "2AAF45364888D559"
+			rewards: [{
+				count: 4
+				id: "23124CBF29AFD801"
+				item: {
+					count: 1
+					id: "securitycraft:cage_trap"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6072AEB5738CB6DD"
+				item: { count: 1, id: "securitycraft:cage_trap" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2F435C7965E8090F"
+				"44C411267763457E"
+				"2AAF45364888D559"
+			]
+			id: "592B6B8FC7F6C891"
+			rewards: [
+				{
+					count: 4
+					id: "26A461049A8E0CD5"
+					item: {
+						count: 1
+						id: "securitycraft:sentry"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6793C113384380F1"
+					item: {
+						components: {
+							"ftbquests:missing_item": "securitycraft:keypad_door"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E9CEFE6392019D5"
+					item: {
+						count: 1
+						id: "securitycraft:laser_block"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "297C3BAC96D4220F"
+					item: {
+						count: 1
+						id: "securitycraft:whitelist_module"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4D9E1A7211AF146A"
+					item: {
+						count: 1
+						id: "securitycraft:redstone_module"
+					}
+					type: "item"
+				}
+				{
+					command: "/say 🛡️ @p has risen to the rank of Commander!"
+					id: "1F179B00D439EF4D"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "61BBF597CE6DE63C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["592B6B8FC7F6C891"]
+			id: "192B7675D0C29934"
+			rewards: [
+				{
+					count: 8
+					id: "02D202F1A4E6C043"
+					item: {
+						count: 1
+						id: "securitycraft:laser_block"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "545E6DE3E207CAC6"
+					item: {
+						count: 1
+						id: "securitycraft:lens"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "7FF32E55200A782E"
+				item: { count: 1, id: "securitycraft:laser_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["192B7675D0C29934"]
+			id: "0ECFE5F6A6A15876"
+			rewards: [{
+				count: 4
+				id: "4BF806344F58AD51"
+				item: {
+					count: 1
+					id: "securitycraft:inventory_scanner"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6943350FFFA474DE"
+				item: { count: 1, id: "securitycraft:inventory_scanner" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0ECFE5F6A6A15876"]
+			id: "59ADB7A0D529A0CA"
+			rewards: [{
+				count: 2
+				id: "1B141507C4979560"
+				item: {
+					count: 1
+					id: "securitycraft:block_change_detector"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2509B244E74D953B"
+				item: { count: 1, id: "securitycraft:block_change_detector" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["59ADB7A0D529A0CA"]
+			id: "6F981099803363D7"
+			rewards: [{
+				count: 4
+				id: "516772A95ED48273"
+				item: {
+					count: 1
+					id: "securitycraft:floor_trap"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30103C37EDAE8FE7"
+				item: { count: 1, id: "securitycraft:floor_trap" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["592B6B8FC7F6C891"]
+			id: "6E53EFF9918E96BB"
+			rewards: [
+				{
+					count: 4
+					id: "509D2DB4C03A4713"
+					item: {
+						components: {
+							"ftbquests:missing_item": "securitycraft:keypad_door"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "66C5360D9ADE4A21"
+					item: {
+						count: 1
+						id: "securitycraft:keypad_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "4F9A5C2EC68A5455"
+				item: { components: { "ftbquests:missing_item": "securitycraft:keypad_door" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6E53EFF9918E96BB"]
+			id: "26C841C87F1E93AB"
+			rewards: [
+				{
+					count: 2
+					id: "33A1A289818B452C"
+					item: {
+						count: 1
+						id: "securitycraft:keypad_chest"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0454310C004F172F"
+					item: {
+						count: 1
+						id: "securitycraft:keypad_barrel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EEDCC38099FE7AA"
+				item: { count: 1, id: "securitycraft:keypad_chest" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["26C841C87F1E93AB"]
+			id: "3060260E72279D8B"
+			rewards: [{
+				count: 2
+				id: "243DAF9949AF4496"
+				item: {
+					components: {
+						"ftbquests:missing_item": "securitycraft:scanner_door"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20FFD048BC3D420B"
+				item: { count: 1, id: "securitycraft:retinal_scanner" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3060260E72279D8B"]
+			id: "09E51E7DDA6CB17C"
+			rewards: [
+				{
+					id: "5211BB87EA9AD0D4"
+					item: {
+						count: 1
+						id: "securitycraft:keycard_reader"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "56770E9A8817BA5E"
+					item: {
+						count: 1
+						id: "securitycraft:keycard_lv1"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45AF9DEDD2E134CD"
+					item: {
+						count: 1
+						id: "securitycraft:keycard_lv2"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6B94CFBE73E2A8AB"
+					item: {
+						count: 1
+						id: "securitycraft:keycard_lv3"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3739A4F0D42398AB"
+				item: { count: 1, id: "securitycraft:keycard_reader" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["09E51E7DDA6CB17C"]
+			id: "40A359A6B54B923C"
+			rewards: [{
+				id: "383EA8671C36D86C"
+				item: {
+					count: 1
+					id: "securitycraft:wire_cutters"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18703C6081467CCA"
+				item: { count: 1, id: "securitycraft:codebreaker" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["592B6B8FC7F6C891"]
+			id: "73AE24B50992D0E2"
+			rewards: [
+				{
+					count: 4
+					id: "35AB3E342F855412"
+					item: {
+						count: 1
+						id: "securitycraft:sentry"
+					}
+					type: "item"
+				}
+				{
+					id: "1AB807DE7A7AC830"
+					item: {
+						count: 1
+						id: "securitycraft:remote_access_sentry"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "268D5FF9AE898F88"
+					item: {
+						count: 1
+						id: "securitycraft:whitelist_module"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "4C42A9B70BC322F4"
+				item: { count: 1, id: "securitycraft:sentry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["73AE24B50992D0E2"]
+			id: "02A5917DF349D918"
+			rewards: [{
+				count: 2
+				id: "5E4D66B2E1149E6B"
+				item: {
+					count: 1
+					id: "securitycraft:trophy_system"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BD58623B0A06D7A"
+				item: { count: 1, id: "securitycraft:trophy_system" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["02A5917DF349D918"]
+			id: "2238BEA4ABC9F983"
+			rewards: [{
+				count: 2
+				id: "4997F35E08ABC61C"
+				item: {
+					count: 1
+					id: "securitycraft:protecto"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A88A29A5DF3E96A"
+				item: { count: 1, id: "securitycraft:protecto" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["592B6B8FC7F6C891"]
+			id: "725780D512434304"
+			rewards: [
+				{
+					id: "057970FDA0986FB4"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "190AF2B9EA749D30"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "3AB276F7DAF6B304"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "35339C95FC805CFD"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "51D98776858C2188"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "209F8461E63B6392"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_paxel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43B6113090E8BDB8"
+				item: { count: 1, id: "mekanismtools:osmium_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["725780D512434304"]
+			id: "4E933A1B0CC9D26D"
+			rewards: [
+				{
+					id: "36DF8427E4E7D87E"
+					item: {
+						count: 1
+						id: "mekanismtools:refined_obsidian_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "023F0BBA75654B38"
+					item: {
+						count: 1
+						id: "mekanismtools:refined_obsidian_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "67F922A6676BB6DE"
+					item: {
+						count: 1
+						id: "mekanismtools:refined_obsidian_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "547B6D7DA8710DAC"
+					item: {
+						count: 1
+						id: "mekanismtools:refined_obsidian_boots"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BB9AE9B44ECBEFC"
+				item: { count: 1, id: "mekanismtools:refined_obsidian_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["592B6B8FC7F6C891"]
+			id: "56AB2CF4FE393929"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "45CEC024D7B26CE9"
+					item: {
+						count: 1
+						id: "securitycraft:projector"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "06DE668B68D907B8"
+					item: {
+						count: 1
+						id: "securitycraft:disguise_module"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F7A6BC92D236EC9"
+				item: { count: 1, id: "securitycraft:projector" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["56AB2CF4FE393929"]
+			id: "4647593D2E720B24"
+			optional: true
+			rewards: [
+				{
+					id: "4013F778B79144B9"
+					item: {
+						count: 1
+						id: "securitycraft:bucket_f_water"
+					}
+					type: "item"
+				}
+				{
+					id: "760264A18F3E7BCE"
+					item: {
+						count: 1
+						id: "securitycraft:bucket_f_lava"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6AC1EE7A531F1F9E"
+				item: { count: 1, id: "securitycraft:bucket_f_lava" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4647593D2E720B24"]
+			id: "3EF60A7E73F59932"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "19CEE29B54D5F56E"
+				item: {
+					components: {
+						"ftbquests:missing_item": "securitycraft:secret_oak_sign"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3008D85C4B2C6955"
+				item: { components: { "ftbquests:missing_item": "securitycraft:secret_oak_sign" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6F981099803363D7"
+				"40A359A6B54B923C"
+				"2238BEA4ABC9F983"
+				"4E933A1B0CC9D26D"
+			]
+			id: "48B29E485F372BF0"
+			rewards: [
+				{
+					count: 32
+					id: "5591BC118EC4DB2A"
+					item: {
+						count: 1
+						id: "createbigcannons:cast_iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6E8870ECDF6F0AB6"
+					item: {
+						count: 1
+						id: "createbigcannons:casting_sand"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4D6EA8927F2F2911"
+					item: {
+						count: 1
+						id: "createbigcannons:packed_gunpowder"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "785A4182F31DF103"
+					item: {
+						count: 1
+						id: "createbigcannons:cannon_mount"
+					}
+					type: "item"
+				}
+				{
+					command: "/say 🛡️ @p has risen to the rank of General!"
+					id: "07A83D2448C6640C"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "739490BE08424492"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["48B29E485F372BF0"]
+			id: "4F1325738E501B38"
+			rewards: [
+				{
+					count: 4
+					id: "26B81293ADEF290C"
+					item: {
+						components: {
+							"ftbquests:missing_item": "createbigcannons:cannon_cast"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "1FE30957BDA7076A"
+					item: {
+						count: 1
+						id: "createbigcannons:basin_foundry_lid"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "17227742EEE2F08C"
+					item: {
+						count: 1
+						id: "createbigcannons:casting_sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C51FE0290E18485"
+				item: { components: { "ftbquests:missing_item": "createbigcannons:cannon_cast" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4F1325738E501B38"]
+			id: "2783BFA11DFE4C7C"
+			rewards: [
+				{
+					count: 2
+					id: "11F31E9654F4B0FD"
+					item: {
+						count: 1
+						id: "createbigcannons:cast_iron_cannon_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "291C0E8A92284627"
+					item: {
+						count: 1
+						id: "createbigcannons:cast_iron_cannon_end"
+					}
+					type: "item"
+				}
+				{
+					id: "78C3B2E4806B5514"
+					item: {
+						count: 1
+						id: "createbigcannons:cast_iron_sliding_breech"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "659C27DCA99B4A2F"
+				item: { count: 1, id: "createbigcannons:cast_iron_cannon_barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2783BFA11DFE4C7C"]
+			id: "2CF39BB8994D0647"
+			rewards: [{
+				count: 2
+				id: "1479ABE38402A842"
+				item: {
+					components: {
+						"ftbquests:missing_item": "createbigcannons:cannon_drill_bit"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "115AB11D22B85958"
+				item: { count: 1, id: "createbigcannons:cannon_drill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["2CF39BB8994D0647"]
+			id: "67C16DCDEF991F85"
+			rewards: [
+				{
+					id: "2D9F70B71AF5498F"
+					item: {
+						count: 1
+						id: "createbigcannons:yaw_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "6E3F916E5BBCA575"
+					item: {
+						count: 1
+						id: "createbigcannons:cannon_carriage"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "624765C43ADFF072"
+				item: { count: 1, id: "createbigcannons:cannon_mount" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["67C16DCDEF991F85"]
+			id: "651F7E2CC204020A"
+			rewards: [
+				{
+					count: 16
+					id: "4603590B79A9E3EE"
+					item: {
+						count: 1
+						id: "createbigcannons:solid_shot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6079EFEE5AC5155C"
+					item: {
+						count: 1
+						id: "createbigcannons:packed_gunpowder"
+					}
+					type: "item"
+				}
+				{
+					command: "/say 🛡️ @p has built artillery! Take cover."
+					id: "33DE0BA5A4085DD0"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "61A82C91FE1E998D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["651F7E2CC204020A"]
+			id: "0EEAF692DD63F712"
+			rewards: [
+				{
+					count: 2
+					id: "6BE75E134C37FF12"
+					item: {
+						count: 1
+						id: "createbigcannons:bronze_cannon_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "3FE83774FB8FAC48"
+					item: {
+						count: 1
+						id: "createbigcannons:bronze_sliding_breech"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69A1752B79370DBC"
+				item: { count: 1, id: "createbigcannons:bronze_cannon_barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["0EEAF692DD63F712"]
+			id: "52AE303427FDD7A3"
+			rewards: [
+				{
+					count: 2
+					id: "0830B4B63E2D52DC"
+					item: {
+						count: 1
+						id: "createbigcannons:steel_cannon_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "60B5CB93A543FC21"
+					item: {
+						count: 1
+						id: "createbigcannons:steel_sliding_breech"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41DFB7E5C6EDC308"
+				item: { count: 1, id: "createbigcannons:steel_cannon_barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["52AE303427FDD7A3"]
+			id: "789AB2E949A7409D"
+			rewards: [{
+				count: 2
+				id: "05F1FEBEBAD29219"
+				item: {
+					count: 1
+					id: "createbigcannons:steel_screw_breech"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43BBAC354D4C4908"
+				item: { count: 1, id: "createbigcannons:steel_screw_breech" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["651F7E2CC204020A"]
+			id: "60531831F2C409E3"
+			rewards: [{
+				count: 8
+				id: "59B2D0B3E6C82F7F"
+				item: {
+					count: 1
+					id: "createbigcannons:solid_shot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "076939B87BF06D56"
+				item: { count: 1, id: "createbigcannons:solid_shot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["60531831F2C409E3"]
+			id: "127252FEAF74F3EF"
+			rewards: [
+				{
+					count: 8
+					id: "5DFA225720349320"
+					item: {
+						count: 1
+						id: "createbigcannons:ap_shot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25CFFC1C9261DB41"
+					item: {
+						count: 1
+						id: "createbigcannons:impact_fuze"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3FE5B268FF2CFBEE"
+				item: { count: 1, id: "createbigcannons:ap_shot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["127252FEAF74F3EF"]
+			id: "52FEBF7A71283CC3"
+			rewards: [
+				{
+					count: 8
+					id: "0C94C8549C2054E5"
+					item: {
+						count: 1
+						id: "createbigcannons:he_shell"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "40FCD92C1A1B2E5D"
+					item: {
+						count: 1
+						id: "createbigcannons:timed_fuze"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "5E20AFCFE8CF129C"
+				item: { count: 1, id: "createbigcannons:he_shell" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["52FEBF7A71283CC3"]
+			id: "04CFB2238C0C5863"
+			rewards: [
+				{
+					count: 4
+					id: "462633F3947DA8E7"
+					item: {
+						count: 1
+						id: "createbigcannons:impact_fuze"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7DAC885A20CDC810"
+					item: {
+						count: 1
+						id: "createbigcannons:delayed_impact_fuze"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5185F19914BB635B"
+					item: {
+						count: 1
+						id: "createbigcannons:timed_fuze"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37DA6356D04D0A25"
+					item: {
+						count: 1
+						id: "createbigcannons:proximity_fuze"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B436FA28F9F34F7"
+				item: { count: 1, id: "createbigcannons:proximity_fuze" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["04CFB2238C0C5863"]
+			id: "37BDA41B183F3F49"
+			rewards: [{
+				count: 4
+				id: "77BAA1FB4F113E6C"
+				item: {
+					count: 1
+					id: "createbigcannons:shrapnel_shell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3B31E62BC6F68B85"
+				item: { count: 1, id: "createbigcannons:shrapnel_shell" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["04CFB2238C0C5863"]
+			id: "534F1A1F7313AD4A"
+			rewards: [{
+				count: 4
+				id: "7ADB40235BEA53E2"
+				item: {
+					count: 1
+					id: "createbigcannons:fluid_shell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1B2D02D5D40B8101"
+				item: { count: 1, id: "createbigcannons:fluid_shell" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"37BDA41B183F3F49"
+				"534F1A1F7313AD4A"
+			]
+			dependency_requirement: "one_completed"
+			id: "500B3194DE54CB70"
+			rewards: [
+				{
+					count: 16
+					id: "05739916A61FA846"
+					item: {
+						count: 1
+						id: "createbigcannons:powder_charge"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3FFC07634A3DFFD2"
+					item: {
+						count: 1
+						id: "createbigcannons:big_cartridge"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28A69D4DB5DEA040"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["52AE303427FDD7A3"]
+			id: "50A5D5CC4926AF9D"
+			rewards: [
+				{
+					id: "5A381AEC7001A6B6"
+					item: {
+						count: 1
+						id: "createbigcannons:cast_iron_autocannon_breech"
+					}
+					type: "item"
+				}
+				{
+					id: "482C4E6E52A7B3E1"
+					item: {
+						count: 1
+						id: "createbigcannons:cast_iron_autocannon_recoil_spring"
+					}
+					type: "item"
+				}
+				{
+					id: "4E9E91AB06EDBA38"
+					item: {
+						count: 1
+						id: "createbigcannons:autocannon_ammo_container"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BF98EA9B25A5DA5"
+				item: { count: 1, id: "createbigcannons:cast_iron_autocannon_barrel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["50A5D5CC4926AF9D"]
+			id: "40837E83F607D36E"
+			rewards: [
+				{
+					count: 32
+					id: "613B1DA76449FCCC"
+					item: {
+						count: 1
+						id: "createbigcannons:ap_autocannon_round"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2700E97F5D154934"
+					item: {
+						count: 1
+						id: "createbigcannons:flak_autocannon_round"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3419ACB9EF818D00"
+					item: {
+						count: 1
+						id: "createbigcannons:machine_gun_round"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "1E7D01DDAE16A9E7"
+				item: { count: 1, id: "createbigcannons:ap_autocannon_round" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["40837E83F607D36E"]
+			id: "7DCEE6E3B1C82B27"
+			rewards: [
+				{
+					count: 2
+					id: "1E53FBB4A56AF70F"
+					item: {
+						count: 1
+						id: "createbigcannons:quickfiring_mechanism"
+					}
+					type: "item"
+				}
+				{
+					id: "4E97C4F8947EE74B"
+					item: {
+						count: 1
+						id: "createbigcannons:bronze_autocannon_barrel"
+					}
+					type: "item"
+				}
+				{
+					id: "26D8E89102B15D42"
+					item: {
+						count: 1
+						id: "createbigcannons:bronze_autocannon_breech"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CBC89F3E7E9BDF9"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["651F7E2CC204020A"]
+			id: "0950FEB4315BF914"
+			rewards: [
+				{
+					count: 2
+					id: "7887034599D48B3E"
+					item: {
+						count: 1
+						id: "createbigcannons:cannon_loader"
+					}
+					type: "item"
+				}
+				{
+					id: "5777C225F4DB748C"
+					item: {
+						count: 1
+						id: "createbigcannons:ram_head"
+					}
+					type: "item"
+				}
+				{
+					id: "64881AD5724E672C"
+					item: {
+						count: 1
+						id: "createbigcannons:worm_head"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D18B8FE85F6200D"
+				item: { count: 1, id: "createbigcannons:cannon_loader" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["48B29E485F372BF0"]
+			id: "19C1F2856D7A6968"
+			rewards: [{
+				count: 2
+				id: "2D0B5089FAE2BC1D"
+				item: {
+					count: 1
+					id: "bedsofempires:bed_compass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C830CD6FC4A6B04"
+				item: { count: 1, id: "bedsofempires:bed_compass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["2238BEA4ABC9F983"]
+			id: "5810716BE816C3FB"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "54E3A3D0526CB9A5"
+					item: {
+						count: 1
+						id: "mekanism:laser"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "38E666790862162B"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75914DFDC39400A1"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"789AB2E949A7409D"
+				"500B3194DE54CB70"
+				"7DCEE6E3B1C82B27"
+				"0950FEB4315BF914"
+			]
+			id: "3817DE49DE136BDD"
+			rewards: [
+				{
+					count: 16
+					id: "4868C192F5AF769A"
+					item: {
+						count: 1
+						id: "createbigcannons:nethersteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6665AE541B58E5E8"
+					item: {
+						count: 1
+						id: "createbigcannons:nethersteel_cannon_barrel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "59C6F84800112C49"
+					item: {
+						count: 1
+						id: "bedsofempires:bed_compass"
+					}
+					type: "item"
+				}
+				{
+					command: "/say 🛡️ @p has risen to the rank of Warlord!"
+					id: "3FF137F080F919B8"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7A4E3D53512EF5B6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3817DE49DE136BDD"]
+			id: "2AC3DEF4457342DC"
+			rewards: [{
+				count: 16
+				id: "189DEF471CF80F40"
+				item: {
+					count: 1
+					id: "createbigcannons:nethersteel_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2D25E93AAADB8377"
+				item: { count: 1, id: "createbigcannons:nethersteel_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["2AC3DEF4457342DC"]
+			id: "1208779270650C64"
+			rewards: [
+				{
+					count: 2
+					id: "7ABD22EA71A2F47D"
+					item: {
+						count: 1
+						id: "createbigcannons:nethersteel_cannon_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "79269FC3266695BC"
+					item: {
+						count: 1
+						id: "createbigcannons:nethersteel_screw_breech"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EE91BA166C28B52"
+				item: { count: 1, id: "createbigcannons:nethersteel_cannon_barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["1208779270650C64"]
+			id: "66B31FFBB50BB804"
+			rewards: [{
+				id: "673D758AA9A6F2A4"
+				item: {
+					count: 1
+					id: "createbigcannons:thick_nethersteel_cannon_chamber"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2814834980D83084"
+				item: { count: 1, id: "createbigcannons:built_up_nethersteel_cannon_barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["3817DE49DE136BDD"]
+			id: "6A49FDDB6DAABBE6"
+			rewards: [{
+				count: 64
+				id: "6C0ABAD668FA5A39"
+				item: {
+					count: 1
+					id: "securitycraft:block_pocket_wall"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "538C31E626F1E97E"
+				item: { count: 1, id: "securitycraft:block_pocket_manager" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["6A49FDDB6DAABBE6"]
+			id: "7434C2C5165339EF"
+			rewards: [{
+				count: 32
+				id: "331B24EC78F155FC"
+				item: {
+					count: 1
+					id: "securitycraft:block_pocket_wall"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F7CF3F2E77ABEBF"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["3817DE49DE136BDD"]
+			id: "38D95ED65B4AC5A5"
+			rewards: [
+				{
+					count: 2
+					id: "1EF33483B8CD4484"
+					item: {
+						count: 1
+						id: "securitycraft:sonic_security_system"
+					}
+					type: "item"
+				}
+				{
+					id: "18FA39890E31BC7E"
+					item: {
+						count: 1
+						id: "securitycraft:rift_stabilizer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14613C4997798CA4"
+				item: { count: 1, id: "securitycraft:sonic_security_system" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["38D95ED65B4AC5A5"]
+			id: "0C36BFECB750E0AC"
+			rewards: [
+				{
+					count: 8
+					id: "1028D50D763D654B"
+					item: {
+						count: 1
+						id: "securitycraft:sentry"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "05FF0C19A5E3C9C4"
+					item: {
+						count: 1
+						id: "securitycraft:trophy_system"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35BFD079C271D9B0"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["19C1F2856D7A6968"]
+			id: "60537F31889DA95D"
+			rewards: [{
+				command: "/say 🛡️ @p has destroyed an enemy bed! One less empire stands."
+				id: "587665607279186D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "23C09BEB333F62D5"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["60537F31889DA95D"]
+			id: "7284CF1914881F82"
+			rewards: [{
+				command: "/say 👑 ALL HAIL EMPEROR @p! The last bed stands! 👑"
+				id: "18B13E4D074D2627"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4E515602D57A5E14"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["73AE24B50992D0E2"]
+			id: "227B67AC73445CD3"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "4BB11550839A691C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "319706B4FB103D55"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "3F7A011D6036B611"
+				item: { count: 1, id: "farmersdelight:steak_and_potatoes" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["19C1F2856D7A6968"]
+			id: "4D20947F9D3A4DE2"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "56CB8862E10484E2"
+					item: {
+						count: 1
+						id: "minecraft:tnt"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6BFE2FAF0606143D"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2963D4B235FD77DD"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["1208779270650C64"]
+			id: "00EDA6BA54029071"
+			optional: true
+			rewards: [{
+				command: "/say ☢️ WARNING: @p has developed NUCLEAR WEAPONS! ☢️"
+				id: "3A4DB784F53077E0"
+				type: "command"
+			}]
+			tasks: [{
+				id: "720C8A37FB1CA91F"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 35.0d
+		}
+		{
+			dependencies: [
+				"66B31FFBB50BB804"
+				"7434C2C5165339EF"
+				"0C36BFECB750E0AC"
+				"60537F31889DA95D"
+			]
+			id: "3BD6DE0CABBB1E58"
+			rewards: [{
+				command: "/say 🛡️ @p has achieved Military Supremacy! Their fortress is impregnable."
+				id: "08DE5232ED222B30"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "45954D924CC3F7C8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 36.0d
+		}
+	]
+}

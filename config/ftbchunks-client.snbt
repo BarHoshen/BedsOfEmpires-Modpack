@@ -138,80 +138,81 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"livingthings:raccoon": true
-			"minecraft:skeleton": true
-			"minecraft:sheep": true
-			"livingthings:snail": true
-			"zombie_variants:cave_zombie": true
-			"ars_nouveau:gift_starby": true
-			"minecraft:bogged": true
-			"minecraft:zombie_villager": true
-			"minecraft:wolf": true
-			"minecraft:horse": true
-			"minecraft:bee": true
-			"livingthings:crab": true
-			"zombie_variants:swamp_zombie": true
-			"cataclysm:koboleton": true
 			"aquaculture:gar": false
-			"irons_spellbooks:priest": true
-			"minecraft:glow_squid": true
-			"aquaculture:red_grouper": false
-			"ars_nouveau:alakarkinos": true
-			"ars_nouveau:starbuncle": true
-			"minecraft:enderman": true
-			"irons_spellbooks:necromancer": true
-			"zombie_variants:dripstone_zombie": true
-			"aquaculture:tuna": false
-			"minecraft:squid": true
-			"minecraft:spider": true
-			"minecraft:rabbit": true
-			"minecraft:creeper": true
-			"aquaculture:muskellunge": false
-			"zombie_variants:deep_dark_zombie": true
-			"aquaculture:perch": false
-			"livingthings:flamingo": true
-			"minecraft:salmon": false
-			"minecraft:bat": true
-			"aquaculture:minnow": false
-			"aquaculture:brown_trout": false
-			"minecraft:cat": true
-			"minecraft:stray": true
+			"livingthings:crab": true
+			"ars_nouveau:gift_starby": true
 			"aquaculture:jellyfish": false
-			"minecraft:chicken": true
-			"minecraft:zombie": true
-			"minecraft:iron_golem": true
-			"minecraft:armadillo": true
-			"aquaculture:carp": false
-			"minecraft:axolotl": true
-			"irons_spellbooks:pyromancer": true
-			"minecraft:witch": true
-			"aquaculture:smallmouth_bass": false
-			"creeperoverhaul:snowy_creeper": true
+			"aquaculture:brown_trout": false
 			"minecraft:fox": true
-			"minecraft:cow": true
-			"aquaculture:atlantic_halibut": false
-			"irons_spellbooks:archevoker": true
+			"minecraft:iron_golem": true
+			"irons_spellbooks:priest": true
+			"minecraft:wolf": true
+			"minecraft:glow_squid": true
+			"minecraft:axolotl": true
 			"creeperoverhaul:dripstone_creeper": true
-			"zombie_variants:lush_zombie": true
-			"ars_nouveau:whirlisprig": true
-			"minecraft:pillager": true
-			"livingthings:owl": true
+			"minecraft:bogged": true
+			"aquaculture:smallmouth_bass": false
+			"ars_nouveau:starbuncle": true
+			"aquaculture:muskellunge": false
+			"ars_nouveau:alakarkinos": true
+			"irons_spellbooks:necromancer": true
 			"minecraft:cave_spider": true
+			"aquaculture:red_grouper": false
+			"minecraft:villager": true
+			"creeperoverhaul:snowy_creeper": true
+			"zombie_variants:swamp_zombie": true
 			"aquaculture:atlantic_herring": false
+			"minecraft:slime": true
+			"ars_nouveau:drygmy": true
+			"creeperoverhaul:cave_creeper": true
+			"zombie_variants:deep_dark_zombie": true
+			"minecraft:cat": true
 			"aquaculture:rainbow_trout": false
+			"cataclysm:koboleton": true
+			"minecraft:husk": true
+			"aquaculture:carp": false
+			"livingthings:raccoon": true
+			"livingthings:flamingo": true
+			"livingthings:shark": true
+			"minecraft:bee": true
+			"aquaculture:minnow": false
+			"minecraft:sheep": true
+			"minecraft:squid": true
+			"aquaculture:tuna": false
+			"minecraft:spider": true
+			"minecraft:cow": true
+			"livingthings:owl": true
+			"minecraft:frog": true
+			"livingthings:snail": true
+			"minecraft:witch": true
+			"minecraft:zombie": true
+			"minecraft:creeper": true
+			"irons_spellbooks:pyromancer": true
+			"ars_nouveau:whirlisprig": true
+			"minecraft:rabbit": true
+			"minecraft:zombie_villager": true
+			"minecraft:armadillo": true
+			"minecraft:chicken": true
+			"minecraft:pig": true
+			"aquaculture:perch": false
+			"minecraft:skeleton": true
+			"aquaculture:box_turtle": false
+			"minecraft:horse": true
+			"aquaculture:bluegill": false
+			"minecraft:bat": true
+			"minecraft:enderman": true
+			"aquaculture:catfish": false
+			"minecraft:salmon": false
+			"minecraft:pillager": true
 			"ars_elemental:siren_entity": true
 			"minecraft:drowned": true
-			"livingthings:shark": true
-			"aquaculture:bluegill": false
+			"irons_spellbooks:archevoker": true
+			"zombie_variants:dripstone_zombie": true
+			"zombie_variants:lush_zombie": true
+			"zombie_variants:cave_zombie": true
+			"aquaculture:atlantic_halibut": false
+			"minecraft:stray": true
 			"creeperoverhaul:spruce_creeper": true
-			"aquaculture:box_turtle": false
-			"minecraft:pig": true
-			"minecraft:slime": true
-			"creeperoverhaul:cave_creeper": true
-			"minecraft:villager": true
-			"minecraft:husk": true
-			"minecraft:frog": true
-			"ars_nouveau:drygmy": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

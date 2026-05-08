@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "KushilyDoda",
+      "uniqueId": "1eaef52c-acfc-4fff-bcb9-5efa6b601a4a"
+    },
+    "time": 1777817537987,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/79fjUXqYiT"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KushilyDoda",
+      "uniqueId": "1eaef52c-acfc-4fff-bcb9-5efa6b601a4a"
+    },
+    "time": 1777816117613,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/SvEGwlVxzT"
+    }
+  }
+]

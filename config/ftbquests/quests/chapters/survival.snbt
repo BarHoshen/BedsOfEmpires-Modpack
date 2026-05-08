@@ -1,0 +1,1927 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survival"
+	group: ""
+	id: "0710134146B02E78"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5A00000000000001"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "5A01000000000001"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A00000000000001"]
+			id: "5A00000000000002"
+			rewards: [
+				{
+					count: 16
+					id: "5A02000000000001"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000002"
+					item: {
+						count: 1
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000003"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12DB4F4E0E6D7042"
+				item: { components: { "create:filter_items": [ { item: { count: 1, id: "minecraft:oak_log" }, slot: 0 }, { item: { count: 1, id: "minecraft:spruce_log" }, slot: 1 }, { item: { count: 1, id: "minecraft:birch_log" }, slot: 2 }, { item: { count: 1, id: "minecraft:jungle_log" }, slot: 3 }, { item: { count: 1, id: "minecraft:acacia_log" }, slot: 4 }, { item: { count: 1, id: "minecraft:dark_oak_log" }, slot: 5 }, { item: { count: 1, id: "minecraft:mangrove_log" }, slot: 6 }, { item: { count: 1, id: "minecraft:cherry_log" }, slot: 7 } ], "create:filter_items_blacklist": 0b, "create:filter_items_respect_nbt": 0b }, count: 1, id: "create:filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A00000000000002"]
+			id: "5A00000000000003"
+			rewards: [
+				{
+					count: 32
+					id: "5A02000000000004"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000005"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A01000000000003"
+					item: { count: 1, id: "minecraft:wooden_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "5A01000000000004"
+					item: { count: 1, id: "minecraft:wooden_axe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A00000000000003"]
+			id: "5A00000000000004"
+			rewards: [
+				{
+					id: "5A02000000000006"
+					item: {
+						count: 1
+						id: "minecraft:stone_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000007"
+					item: {
+						count: 1
+						id: "minecraft:stone_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000008"
+					item: {
+						count: 1
+						id: "minecraft:stone_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000009"
+					item: {
+						count: 1
+						id: "minecraft:stone_shovel"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000000A"
+					item: {
+						count: 1
+						id: "minecraft:furnace"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000000B"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "5A01000000000005"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A00000000000004"]
+			id: "5A00000000000005"
+			rewards: [
+				{
+					count: 8
+					id: "5A0200000000000C"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000000D"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000000E"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01000000000006"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A00000000000005"]
+			id: "5A00000000000006"
+			rewards: [
+				{
+					id: "5A0200000000000F"
+					item: {
+						count: 1
+						id: "minecraft:iron_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000010"
+					item: {
+						count: 1
+						id: "minecraft:iron_shovel"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000011"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000012"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01000000000007"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A00000000000006"]
+			id: "5A00000000000007"
+			max_completable_dependents: 1
+			rewards: [
+				{
+					count: 16
+					id: "5A02000000000013"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000014"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "25A6DF6B7E7DFCAA"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A00000000000007"]
+			id: "5A00000000000008"
+			rewards: [
+				{
+					count: 320
+					id: "5A02000000000015"
+					item: {
+						count: 1
+						id: "minecraft:stone"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000016"
+					item: {
+						count: 1
+						id: "minecraft:oak_door"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000017"
+					item: {
+						count: 1
+						id: "minecraft:leather_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000018"
+					item: {
+						count: 1
+						id: "minecraft:leather_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000019"
+					item: {
+						count: 1
+						id: "minecraft:leather_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000001A"
+					item: {
+						count: 1
+						id: "minecraft:leather_boots"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01000000000009"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5A00000000000007"]
+			id: "5A00000000000009"
+			rewards: [
+				{
+					id: "5A0200000000001B"
+					item: {
+						count: 1
+						id: "minecraft:iron_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000001C"
+					item: {
+						count: 1
+						id: "minecraft:iron_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000001D"
+					item: {
+						count: 1
+						id: "minecraft:iron_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000001E"
+					item: {
+						count: 1
+						id: "minecraft:iron_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000020"
+					item: {
+						count: 1
+						id: "minecraft:bow"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A02000000000021"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000022"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A0100000000000A"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5A00000000000008"
+				"5A00000000000009"
+			]
+			dependency_requirement: "one_completed"
+			id: "5A0000000000000A"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					count: 16
+					id: "5A02000000000023"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000024"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000025"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000026"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000027"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000028"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A0100000000000B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A0000000000000A"]
+			id: "5A0000000000000B"
+			rewards: [
+				{
+					count: 64
+					id: "5A02000000000029"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000002A"
+					item: {
+						count: 1
+						id: "minecraft:carrot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000002B"
+					item: {
+						count: 1
+						id: "minecraft:potato"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000002C"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000002D"
+					item: {
+						count: 1
+						id: "minecraft:iron_hoe"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000002E"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "5A0100000000000C"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A0000000000000A"]
+			id: "5A0000000000000C"
+			rewards: [
+				{
+					count: 32
+					id: "5A0200000000002F"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000030"
+					item: {
+						count: 1
+						id: "minecraft:bow"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000031"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000032"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000033"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000034"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5A0100000000000D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A0000000000000A"]
+			id: "5A0000000000000D"
+			rewards: [
+				{
+					count: 16
+					id: "5A02000000000035"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000036"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000037"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000038"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000039"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A0100000000000E"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"5A0000000000000B"
+				"5A0000000000000C"
+				"5A0000000000000D"
+			]
+			id: "5A0000000000000E"
+			max_completable_dependents: 1
+			rewards: [
+				{
+					count: 4
+					id: "5A0200000000003A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A0200000000003B"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000003C"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000003D"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000003E"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000003F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A0100000000000F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5A0000000000000E"]
+			id: "5A0000000000000F"
+			rewards: [
+				{
+					count: 8
+					id: "5A02000000000040"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000041"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000042"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "5A01000000000010"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5A0000000000000F"]
+			id: "5A00000000000010"
+			rewards: [
+				{
+					id: "5A02000000000043"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "5A02000000000044"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000045"
+					item: {
+						count: 1
+						id: "minecraft:anvil"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000046"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01000000000011"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5A00000000000010"]
+			id: "5A00000000000011"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A01000000000012"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5A00000000000010"]
+			id: "5A00000000000012"
+			optional: true
+			rewards: [
+				{
+					id: "5A02000000000047"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A02000000000048"
+					item: {
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "5A01000000000013"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5A00000000000012"]
+			id: "5A00000000000013"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "5A02000000000049"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000004A"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5A01000000000014"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5A00000000000013"]
+			id: "5A00000000000014"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "5A0200000000004B"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000004C"
+					item: {
+						count: 1
+						id: "minecraft:brewing_stand"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000004D"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "5A01000000000015"
+				type: "kill"
+				value: 3L
+			}]
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5A00000000000014"]
+			id: "5A00000000000015"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "5A0200000000004E"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A0200000000004F"
+					item: {
+						count: 1
+						id: "minecraft:glowstone"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000050"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000051"
+					item: {
+						count: 1
+						id: "minecraft:ghast_tear"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "5A01000000000016"
+					item: { count: 1, id: "minecraft:quartz" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5A01000000000017"
+					item: { count: 1, id: "minecraft:glowstone" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5A00000000000011"]
+			id: "5A00000000000016"
+			rewards: [
+				{
+					count: 32
+					id: "5A02000000000052"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000053"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000054"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A02000000000055"
+					item: {
+						count: 1
+						id: "create:water_wheel"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000056"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000057"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01000000000018"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A00000000000011"]
+			id: "5A00000000000017"
+			rewards: [
+				{
+					count: 16
+					id: "5A02000000000058"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000059"
+					item: {
+						count: 1
+						id: "ars_nouveau:novice_spell_book"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000005A"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_jar"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000005B"
+					item: {
+						count: 1
+						id: "ars_nouveau:blue_archwood_log"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01000000000019"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A00000000000011"]
+			id: "5A00000000000018"
+			rewards: [
+				{
+					count: 32
+					id: "5A0200000000005C"
+					item: {
+						count: 1
+						id: "securitycraft:reinforced_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A0200000000005D"
+					item: {
+						count: 1
+						id: "securitycraft:mine"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A0200000000005E"
+					item: {
+						count: 1
+						id: "securitycraft:security_camera"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000005F"
+					item: {
+						count: 1
+						id: "securitycraft:camera_monitor"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000060"
+					item: {
+						count: 1
+						id: "securitycraft:portable_radar"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A02000000000061"
+					item: {
+						count: 1
+						id: "securitycraft:reinforced_glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A0100000000001A"
+				item: { count: 1, id: "securitycraft:reinforced_stone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A00000000000011"]
+			id: "5A00000000000019"
+			rewards: [
+				{
+					count: 32
+					id: "5A02000000000062"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A02000000000063"
+					item: {
+						count: 1
+						id: "storagedrawers:oak_full_drawers_1"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000064"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "5A0100000000001B"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A00000000000011"]
+			id: "5A0000000000001A"
+			rewards: [
+				{
+					count: 32
+					id: "5A02000000000065"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000066"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000067"
+					item: {
+						count: 1
+						id: "mekanism:enrichment_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000068"
+					item: {
+						count: 1
+						id: "mekanism:crusher"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A0100000000001C"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A00000000000011"]
+			id: "5A0000000000001B"
+			rewards: [
+				{
+					id: "5A02000000000069"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0200000000006A"
+					item: {
+						count: 1
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000006B"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000006C"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000006D"
+					item: {
+						count: 1
+						id: "farmersdelight:onion"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000006E"
+					item: {
+						count: 1
+						id: "farmersdelight:rice"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A0100000000001D"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A00000000000011"]
+			id: "5A0000000000001C"
+			rewards: [
+				{
+					id: "5A0200000000006F"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A02000000000070"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000071"
+					item: {
+						count: 1
+						id: "cataclysm:mech_eye"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A0100000000001E"
+				item: { count: 1, id: "structurecompass:structure_compass" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"5A00000000000016"
+				"5A00000000000017"
+				"5A00000000000018"
+				"5A00000000000019"
+				"5A0000000000001A"
+				"5A0000000000001B"
+				"5A0000000000001C"
+			]
+			dependency_requirement: "one_completed"
+			id: "5A0000000000001D"
+			rewards: [
+				{
+					count: 64
+					id: "5A02000000000072"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000073"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000074"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000075"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A02000000000076"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000077"
+					item: {
+						count: 1
+						id: "create:iron_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000078"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000079"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000007A"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_horn"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A0200000000007B"
+					item: {
+						count: 1
+						id: "ars_nouveau:blue_archwood_log"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000007C"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000007D"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A0200000000007E"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A0200000000007F"
+					item: {
+						count: 1
+						id: "securitycraft:reinforced_glass"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000080"
+					item: {
+						count: 1
+						id: "securitycraft:mine"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000081"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000082"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000083"
+					item: {
+						count: 1
+						id: "storagedrawers:oak_full_drawers_1"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A02000000000084"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000085"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A02000000000086"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000087"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000088"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000089"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000008A"
+					item: {
+						count: 1
+						id: "mekanism:steel_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A0200000000008B"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A0200000000008C"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A0200000000008D"
+					item: {
+						count: 1
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000008E"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0200000000008F"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A02000000000090"
+					item: {
+						count: 1
+						id: "farmersdelight:rice"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000091"
+					item: {
+						count: 1
+						id: "create_confectionery:cocoa_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "5A02000000000092"
+					item: {
+						count: 1
+						id: "chipped:carpenters_table"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000093"
+					item: {
+						count: 1
+						id: "mcwwindows:window_base"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A02000000000094"
+					item: {
+						count: 1
+						id: "structurecompass:structure_compass"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A02000000000095"
+					item: {
+						count: 1
+						id: "cataclysm:mech_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A02000000000096"
+					item: {
+						count: 1
+						id: "cataclysm:flame_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A02000000000097"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A02000000000098"
+					item: {
+						count: 1
+						id: "apothic_enchanting:hellshelf"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A02000000000099"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5A0100000000001F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["5A00000000000006"]
+			id: "5A0000000000001E"
+			optional: true
+			rewards: [
+				{
+					id: "5A0200000000009B"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000009C"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
+				}
+				{
+					id: "4F1F11BEAA5E8F1B"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01000000000020"
+				item: { count: 1, id: "minecraft:oak_boat" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A00000000000006"]
+			id: "5A0000000000001F"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "5A0200000000009D"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A0200000000009E"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A0200000000009F"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+				{
+					id: "5A020000000000A0"
+					item: {
+						count: 1
+						id: "minecraft:name_tag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "372D29766D9DFEE8"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0000000000000A"]
+			id: "5A00000000000020"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "5A020000000000A1"
+					item: {
+						count: 1
+						id: "aquaculture:worm"
+					}
+					type: "item"
+				}
+				{
+					id: "5A020000000000A2"
+					item: {
+						count: 1
+						id: "aquaculture:tackle_box"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A020000000000A3"
+					item: {
+						count: 1
+						id: "aquaculture:iron_hook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01000000000022"
+				item: { count: 1, id: "aquaculture:iron_fishing_rod" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A0000000000000A"]
+			id: "5A00000000000021"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5A020000000000A4"
+					item: {
+						count: 1
+						id: "minecraft:painting"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A020000000000A5"
+					item: {
+						count: 1
+						id: "minecraft:flower_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A020000000000A6"
+					item: {
+						count: 1
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A020000000000A7"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01000000000023"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+	]
+}

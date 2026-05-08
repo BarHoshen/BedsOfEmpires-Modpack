@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:pitcher_plant"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"createaddition:mechanical_crafting/alternator","recipeType":"create:mechanical_crafting","bookmarkType":"RECIPE"},
+  {"recipe":"securitycraft:universal_block_reinforcer_lvl1","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

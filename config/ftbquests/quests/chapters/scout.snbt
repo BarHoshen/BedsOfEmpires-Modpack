@@ -1,0 +1,1842 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scout"
+	group: ""
+	id: "5E6C63CA489C00EA"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A0000000000001D"]
+			id: "5A8D5FBB3C65BE39"
+			rewards: [
+				{
+					count: 2
+					id: "40D34628C0C51810"
+					item: {
+						count: 1
+						id: "structurecompass:structure_compass"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A22660E136DBF7D"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "41F6A14C825B39B5"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "516DF814DE3A0502"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0C6D3218E8A73F1D"
+					item: {
+						count: 1
+						id: "cataclysm:mech_eye"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2996E62CE8A7B96E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A8D5FBB3C65BE39"]
+			id: "5513F3746012867B"
+			rewards: [{
+				count: 2
+				id: "7325000D4138F8C3"
+				item: {
+					count: 1
+					id: "structurecompass:structure_compass"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4EA5B08A9A8F9307"
+				item: { count: 1, id: "structurecompass:structure_compass" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5513F3746012867B"]
+			id: "33F138758239BF9D"
+			rewards: [
+				{
+					id: "75D9890C98D53D77"
+					item: {
+						count: 1
+						id: "immersive_armors:steampunk_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "1C274EBD7AE8D9AB"
+					item: {
+						count: 1
+						id: "immersive_armors:steampunk_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "5809A7F58987FD3C"
+					item: {
+						count: 1
+						id: "immersive_armors:steampunk_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3ED2176A5254DA02"
+				item: { count: 1, id: "immersive_armors:steampunk_helmet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33F138758239BF9D"]
+			id: "21590F39A7219B61"
+			rewards: [
+				{
+					id: "6381D20F35E89FAC"
+					item: {
+						count: 1
+						id: "immersive_armors:warrior_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "4B8A59E6372F3731"
+					item: {
+						count: 1
+						id: "immersive_armors:warrior_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "771211BA97556F16"
+					item: {
+						count: 1
+						id: "immersive_armors:warrior_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "65D4567EAD3353C8"
+				item: { count: 1, id: "immersive_armors:warrior_chestplate" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21590F39A7219B61"]
+			id: "14F221561E7AC0A2"
+			shape: "rsquare"
+			tasks: [{
+				id: "7C4F7B5A95A1930D"
+				item: { count: 1, id: "immersive_armors:wither_chestplate" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["21590F39A7219B61"]
+			id: "3C3A67E262452AAC"
+			shape: "rsquare"
+			tasks: [{
+				id: "792CD1369C9D8F4B"
+				item: { count: 1, id: "immersive_armors:divine_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"14F221561E7AC0A2"
+				"3C3A67E262452AAC"
+			]
+			dependency_requirement: "one_completed"
+			id: "45C02B5B3E28F750"
+			rewards: [
+				{
+					count: 16
+					id: "75E3E2DE8C07763A"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2020C054DE6E20DE"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "004F6EE2C3777C08"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A8D5FBB3C65BE39"]
+			id: "64FD791C08A87D19"
+			rewards: [
+				{
+					count: 2
+					id: "5863A154B8C958D0"
+					item: {
+						count: 1
+						id: "cataclysm:mech_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "071F1B258459E585"
+					item: {
+						count: 1
+						id: "cataclysm:flame_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A9788979B1B4C23"
+					item: {
+						count: 1
+						id: "cataclysm:void_eye"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1E40C8B2E4A34B39"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64FD791C08A87D19"]
+			id: "5CDABCF11B8C7D21"
+			rewards: [
+				{
+					count: 16
+					id: "5E0DE71669986E4B"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "46C0315267CE4236"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "271F66748072FC54"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "6A4FC6CBA8B4D9B5"
+				item: { count: 1, id: "cataclysm:black_steel_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5CDABCF11B8C7D21"]
+			id: "547B748F649A24A5"
+			rewards: [
+				{
+					count: 2
+					id: "23A617EF4649CC06"
+					item: {
+						count: 1
+						id: "cataclysm:abyss_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1FF2DA8C5278A802"
+					item: {
+						count: 1
+						id: "cataclysm:desert_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "74873E2BD41C2452"
+					item: {
+						count: 1
+						id: "cataclysm:cursed_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "026920961C644AC7"
+					item: {
+						count: 1
+						id: "cataclysm:storm_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0BD15A30A1CD7551"
+					item: {
+						count: 1
+						id: "cataclysm:monstrous_eye"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "42D4AF5125158BF5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["547B748F649A24A5"]
+			id: "531084203EFDB408"
+			shape: "rsquare"
+			tasks: [{
+				id: "2FA4520A5E1A131F"
+				item: { count: 1, id: "cataclysm:mechanical_fusion_anvil" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A8D5FBB3C65BE39"]
+			id: "36A8C072ADAC0685"
+			rewards: [
+				{
+					count: 8
+					id: "1F286733CC322C71"
+					item: {
+						count: 1
+						id: "apothic_enchanting:hellshelf"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37BFD985B832F669"
+					item: {
+						count: 1
+						id: "apothic_enchanting:seashelf"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "32496357DE09EBFF"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36A8C072ADAC0685"]
+			id: "3CF349F908135FB9"
+			rewards: [{
+				count: 8
+				id: "43F97B732245BE72"
+				item: {
+					count: 1
+					id: "apothic_enchanting:seashelf"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "1EF4AB8CA4107307"
+				item: { count: 1, id: "apothic_enchanting:seashelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CF349F908135FB9"]
+			id: "157E0635DF342778"
+			rewards: [{
+				count: 4
+				id: "30D69AF2D8C393AD"
+				item: {
+					count: 1
+					id: "apothic_enchanting:deepshelf"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B1AC1C51CA9906E"
+				item: { count: 1, id: "apothic_enchanting:deepshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["157E0635DF342778"]
+			id: "3682E3AF66058E86"
+			rewards: [{
+				count: 4
+				id: "5B322D31960F58FC"
+				item: {
+					count: 1
+					id: "apothic_enchanting:endshelf"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6DC85DA4EE1BAF8D"
+				item: { count: 1, id: "apothic_enchanting:endshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3682E3AF66058E86"]
+			id: "60A3E597FE61ECF7"
+			rewards: [{
+				count: 2
+				id: "34304DCA71264E61"
+				item: {
+					count: 1
+					id: "apothic_enchanting:library"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4ACEEE3DFFEECFD5"
+				item: { count: 1, id: "apothic_enchanting:library" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["60A3E597FE61ECF7"]
+			id: "2A3D22349535DE86"
+			rewards: [
+				{
+					count: 2
+					id: "5ECA108582F739CA"
+					item: {
+						count: 1
+						id: "apothic_enchanting:scrap_tome"
+					}
+					type: "item"
+				}
+				{
+					id: "6CBE538FCBD3BE94"
+					item: {
+						count: 1
+						id: "apothic_enchanting:weapon_tome"
+					}
+					type: "item"
+				}
+				{
+					id: "09212C64C2D5594B"
+					item: {
+						count: 1
+						id: "apothic_enchanting:boots_tome"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "714AE8792049577B"
+				item: { count: 1, id: "apothic_enchanting:extraction_tome" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"45C02B5B3E28F750"
+				"531084203EFDB408"
+				"2A3D22349535DE86"
+			]
+			id: "22AB362AE8E4EE30"
+			rewards: [
+				{
+					id: "35770CE081DEE035"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+					}
+					type: "item"
+				}
+				{
+					id: "300E3594249466C7"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_building"
+					}
+					type: "item"
+				}
+				{
+					id: "221CFA80C26018A3"
+					item: {
+						count: 1
+						id: "buildinggadgets2:template_manager"
+					}
+					type: "item"
+				}
+				{
+					id: "03E80D9AEFC6E709"
+					item: {
+						count: 1
+						id: "apotheosis:gem_cutting_table"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3AB8676DC5EA0E6D"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					type: "item"
+				}
+				{
+					command: "/say 👁️ @p has risen to the rank of Infiltrator!"
+					id: "4BE0B9CC46361DF2"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0919E9F4FA261F08"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["22AB362AE8E4EE30"]
+			id: "76CBCA049B9875E7"
+			rewards: [
+				{
+					id: "0E08A65A87270DB1"
+					item: {
+						count: 1
+						id: "cataclysm:infernal_forge"
+					}
+					type: "item"
+				}
+				{
+					id: "70831A0CF989E790"
+					item: {
+						count: 1
+						id: "cataclysm:monstrous_horn"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5B98AD4EB280AB6A"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["76CBCA049B9875E7"]
+			id: "6FCA2612BF3D5523"
+			rewards: [
+				{
+					id: "224FEE320770C5DE"
+					item: {
+						count: 1
+						id: "cataclysm:gauntlet_of_guard"
+					}
+					type: "item"
+				}
+				{
+					id: "356ABFD2E6DC3B1B"
+					item: {
+						count: 1
+						id: "cataclysm:void_core"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3282B50EC5781C50"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6FCA2612BF3D5523"]
+			id: "09F168BFCE91091E"
+			rewards: [
+				{
+					count: 8
+					id: "1BB3D591B26A6E47"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "64BAC3A30C4A2BFD"
+					item: {
+						count: 1
+						id: "cataclysm:bulwark_of_the_flame"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "39A83A4C296E34D5"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["09F168BFCE91091E"]
+			id: "3804F00B3AD2004D"
+			rewards: [
+				{
+					count: 8
+					id: "2CB575C4926F47F4"
+					item: {
+						count: 1
+						id: "cataclysm:witherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "30045506C44AC5A9"
+					item: {
+						count: 1
+						id: "cataclysm:laser_gatling"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5CA154BEFD200313"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3804F00B3AD2004D"]
+			id: "10455AE05BEA25A7"
+			rewards: [
+				{
+					count: 8
+					id: "5CD946AE1D10DBC1"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "00321535BA62F32B"
+					item: {
+						count: 1
+						id: "cataclysm:wrath_of_the_desert"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6361B27DBCE4E2B4"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["22AB362AE8E4EE30"]
+			id: "6208E35233A2D02F"
+			rewards: [
+				{
+					count: 4
+					id: "5608594C42416C11"
+					item: {
+						count: 1
+						id: "buildinggadgets2:redprint"
+					}
+					type: "item"
+				}
+				{
+					id: "65CEAE4684302EC1"
+					item: {
+						count: 1
+						id: "buildinggadgets2:template_manager"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5A59912C1AB8E693"
+				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6208E35233A2D02F"]
+			id: "3149467B901F9659"
+			rewards: [
+				{
+					count: 16
+					id: "39990BD838DEE794"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "04E01884C8115708"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "60EA6AD26FFBD05D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3149467B901F9659"]
+			id: "0D2C1F7B0E592E4A"
+			rewards: [{
+				id: "14AE11E86991C49F"
+				item: {
+					count: 1
+					id: "buildinggadgets2:gadget_destruction"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "691568A8ED1F3F9C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0D2C1F7B0E592E4A"]
+			id: "1EE83FF7A041A040"
+			rewards: [{
+				count: 2
+				id: "33C332B03EF56E95"
+				item: {
+					count: 1
+					id: "buildinggadgets2:gadget_destruction"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "46F723EEB476305E"
+				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["22AB362AE8E4EE30"]
+			id: "032FEC87C51B958B"
+			rewards: [{
+				count: 16
+				id: "08608F816B76565D"
+				item: {
+					count: 1
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "192DE27A913BBE60"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["032FEC87C51B958B"]
+			id: "6906FBDFBBCD4A88"
+			rewards: [
+				{
+					count: 4
+					id: "42A24B925B67D3CF"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4645E551D0A17E5B"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_withdrawal"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "61D741A223295B91"
+				item: { count: 1, id: "apotheosis:sigil_of_socketing" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6906FBDFBBCD4A88"]
+			id: "580A505857C00D09"
+			rewards: [
+				{
+					count: 8
+					id: "78767F5C07FBC560"
+					item: {
+						count: 1
+						id: "apotheosis:common_material"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "65CD6D6A33B16382"
+					item: {
+						count: 1
+						id: "apotheosis:uncommon_material"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "35F847C932232BA7"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["580A505857C00D09"]
+			id: "06966A25C8790D82"
+			rewards: [{
+				count: 4
+				id: "14473215FC109BD0"
+				item: {
+					count: 1
+					id: "apotheosis:sigil_of_rebirth"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3BD852E0DDA8CCF5"
+				item: { count: 1, id: "apotheosis:simple_reforging_table" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["06966A25C8790D82"]
+			id: "632134FBF310FE35"
+			rewards: [
+				{
+					count: 8
+					id: "2E6950FF5D437C76"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_rebirth"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34002F974D72954A"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "150F3DC5C1AE83A0"
+					item: {
+						count: 1
+						id: "apotheosis:epic_material"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3C8FE3B3C51EBF5C"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["632134FBF310FE35"]
+			id: "3695BE38A2449D0A"
+			rewards: [{
+				count: 4
+				id: "4F0ACD2C0C2E191B"
+				item: {
+					count: 1
+					id: "apotheosis:sigil_of_enhancement"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "13B8BA7967C16706"
+				item: { count: 1, id: "apotheosis:augmenting_table" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["22AB362AE8E4EE30"]
+			id: "3408058790D37112"
+			rewards: [{
+				count: 8
+				id: "15B5C0F88E1BF140"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4D1FEEB20F2E4C6C"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3408058790D37112"]
+			id: "0D6E2D5ADFBA2E22"
+			rewards: [{
+				count: 8
+				id: "26F6D9236F38D307"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "40014C2410C82A0F"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"10455AE05BEA25A7"
+				"0D2C1F7B0E592E4A"
+				"3695BE38A2449D0A"
+			]
+			id: "5D554B91C806854A"
+			rewards: [
+				{
+					count: 16
+					id: "3A6F21CDE4EE2B55"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "748DDC5C8DECF546"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2C41078CBA6E486C"
+					item: {
+						count: 1
+						id: "apotheosis:mythic_material"
+					}
+					type: "item"
+				}
+				{
+					command: "/say 👁️ @p has risen to the rank of Saboteur!"
+					id: "72F29C9718C896AB"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "09A4FED987769271"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5D554B91C806854A"]
+			id: "1433E2B3E399BE70"
+			rewards: [
+				{
+					count: 16
+					id: "6C51644B7D003F5B"
+					item: {
+						count: 1
+						id: "securitycraft:mine"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "19A9A8F735179A97"
+					item: {
+						count: 1
+						id: "minecraft:tnt"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "51FA4419114E2DA6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["1433E2B3E399BE70"]
+			id: "77184318EBD79B5C"
+			rewards: [
+				{
+					id: "090E2F9C7B889111"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_destruction"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "542385071380F399"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0F666CBAD1F54A68"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["77184318EBD79B5C"]
+			id: "6B6252EC60426A27"
+			rewards: [{
+				command: "/say 💀 @p has sabotaged enemy infrastructure!"
+				id: "628C1E289DBA9476"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "49EB4C4683482589"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6B6252EC60426A27"]
+			id: "7D0C95B992E14A3A"
+			rewards: [{
+				command: "/say 👁️ @p moves unseen. No base is safe."
+				id: "171AFC170FD4831B"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7FF5FDD2E5B5781D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["5D554B91C806854A"]
+			id: "2A450367D68D78FF"
+			rewards: [
+				{
+					count: 16
+					id: "402ACA7D79AFA659"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2A6D9EF375DE7FE0"
+					item: {
+						count: 1
+						id: "cataclysm:soul_render"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "04818FF208E5339A"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["2A450367D68D78FF"]
+			id: "49E2C91D6A178517"
+			rewards: [
+				{
+					id: "24DC5AC83A2E7CC7"
+					item: {
+						count: 1
+						id: "cataclysm:tidal_claws"
+					}
+					type: "item"
+				}
+				{
+					id: "35B3BA5833055414"
+					item: {
+						count: 1
+						id: "cataclysm:coral_spear"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "15C56B7329846AFD"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["49E2C91D6A178517"]
+			id: "095554C1E4B7F20F"
+			rewards: [
+				{
+					id: "322D4E47FAF55C14"
+					item: {
+						count: 1
+						id: "cataclysm:astrape"
+					}
+					type: "item"
+				}
+				{
+					id: "15BE8788B72D45A0"
+					item: {
+						count: 1
+						id: "cataclysm:ceraunus"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "777BA350C46FB8B9"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["095554C1E4B7F20F"]
+			id: "2EE1CA64CBF63118"
+			rewards: [{
+				count: 8
+				id: "7A558E1EB8E9E7F6"
+				item: {
+					count: 1
+					id: "cataclysm:ignitium_ingot"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2ECE02308D537544"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["5D554B91C806854A"]
+			id: "19BCB807C1C7E418"
+			rewards: [{
+				count: 4
+				id: "6589F3E040C9B6D0"
+				item: {
+					count: 1
+					id: "apothic_enchanting:infused_hellshelf"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2A192B25FB03D32A"
+				item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["19BCB807C1C7E418"]
+			id: "2A7DE969F384F41C"
+			rewards: [{
+				count: 4
+				id: "23153A384C1883E2"
+				item: {
+					count: 1
+					id: "apothic_enchanting:crystal_seashelf"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "10E9B56492530F04"
+				item: { count: 1, id: "apothic_enchanting:crystal_seashelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["2A7DE969F384F41C"]
+			id: "4C1253C1B90BC031"
+			rewards: [{
+				count: 4
+				id: "40295CE3E508F978"
+				item: {
+					count: 1
+					id: "apothic_enchanting:draconic_endshelf"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0D8D23BEE817D505"
+				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4C1253C1B90BC031"]
+			id: "65897FA68CA26CB8"
+			rewards: [{
+				count: 2
+				id: "6754774EE9A8D286"
+				item: {
+					count: 1
+					id: "apothic_enchanting:ender_library"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "77D462F3D46D31D9"
+				item: { count: 1, id: "apothic_enchanting:ender_library" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["65897FA68CA26CB8"]
+			id: "4A04AAE13A529FE6"
+			rewards: [{
+				id: "69C3944A92B54E59"
+				item: {
+					count: 1
+					id: "apothic_enchanting:occult_ender_lead"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "630C5EA1BED8AEF7"
+				item: { count: 1, id: "apothic_enchanting:ender_lead" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["4A04AAE13A529FE6"]
+			id: "12556F4DBF61EC0F"
+			rewards: [{
+				count: 2
+				id: "28B22FD6A96E0966"
+				item: {
+					count: 1
+					id: "apothic_enchanting:occult_ender_lead"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "13DD819327F06AB8"
+				item: { count: 1, id: "apothic_enchanting:occult_ender_lead" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["5D554B91C806854A"]
+			id: "7863AF99C8962085"
+			rewards: [
+				{
+					id: "183DF1443050BD2F"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "0744B31E42D4849C"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "6315525D3F658758"
+				item: { count: 1, id: "aquaculture:neptunium_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7863AF99C8962085"]
+			id: "6EA3A8A6E85111B7"
+			rewards: [
+				{
+					id: "25C2B0202D7EDCA5"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "2465B68D659620BE"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "681B45BEB20B74CA"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "1EBF49870FB65AE1"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "229703CC3F97EE10"
+				item: { count: 1, id: "aquaculture:neptunium_chestplate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"2EE1CA64CBF63118"
+				"7D0C95B992E14A3A"
+				"65897FA68CA26CB8"
+			]
+			id: "4B793247BA8CCCF1"
+			rewards: [
+				{
+					count: 2
+					id: "7293EA427B5A7686"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "31E7FD97E7C91841"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/say 👁️ @p has risen to the rank of Shadow!"
+					id: "10B1ADC1C42E55BB"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "66EBDE0C0EB04506"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["4B793247BA8CCCF1"]
+			id: "2C76F2608B13230C"
+			shape: "rsquare"
+			tasks: [{
+				id: "66D94B28380E9150"
+				item: { count: 1, id: "cataclysm:ignitium_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["2C76F2608B13230C"]
+			id: "1D47D29C3745E1DF"
+			rewards: [{
+				id: "53BC259BF0E660BC"
+				item: {
+					count: 1
+					id: "minecraft:elytra"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0977E8995ECB9BC8"
+				item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["1D47D29C3745E1DF"]
+			id: "0050784DA11CCAA2"
+			shape: "rsquare"
+			tasks: [{
+				id: "56EE419F4E4892A2"
+				item: { count: 1, id: "cataclysm:ignitium_elytra_chestplate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["0050784DA11CCAA2"]
+			id: "01D844455B1FFB57"
+			rewards: [{
+				command: "/say 👁️ @p wears Ignitium armor. They are nearly unstoppable."
+				id: "2E8AD4F31175818A"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2B9995A954D6295C"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["4B793247BA8CCCF1"]
+			id: "45E67A01B8D78123"
+			shape: "rsquare"
+			tasks: [{
+				id: "09230A4A5F5F6EA7"
+				item: { count: 1, id: "cataclysm:cursium_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["45E67A01B8D78123"]
+			id: "1C423BB4F32E7AB5"
+			shape: "rsquare"
+			tasks: [{
+				id: "4C0FA03AC0768D2A"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["1C423BB4F32E7AB5"]
+			id: "3B3A11352D19CC63"
+			shape: "rsquare"
+			tasks: [{
+				id: "62E8ED8B89821D5C"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["4B793247BA8CCCF1"]
+			id: "6FC16982EABB5A8A"
+			shape: "rsquare"
+			tasks: [{
+				id: "6B61F24FEBED54CA"
+				item: { count: 1, id: "cataclysm:wither_assault_shoulder_weapon" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["4B793247BA8CCCF1"]
+			id: "79EEF01A1616989F"
+			rewards: [
+				{
+					count: 2
+					id: "772C000692D7172C"
+					item: {
+						count: 1
+						id: "apotheosis:mythic_material"
+					}
+					type: "item"
+				}
+				{
+					id: "7B69EDBC2E083E79"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_supremacy"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7990D56AE5649038"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["79EEF01A1616989F"]
+			id: "4F053F8427C812D7"
+			rewards: [{
+				id: "696C9EB3330011E8"
+				item: {
+					components: {
+						"ftbquests:missing_item": "apotheosis:ancient_material"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "5CA6C70A14A45701"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["4F053F8427C812D7"]
+			id: "5014E62F28C15D50"
+			shape: "rsquare"
+			tasks: [{
+				id: "3DA3FF58C6068916"
+				item: { count: 1, id: "apotheosis:sigil_of_supremacy" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 33.0d
+		}
+		{
+			dependencies: [
+				"01D844455B1FFB57"
+				"3B3A11352D19CC63"
+			]
+			id: "3AD4292207C8DDB8"
+			rewards: [{
+				command: "/say ⚔️ @p has defeated every Cataclysm boss. They are The Cataclysmfarer."
+				id: "0899C5414E48CFD3"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B6A465CA2F0AC42"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["3AD4292207C8DDB8"]
+			id: "7C5F01A33E0CCBB3"
+			rewards: [{
+				command: "/say ⚔️ @p wields a Legendary Arsenal! Five boss weapons, each deadlier than the last."
+				id: "2A947BE2A6F9A1FC"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3FC67A05D413AA00"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["3149467B901F9659"]
+			id: "5B032582D072A015"
+			rewards: [
+				{
+					id: "03F06A3CA09CAC1B"
+					item: {
+						count: 1
+						id: "immersive_armors:wither_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "03711F126D0CFEC2"
+					item: {
+						count: 1
+						id: "immersive_armors:wither_chestplate"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7A5BF8620520233E"
+				item: { count: 1, id: "mekanismtools:osmium_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["09F168BFCE91091E"]
+			id: "665640884D7BAADD"
+			rewards: [
+				{
+					count: 8
+					id: "133741270A9FB7F4"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "329E709D192E0E44"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "73D6D4BE2A8B6328"
+				item: { count: 1, id: "create_confectionery:soothing_hot_chocolate" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"7C5F01A33E0CCBB3"
+				"5014E62F28C15D50"
+				"6FC16982EABB5A8A"
+			]
+			id: "104F8703B9F1FAFD"
+			rewards: [{
+				command: "/say 👁️ @p has achieved Scout Supremacy! Nothing escapes their gaze."
+				id: "073BA37C0FC3315C"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6A52453A0053586C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 36.0d
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	id: "71E4FDB3087C31BE"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 128
+			id: "52925D7651B7CB42"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{
+			count: 16
+			id: "621E0BCDE66B0AC1"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+		}
+		{ id: "1419F743F4386BB9", item: { count: 1, id: "minecraft:oak_door" } }
+		{
+			count: 16
+			id: "11A27E0319B86DD2"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{ id: "5E53D391B40DFCD2", item: { count: 1, id: "minecraft:leather_chestplate" } }
+		{ id: "2F78F6FB7A2B8DFC", item: { count: 1, id: "minecraft:leather_leggings" } }
+	]
+}

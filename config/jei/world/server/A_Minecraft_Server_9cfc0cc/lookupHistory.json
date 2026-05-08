@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create:andesite_alloy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:super_glue"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"garnished:solemn_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"garnished:ritualistic_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

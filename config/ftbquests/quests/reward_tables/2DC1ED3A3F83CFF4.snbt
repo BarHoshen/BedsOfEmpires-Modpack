@@ -1,0 +1,37 @@
+{
+	id: "2DC1ED3A3F83CFF4"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "103B0C6197CDCB9A", item: { count: 1, id: "minecraft:bow" } }
+		{
+			count: 64
+			id: "08777F499E9CAFB1"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+		{
+			count: 6
+			id: "58C5CFC348F0E8A6"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+		}
+		{
+			count: 12
+			id: "31848E4687773B17"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+		}
+		{ id: "15C2104C15950962", item: { count: 1, id: "minecraft:iron_chestplate" } }
+		{ id: "11FA94448818B509", item: { count: 1, id: "minecraft:iron_helmet" } }
+		{ id: "4284AF7F63CFC64A", item: { count: 1, id: "minecraft:iron_leggings" } }
+		{ id: "1811631D24F0BA89", item: { count: 1, id: "minecraft:shield" } }
+		{ id: "3AE7D261ACDBCE73", item: { count: 1, id: "minecraft:iron_boots" } }
+	]
+}

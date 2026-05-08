@@ -101,6 +101,9 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "chunkymcchunkface": {
+    "show_time": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -115,9 +118,6 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
-  },
-  "pipez": {
-    "pipe": true
   },
   "corpse": {
     "corpse": true
