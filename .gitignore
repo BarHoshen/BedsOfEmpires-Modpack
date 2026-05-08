@@ -12,6 +12,10 @@ saves/
 schematics/
 shaderpacks/
 dynamic-resource-pack-cache/
+Distant_Horizons_server_data/
+debug/
+servers.dat
+servers.dat_old
 
 # Client state files
 options.txt
