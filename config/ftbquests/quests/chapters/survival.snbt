@@ -4,6 +4,14 @@
 	filename: "survival"
 	group: ""
 	id: "0710134146B02E78"
+	images: [{
+		height: 2.0d
+		image: "sophisticatedstorage:item/basic_tier_upgrade"
+		rotation: 0.0d
+		width: 2.0d
+		x: 7.0d
+		y: 7.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -17,7 +25,7 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5A00000000000001"]
@@ -56,7 +64,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5A00000000000002"]
@@ -94,7 +102,7 @@
 				}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A00000000000003"]
@@ -157,7 +165,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5A00000000000004"]
@@ -196,7 +204,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5A00000000000005"]
@@ -241,10 +249,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["5A00000000000006"]
+			dependencies: ["72EFBCF5479196AC"]
 			id: "5A00000000000007"
 			max_completable_dependents: 1
 			rewards: [
@@ -298,14 +306,6 @@
 					type: "item"
 				}
 				{
-					id: "5A02000000000017"
-					item: {
-						count: 1
-						id: "minecraft:leather_helmet"
-					}
-					type: "item"
-				}
-				{
 					id: "5A02000000000018"
 					item: {
 						count: 1
@@ -341,14 +341,6 @@
 			dependencies: ["5A00000000000007"]
 			id: "5A00000000000009"
 			rewards: [
-				{
-					id: "5A0200000000001B"
-					item: {
-						count: 1
-						id: "minecraft:iron_helmet"
-					}
-					type: "item"
-				}
 				{
 					id: "5A0200000000001C"
 					item: {
@@ -607,7 +599,8 @@
 			]
 			tasks: [{
 				entity: "minecraft:zombie"
-				id: "5A0100000000000D"
+				entityTypeTag: "minecraft:undead"
+				id: "16649016882E8B91"
 				type: "kill"
 				value: 10L
 			}]
@@ -813,8 +806,10 @@
 				}
 			]
 			tasks: [{
-				id: "5A01000000000011"
-				type: "checkmark"
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				id: "6CE5DA77D09DDF6B"
+				type: "advancement"
 			}]
 			x: 0.0d
 			y: 12.5d
@@ -1365,387 +1360,6 @@
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"5A00000000000016"
-				"5A00000000000017"
-				"5A00000000000018"
-				"5A00000000000019"
-				"5A0000000000001A"
-				"5A0000000000001B"
-				"5A0000000000001C"
-			]
-			dependency_requirement: "one_completed"
-			id: "5A0000000000001D"
-			rewards: [
-				{
-					count: 64
-					id: "5A02000000000072"
-					item: {
-						count: 1
-						id: "create:andesite_alloy"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A02000000000073"
-					item: {
-						count: 1
-						id: "create:cogwheel"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A02000000000074"
-					item: {
-						count: 1
-						id: "create:shaft"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "5A02000000000075"
-					item: {
-						count: 1
-						id: "create:brass_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5A02000000000076"
-					item: {
-						count: 1
-						id: "create:precision_mechanism"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A02000000000077"
-					item: {
-						count: 1
-						id: "create:iron_sheet"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A02000000000078"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A02000000000079"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "5A0200000000007A"
-					item: {
-						count: 1
-						id: "ars_nouveau:wilden_horn"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A0200000000007B"
-					item: {
-						count: 1
-						id: "ars_nouveau:blue_archwood_log"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A0200000000007C"
-					item: {
-						count: 1
-						id: "minecraft:gold_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "5A0200000000007D"
-					item: {
-						count: 1
-						id: "minecraft:amethyst_shard"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "5A0200000000007E"
-					item: {
-						count: 1
-						id: "minecraft:stone_bricks"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A0200000000007F"
-					item: {
-						count: 1
-						id: "securitycraft:reinforced_glass"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "5A02000000000080"
-					item: {
-						count: 1
-						id: "securitycraft:mine"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A02000000000081"
-					item: {
-						count: 1
-						id: "minecraft:iron_block"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A02000000000082"
-					item: {
-						count: 1
-						id: "mysticalagriculture:inferium_essence"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A02000000000083"
-					item: {
-						count: 1
-						id: "storagedrawers:oak_full_drawers_1"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "5A02000000000084"
-					item: {
-						count: 1
-						id: "ae2:certus_quartz_crystal"
-					}
-					type: "item"
-				}
-				{
-					id: "5A02000000000085"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:backpack"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "5A02000000000086"
-					item: {
-						count: 1
-						id: "mekanism:ingot_osmium"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A02000000000087"
-					item: {
-						count: 1
-						id: "mekanism:alloy_infused"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A02000000000088"
-					item: {
-						count: 1
-						id: "mekanism:basic_control_circuit"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A02000000000089"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A0200000000008A"
-					item: {
-						count: 1
-						id: "mekanism:steel_casing"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5A0200000000008B"
-					item: {
-						count: 1
-						id: "farmersdelight:stove"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5A0200000000008C"
-					item: {
-						count: 1
-						id: "farmersdelight:cooking_pot"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5A0200000000008D"
-					item: {
-						count: 1
-						id: "farmersdelight:cutting_board"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A0200000000008E"
-					item: {
-						count: 1
-						id: "farmersdelight:tomato"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A0200000000008F"
-					item: {
-						count: 1
-						id: "farmersdelight:cabbage"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5A02000000000090"
-					item: {
-						count: 1
-						id: "farmersdelight:rice"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A02000000000091"
-					item: {
-						count: 1
-						id: "create_confectionery:cocoa_powder"
-					}
-					type: "item"
-				}
-				{
-					id: "5A02000000000092"
-					item: {
-						count: 1
-						id: "chipped:carpenters_table"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A02000000000093"
-					item: {
-						count: 1
-						id: "mcwwindows:window_base"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5A02000000000094"
-					item: {
-						count: 1
-						id: "structurecompass:structure_compass"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5A02000000000095"
-					item: {
-						count: 1
-						id: "cataclysm:mech_eye"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5A02000000000096"
-					item: {
-						count: 1
-						id: "cataclysm:flame_eye"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A02000000000097"
-					item: {
-						count: 1
-						id: "cataclysm:black_steel_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5A02000000000098"
-					item: {
-						count: 1
-						id: "apothic_enchanting:hellshelf"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5A02000000000099"
-					item: {
-						count: 1
-						id: "minecraft:spyglass"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "5A0100000000001F"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 17.0d
-		}
-		{
 			dependencies: ["5A00000000000006"]
 			id: "5A0000000000001E"
 			optional: true
@@ -1781,8 +1395,8 @@
 				item: { count: 1, id: "minecraft:oak_boat" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5A00000000000006"]
@@ -1831,8 +1445,8 @@
 				id: "372D29766D9DFEE8"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5A0000000000000A"]
@@ -1875,7 +1489,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["5A0000000000000A"]
+			dependencies: ["142C38727F7D4AED"]
+			icon: {
+				id: "minecraft:pink_petals"
+			}
 			id: "5A00000000000021"
 			optional: true
 			rewards: [
@@ -1916,12 +1533,236 @@
 					type: "item"
 				}
 			]
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5A00000000000006"]
+			id: "72EFBCF5479196AC"
+			rewards: [{
+				id: "785D82CEC3B68394"
+				item: {
+					components: {
+						"apotheosis:affix_name": {
+							color: "#33FF33"
+							italic: 0b
+							translate: "misc.apotheosis.affix_name.three"
+							with: [
+								{
+									translate: "affix.apotheosis:generic/attribute/lucky"
+								}
+								{
+									"": ""
+								}
+								{
+									translate: "affix.apotheosis:armor/attribute/fireproof.suffix"
+								}
+							]
+						}
+						"apotheosis:affixes": {
+							"apotheosis:armor/attribute/fireproof": 0.05836886f
+							"apotheosis:generic/attribute/lucky": 0.33821398f
+						}
+						"apotheosis:rarity": "apotheosis:uncommon"
+						"apotheosis:sockets": 1
+					}
+					count: 1
+					id: "minecraft:iron_helmet"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "5A01000000000023"
+				id: "7A144DDCA00867EB"
 				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0000000000000A"]
+			id: "06DB54EBC8A89DD5"
+			rewards: [{
+				id: "56ABAEEEF670A93E"
+				item: {
+					count: 1
+					id: "handcrafted:oak_drawer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6006D55FB45DE8E8"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
 			}]
 			x: 3.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["06DB54EBC8A89DD5"]
+			id: "07C99A1147B29900"
+			rewards: [{
+				id: "2E0E12730C7FFAE9"
+				item: {
+					components: {
+						"sophisticatedstorage:wood_type": "oak"
+					}
+					count: 1
+					id: "sophisticatedstorage:copper_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "15D3E125368BC5CE"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5A00000000000004"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "07B456E48B27A800"
+			rewards: [{
+				id: "0E284A5DDD7981F5"
+				item: {
+					components: {
+						"sophisticatedstorage:wood_type": "oak"
+					}
+					count: 1
+					id: "sophisticatedstorage:chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C06078C39B67409"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A00000000000004"]
+			icon: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				id: "sophisticatedstorage:barrel"
+			}
+			id: "6F5B21BB4F8BB660"
+			rewards: [{
+				id: "74A49B61D30F5C42"
+				item: {
+					components: {
+						"sophisticatedstorage:wood_type": "oak"
+					}
+					count: 1
+					id: "sophisticatedstorage:barrel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A41327DB8F8D407"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07C99A1147B29900"]
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "142C38727F7D4AED"
+			rewards: [{
+				id: "5062B582115FA732"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:backpack"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "305D61CE02905C65"
+				item: { count: 1, id: "minecraft:leather" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["06DB54EBC8A89DD5"]
+			icon: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				id: "sophisticatedstorage:limited_barrel_1"
+			}
+			id: "58AF944A1E6AFFC6"
+			rewards: [{
+				id: "07208F20CA19F21B"
+				item: {
+					components: {
+						"sophisticatedstorage:wood_type": "oak"
+					}
+					count: 1
+					id: "sophisticatedstorage:limited_barrel_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A7D051E989F8DAD"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A00000000000020"]
+			id: "378F9D86FBC886D5"
+			rewards: [{
+				id: "54E8B2FF9E60D7CB"
+				item: {
+					components: {
+						"apotheosis:affix_name": {
+							color: "#33FF33"
+							italic: 0b
+							translate: "misc.apotheosis.affix_name.three"
+							with: [
+								{
+									translate: "affix.apotheosis:armor/dmg_reduction/grounded"
+								}
+								{
+									"": ""
+								}
+								{
+									translate: "affix.apotheosis:armor/attribute/windswept.suffix"
+								}
+							]
+						}
+						"apotheosis:affixes": {
+							"apotheosis:armor/attribute/elastic": 0.07002568f
+							"apotheosis:armor/attribute/windswept": 0.7976723f
+							"apotheosis:armor/dmg_reduction/grounded": 0.75572884f
+						}
+						"apotheosis:from_chest": 1b
+						"apotheosis:rarity": "apotheosis:uncommon"
+					}
+					count: 1
+					id: "minecraft:chainmail_boots"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32086803186F1FB9"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 9.0d
 		}
 	]
 }

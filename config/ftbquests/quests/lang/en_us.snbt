@@ -34,10 +34,6 @@
 	chapter.CA1B2C3D4E5F6789.chapter_subtitle: ["Cook. Decorate. Nurture."]
 	chapter.CA1B2C3D4E5F6789.title: "Housewife"
 	chapter.DB3C4D5E6F7A8B01.title: "Scout"
-	chapter_group.0C651E6FAD0DE515.title: "Economy Path"
-	chapter_group.38ADBA94E592CD25.title: "Military Path"
-	chapter_group.51BBE969D43176CA.title: "Magic Path"
-	chapter_group.5F3DD1FCE8DAF05D.title: "Engineering Path"
 	chapter_group.D47E8F9A0B1C2D3E.title: "Alchemy Path"
 	chapter_group.DA2B3C4D5E6F7890.title: "Housewife Path"
 	chapter_group.EB4D5E6F7A8B9C01.title: "Scout Path"
@@ -121,6 +117,13 @@
 		"Converts SU to FE. Your Create factory"
 		"can now power Mekanism machines and laser turrets."
 	]
+	quest.06DB54EBC8A89DD5.quest_desc: [
+		"If you got many stacks of a specific item, you should consider putting them in a drawer."
+		""
+		"Right click on the drawer to place the item, left click with empty hand to pull it out."
+		"A drawer holds 16 stacks of a certain item."
+	]
+	quest.06DB54EBC8A89DD5.title: "Storage hell"
 	quest.0729A1464A53F8A6.title: "Teleportation Core"
 	quest.078676B286E994A0.quest_desc: ["Kill an Apothic Invader using only magic damage."]
 	quest.078676B286E994A0.quest_subtitle: "Transcendent"
@@ -128,6 +131,14 @@
 	quest.079ED8FFE21571CA.quest_desc: ["Your base is now magically protected from mob spawns. Combined with spell turrets, casual attackers can't approach."]
 	quest.079ED8FFE21571CA.quest_subtitle: "Magical protection"
 	quest.079ED8FFE21571CA.title: "Wardstone"
+	quest.07B456E48B27A800.quest_desc: [
+		"Pay attention - there are minecraft chests and sophisticated storage chests."
+		"The second has auto-sorting and can be improved later on - To make them, use the same recipe as a normal chest and add a lever in the middle."
+	]
+	quest.07B456E48B27A800.quest_subtitle: "A chest is a storage device"
+	quest.07B456E48B27A800.title: "A chest"
+	quest.07C99A1147B29900.quest_desc: ["Need more storage room beyond your barrel or chest? You can upgrade your chests using metal ingots."]
+	quest.07C99A1147B29900.title: "Storage capacity"
 	quest.07F31B0ACD72D0C6.quest_desc: ["Lock your doors. Only you know the code."]
 	quest.07F31B0ACD72D0C6.quest_subtitle: "Secure access"
 	quest.07F31B0ACD72D0C6.title: "Lockdown"
@@ -173,8 +184,9 @@
 	quest.0D5F15ABE3B9A51B.quest_desc: ["Launches targets upward. Combine with Harm for fall damage kills."]
 	quest.0D5F15ABE3B9A51B.title: "Glyph: Launch"
 	quest.0D7AE5912F8D229A.quest_desc: [
-		"Windmills work everywhere and scale with"
-		"sail count. Your first serious power source."
+		"Windmills work everywhere and scale with sail count. Your first serious power source."
+		""
+		"*After you are done constructing a windmill, remember to right click the bearing with an empty hand."
 	]
 	quest.0E73D67EC534555F.quest_desc: ["A spell of incredible complexity. You are the most dangerous magic user on the server."]
 	quest.0E73D67EC534555F.quest_subtitle: "Archmage"
@@ -202,6 +214,13 @@
 	quest.1315726709FEE962.quest_subtitle: "Build your fortress"
 	quest.1315726709FEE962.title: "First Walls"
 	quest.13A5231CAABC64C6.title: "Universal Cable"
+	quest.142C38727F7D4AED.quest_desc: [
+		"Reached so far without increasing youe inventory's capacity?"
+		"Here's a backpack!"
+		"Click `B` while its in your inventory / equipped to see its contents."
+	]
+	quest.142C38727F7D4AED.quest_subtitle: "\"Fuck! My inventory is full!\""
+	quest.142C38727F7D4AED.title: "Backpack capacity"
 	quest.144EE6864F5F45D0.quest_desc: ["To truly earn the Archmage title, you must defeat the Wilden Chimera. The ritual tablet requires Horn + Wing + Spike from Wilden mobs."]
 	quest.144EE6864F5F45D0.title: "Rank: Archmage"
 	quest.146604BE3DFC35C0.quest_desc: ["Manual reloading is for amateurs. Automate your cannon's ammo supply."]
@@ -497,6 +516,11 @@
 	]
 	quest.37862EEB29AFBD84.quest_desc: ["Farmer's Delight adds a cooking system. Mystical Agriculture lets you grow resources. Here's a taste of both."]
 	quest.37862EEB29AFBD84.quest_subtitle: "Cook and grow"
+	quest.378F9D86FBC886D5.quest_desc: [
+		"The ocean is vast, but no one ensured its next to your bed."
+		"Here are speedy boots to help you find the ocean!"
+	]
+	quest.378F9D86FBC886D5.title: "Gotta go fast"
 	quest.37C2916A1DBFE0D7.title: "Infused Alloy"
 	quest.3841E77706FC82FD.quest_desc: ["The ultimate weapon — nuclear devastation."]
 	quest.3841E77706FC82FD.quest_subtitle: "Mutually assured destruction"
@@ -755,6 +779,8 @@
 	]
 	quest.58854A46F7714E3A.quest_subtitle: "Plan B is armor"
 	quest.58854A46F7714E3A.title: "Armored Infiltrator"
+	quest.58AF944A1E6AFFC6.quest_desc: ["A drawer isn't enough? A limited barrel can hold 32 stacks!"]
+	quest.58AF944A1E6AFFC6.title: "Limited Barrel"
 	quest.594BEB6B5C0AAAC2.title: "Combiner"
 	quest.59CF60EC8CF428BF.quest_desc: ["Auto-craft cannon ammunition using your AE2 + Create pipeline."]
 	quest.59CF60EC8CF428BF.quest_subtitle: "War Profiteer"
@@ -773,7 +799,11 @@
 	quest.5A00000000000003.quest_desc: ["Craft a wooden pickaxe and a wooden axe to get started."]
 	quest.5A00000000000003.quest_subtitle: "Stone beats wood"
 	quest.5A00000000000003.title: "Craft Wooden Tools"
-	quest.5A00000000000004.quest_desc: ["Collect 32 cobblestone. You'll need it for tools and building."]
+	quest.5A00000000000004.quest_desc: [
+		"Collect 32 cobblestone. You'll need it for tools and building."
+		""
+		"At this stage you should start thinking of storing your items. Feel free to grab a barrel and a chest"
+	]
 	quest.5A00000000000004.quest_subtitle: "Gather 32 cobblestone"
 	quest.5A00000000000004.title: "Cobblestone Collection"
 	quest.5A00000000000005.quest_desc: ["Find iron ore underground and smelt it in a furnace."]
@@ -827,8 +857,21 @@
 	quest.5A00000000000010.quest_subtitle: "Enchant any item"
 	quest.5A00000000000010.title: "Your First Enchant"
 	quest.5A00000000000011.quest_desc: [
-		"You're ready. Try a taste of"
-		"each path before committing."
+		"There are multiple paths ahead of you."
+		"You're ready to try each one of them. "
+		""
+		"You may get a small taste of each path"
+		"and get a reward that would help you "
+		"through each path's first steps."
+		""
+		""
+		"⚙️ Engineering — Build factories, trains, and airships with Create"
+		"⚗️ Magic — Master spells and rituals with Ars Nouveau"
+		"🛡️ Military — Fortify, arm, and conquer with SecurityCraft and Big Cannons"
+		"🌾 Economy — Farm, store, and automate with Mystical Agriculture and AE2"
+		"🔬 Alchemy — Transmute, process, and go nuclear with Mekanism"
+		"🏠 Housewife — Cook, decorate, and nurture with Farmer's Delight and Create"
+		"👁️ Scout — Explore, infiltrate, and sabotage with Cataclysm and Apotheosis"
 	]
 	quest.5A00000000000011.quest_subtitle: "Try each path before committing"
 	quest.5A00000000000011.title: "Path Selection Ready"
@@ -865,21 +908,6 @@
 	quest.5A0000000000001C.quest_desc: ["A scout finds what others miss. The Structure Compass locates any structure in the world."]
 	quest.5A0000000000001C.quest_subtitle: "Find what's hidden"
 	quest.5A0000000000001C.title: "Taste of Scouting"
-	quest.5A0000000000001D.quest_desc: [
-		"Your survival skills are proven. Seven paths lie before you:"
-		""
-		"⚙️ Engineering — Build factories, trains, and airships with Create"
-		"⚗️ Magic — Master spells and rituals with Ars Nouveau"
-		"🛡️ Military — Fortify, arm, and conquer with SecurityCraft and Big Cannons"
-		"🌾 Economy — Farm, store, and automate with Mystical Agriculture and AE2"
-		"🔬 Alchemy — Transmute, process, and go nuclear with Mekanism"
-		"🏠 Housewife — Cook, decorate, and nurture with Farmer's Delight and Create"
-		"👁️ Scout — Explore, infiltrate, and sabotage with Cataclysm and Apotheosis"
-		""
-		"You can pursue multiple paths. The resources here will get you started on any of them."
-	]
-	quest.5A0000000000001D.quest_subtitle: "Seven paths await"
-	quest.5A0000000000001D.title: "Choose Your Path"
 	quest.5A0000000000001E.quest_desc: ["Craft a boat and explore the waterways."]
 	quest.5A0000000000001E.quest_subtitle: "Explore the waterways"
 	quest.5A0000000000001E.title: "Build a Boat"
@@ -889,7 +917,7 @@
 	quest.5A00000000000020.quest_desc: ["Aquaculture adds advanced fishing. Craft an iron fishing rod to get started."]
 	quest.5A00000000000020.quest_subtitle: "Advanced fishing"
 	quest.5A00000000000020.title: "Aquaculture Intro"
-	quest.5A00000000000021.quest_desc: ["Place 5 different decorative blocks to make your base feel like home."]
+	quest.5A00000000000021.quest_desc: ["A tidy and organized warrior uh? Here's some decorations for your doll house"]
 	quest.5A00000000000021.quest_subtitle: "Make it feel like home"
 	quest.5A00000000000021.title: "Decorate Your Base"
 	quest.5A5DC6C0C3C719F7.quest_desc: [
@@ -1003,7 +1031,9 @@
 	]
 	quest.66262971139BFB37.title: "Thermoelectric Boiler"
 	quest.663B7ACD6FA5E92C.quest_desc: [
-		"Free rotation. Right-click to spin."
+		"Almost everything in Create mod requires rotational force, measured by stress units (SU). There are many ways to achieve such force."
+		""
+		"The Hand crank gives free rotation. Right-click to spin."
 		"Slow but requires no resources."
 	]
 	quest.6652F05B6DE3364A.quest_desc: [
@@ -1084,6 +1114,8 @@
 	quest.6F14222ED362F948.title: "Trap Master"
 	quest.6F179A7603263F34.quest_desc: ["Applies your Touch spell before dealing damage. Magic-enhanced melee."]
 	quest.6F179A7603263F34.title: "Enchanter's Sword"
+	quest.6F5B21BB4F8BB660.quest_subtitle: "A barrel is a storage device"
+	quest.6F5B21BB4F8BB660.title: "A barrel"
 	quest.6F638A64502E4CBA.quest_desc: ["Effect glyph — undoes recent damage or position changes. A second chance in combat."]
 	quest.6F638A64502E4CBA.title: "Glyph: Rewind"
 	quest.6FAD48362241427F.quest_desc: ["The Alternator converts Create's rotational force (SU) into Forge Energy (FE). This bridges Create with Mekanism — your windmills can now power laser turrets."]
@@ -1131,6 +1163,7 @@
 		"and machines."
 	]
 	quest.72CEC170B47AC569.title: "Energy Cube"
+	quest.72EFBCF5479196AC.quest_subtitle: "Items of different rarity can be found around the world. Here's a taste of their power"
 	quest.7357863DBDAB1065.quest_desc: ["Summon the Chimera using the Ritual of Summon Wilden with Horn + Wing + Spike on the pedestal. This is the hardest Ars Nouveau fight."]
 	quest.7357863DBDAB1065.title: "Wilden Hunt"
 	quest.737D35C31391BB26.quest_desc: [
@@ -1846,9 +1879,6 @@
 	task.41F66397887EA1B8.title: "Build a working sequenced assembly line"
 	task.5A01000000000009.title: "Build"
 	task.5A0100000000000A.title: "Defend"
-	task.5A01000000000011.title: "Enchant any item"
-	task.5A01000000000023.title: "Place 5 different decorative blocks"
-	task.5DD630896BD2F6AE.title: "Build a steam engine with a blaze burner"
 	task.5F94DB7E895ACF33.title: "Build"
 	task.615290A4F8DBEFC8.title: "Build and fly an airship"
 	task.64232A1990FD4F98.title: "Build a Create New Age nuclear reactor"
@@ -1856,6 +1886,7 @@
 	task.676839348E7FF3FE.title: "Activate Summit"
 	task.6D68826E3111E9B5.title: "Build and activate a Fission Reactor"
 	task.75FDD7E2505CB3CE.title: "Build and activate a Fusion Reactor"
+	task.7A144DDCA00867EB.title: "Apotheosis"
 	task.7D3688F6390C3B74.title: "Defend"
 	task.7D598A27638852C6.title: "Set up an automated train schedule"
 	task.7E3916C7BACF3222.title: "Build and activate the SPS"

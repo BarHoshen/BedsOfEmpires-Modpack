@@ -8,7 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5A0000000000001D"]
+			dependencies: ["5A00000000000018"]
 			id: "3A33DDA9BA48EE89"
 			rewards: [
 				{
@@ -16,14 +16,6 @@
 					item: {
 						count: 1
 						id: "securitycraft:sc_manual"
-					}
-					type: "item"
-				}
-				{
-					id: "3779C1B5197B4A0C"
-					item: {
-						count: 1
-						id: "securitycraft:universal_block_reinforcer_lvl1"
 					}
 					type: "item"
 				}
@@ -89,25 +81,6 @@
 		}
 		{
 			dependencies: ["4EAAABA95BB07439"]
-			id: "6CE8086AA6C3B43A"
-			rewards: [{
-				id: "274D0F1D9A7CF675"
-				item: {
-					count: 1
-					id: "securitycraft:universal_block_reinforcer_lvl2"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "128461709C606C2F"
-				item: { count: 1, id: "securitycraft:universal_block_reinforcer_lvl2" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["6CE8086AA6C3B43A"]
 			id: "60E576800919A28C"
 			rewards: [{
 				count: 16
@@ -119,13 +92,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
-				id: "534D842AD34A534A"
-				item: { count: 1, id: "securitycraft:reinforced_obsidian" }
+				id: "2B9809038A6F2B71"
+				item: { count: 1, id: "securitycraft:universal_block_reinforcer_lvl2" }
 				type: "item"
 			}]
 			x: -4.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["60E576800919A28C"]
@@ -171,25 +143,15 @@
 		{
 			dependencies: ["2771B56D324A0AB8"]
 			id: "0215C2DBFE30AD64"
-			rewards: [
-				{
-					count: 4
-					id: "0A62C5FC684E6E90"
-					item: {
-						count: 1
-						id: "securitycraft:security_camera"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "0A62C5FC684E6E90"
+				item: {
+					count: 1
+					id: "securitycraft:security_camera"
 				}
-				{
-					id: "0BFB17680C9A8ADD"
-					item: {
-						count: 1
-						id: "securitycraft:camera_monitor"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "3435227EB04B4F9B"

@@ -8,7 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5A0000000000001D"]
 			id: "4F2F6ACA2E078EAF"
 			rewards: [
 				{
@@ -46,27 +45,38 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4F2F6ACA2E078EAF"]
 			id: "663B7ACD6FA5E92C"
-			rewards: [{
-				count: 4
-				id: "2C8A8124D819AE98"
-				item: {
-					count: 1
-					id: "create:hand_crank"
+			rewards: [
+				{
+					count: 8
+					id: "02E47B897ABC2A18"
+					item: {
+						count: 1
+						id: "minecraft:andesite"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 8
+					id: "4B995195EFAB85C9"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6E1A82CD640416C1"
 				item: { count: 1, id: "create:hand_crank" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["663B7ACD6FA5E92C"]
@@ -97,7 +107,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["03D86DE9D055EE43"]
@@ -136,14 +146,13 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0D7AE5912F8D229A"]
 			id: "33A47D79824E0B3A"
 			rewards: [
 				{
-					count: 4
 					id: "28FE9A1943E785EF"
 					item: {
 						count: 1
@@ -162,14 +171,16 @@
 				}
 			]
 			tasks: [{
-				id: "5DD630896BD2F6AE"
-				type: "checkmark"
+				advancement: "create:windmill"
+				criterion: ""
+				id: "2BF3908E6EF8749E"
+				type: "advancement"
 			}]
 			x: -5.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["4F2F6ACA2E078EAF"]
+			dependencies: ["663B7ACD6FA5E92C"]
 			id: "6B6790B775E9BCA7"
 			rewards: [{
 				count: 16
@@ -344,7 +355,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["4F2F6ACA2E078EAF"]
+			dependencies: ["663B7ACD6FA5E92C"]
 			id: "652B8702DFF0E52B"
 			rewards: [{
 				count: 32
@@ -454,7 +465,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4F2F6ACA2E078EAF"]
+			dependencies: ["663B7ACD6FA5E92C"]
 			id: "5FD1B914ABAC8481"
 			rewards: [
 				{
