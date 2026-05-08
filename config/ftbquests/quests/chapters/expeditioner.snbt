@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "scout"
+	filename: "expeditioner"
 	group: ""
 	id: "5E6C63CA489C00EA"
 	order_index: 7
@@ -54,6 +54,11 @@
 						id: "cataclysm:mech_eye"
 					}
 					type: "item"
+				}
+				{
+					command: "/say [⚔] @p has begun the path of the Expeditioner!"
+					id: "5D5D5D5D5D5DA001"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -216,7 +221,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "004F6EE2C3777C08"
-				type: "checkmark"
+				item: { count: 1, id: "immersive_armors:divine_chestplate" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 8.0d
@@ -256,7 +262,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "1E40C8B2E4A34B39"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:mech_eye" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 2.0d
@@ -354,7 +361,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "42D4AF5125158BF5"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 6.0d
@@ -529,6 +537,66 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["5A8D5FBB3C65BE39"]
+			id: "5D5D5D5D5D5D5E01"
+			rewards: [{
+				id: "6D5D5D5D5D5D5E01"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:iron_backpack"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5D5D5D5D5D5E01"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D5D5D5D5D5D5E01"]
+			id: "5D5D5D5D5D5D5E02"
+			rewards: [{
+				id: "6D5D5D5D5D5D5E02"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:gold_backpack"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5D5D5D5D5D5E02"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D5D5D5D5D5D5E02"]
+			id: "5D5D5D5D5D5D5E03"
+			rewards: [{
+				id: "6D5D5D5D5D5D5E03"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:netherite_backpack"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5D5D5D5D5D5E03"
+				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
 			dependencies: [
 				"45C02B5B3E28F750"
 				"531084203EFDB408"
@@ -536,30 +604,6 @@
 			]
 			id: "22AB362AE8E4EE30"
 			rewards: [
-				{
-					id: "35770CE081DEE035"
-					item: {
-						count: 1
-						id: "buildinggadgets2:gadget_copy_paste"
-					}
-					type: "item"
-				}
-				{
-					id: "300E3594249466C7"
-					item: {
-						count: 1
-						id: "buildinggadgets2:gadget_building"
-					}
-					type: "item"
-				}
-				{
-					id: "221CFA80C26018A3"
-					item: {
-						count: 1
-						id: "buildinggadgets2:template_manager"
-					}
-					type: "item"
-				}
 				{
 					id: "03E80D9AEFC6E709"
 					item: {
@@ -578,7 +622,7 @@
 					type: "item"
 				}
 				{
-					command: "/say 👁️ @p has risen to the rank of Infiltrator!"
+					command: "/say [⚔] @p has risen to the rank of Hunter!"
 					id: "4BE0B9CC46361DF2"
 					type: "command"
 				}
@@ -616,7 +660,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "5B98AD4EB280AB6A"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:infernal_forge" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 12.0d
@@ -645,7 +690,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "3282B50EC5781C50"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 13.0d
@@ -674,8 +720,10 @@
 			]
 			shape: "rsquare"
 			tasks: [{
+				count: 4L
 				id: "39A83A4C296E34D5"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 14.0d
@@ -704,8 +752,10 @@
 			]
 			shape: "rsquare"
 			tasks: [{
+				count: 4L
 				id: "5CA154BEFD200313"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:witherite_ingot" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 15.0d
@@ -734,113 +784,271 @@
 			]
 			shape: "rsquare"
 			tasks: [{
+				count: 4L
 				id: "6361B27DBCE4E2B4"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 16.0d
 		}
 		{
-			dependencies: ["22AB362AE8E4EE30"]
-			id: "6208E35233A2D02F"
+			dependencies: ["09F168BFCE91091E"]
+			id: "665640884D7BAADD"
 			rewards: [
 				{
-					count: 4
-					id: "5608594C42416C11"
+					count: 8
+					id: "133741270A9FB7F4"
 					item: {
 						count: 1
-						id: "buildinggadgets2:redprint"
+						id: "cataclysm:ignitium_ingot"
 					}
 					type: "item"
 				}
-				{
-					id: "65CEAE4684302EC1"
-					item: {
-						count: 1
-						id: "buildinggadgets2:template_manager"
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "5A59912C1AB8E693"
-				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["6208E35233A2D02F"]
-			id: "3149467B901F9659"
-			rewards: [
 				{
 					count: 16
-					id: "39990BD838DEE794"
+					id: "329E709D192E0E44"
 					item: {
 						count: 1
 						id: "minecraft:ender_pearl"
 					}
 					type: "item"
 				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "73D6D4BE2A8B6328"
+				item: { count: 1, id: "create_confectionery:soothing_hot_chocolate" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["22AB362AE8E4EE30"]
+			id: "5D5D5D5D5D5D5D01"
+			rewards: [{
+				count: 16
+				id: "6D5D5D5D5D5D5D01"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "7D5D5D5D5D5D5D01"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5D5D5D5D5D5D5D01"]
+			id: "5D5D5D5D5D5D5D02"
+			rewards: [{
+				count: 16
+				id: "6D5D5D5D5D5D5D02"
+				item: {
+					count: 1
+					id: "mysticalagriculture:tertium_essence"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "7D5D5D5D5D5D5D02"
+				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5D5D5D5D5D5D5D02"]
+			id: "5D5D5D5D5D5D5D03"
+			rewards: [{
+				count: 16
+				id: "6D5D5D5D5D5D5D03"
+				item: {
+					count: 1
+					id: "mysticalagriculture:imperium_essence"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "7D5D5D5D5D5D5D03"
+				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5D5D5D5D5D5D5D03"]
+			id: "5D5D5D5D5D5D5D04"
+			rewards: [{
+				count: 16
+				id: "6D5D5D5D5D5D5D04"
+				item: {
+					count: 1
+					id: "mysticalagriculture:supremium_essence"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "7D5D5D5D5D5D5D04"
+				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5D5D5D5D5D5D5D04"]
+			id: "5D5D5D5D5D5D5D05"
+			rewards: [{
+				count: 8
+				id: "6D5D5D5D5D5D5D05"
+				item: {
+					count: 1
+					id: "mysticalagriculture:awakened_supremium_essence"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "7D5D5D5D5D5D5D05"
+				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5D5D5D5D5D5D5D05"]
+			id: "5D5D5D5D5D5D5D06"
+			rewards: [{
+				count: 4
+				id: "6D5D5D5D5D5D5D06"
+				item: {
+					count: 1
+					id: "mysticalagriculture:awakened_supremium_essence"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "7D5D5D5D5D5D5D06"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5D5D5D5D5D5D5D06"]
+			id: "5D5D5D5D5D5D5D07"
+			rewards: [{
+				count: 4
+				id: "6D5D5D5D5D5D5D07"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "7D5D5D5D5D5D5D07"
+				item: { components: { "ftbquests:missing_item": "mysticalagradditions:nether_star_seeds" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["22AB362AE8E4EE30"]
+			id: "5D5D5D5D5D5D5F01"
+			rewards: [{
+				id: "6D5D5D5D5D5D5F01"
+				item: {
+					count: 1
+					id: "minecraft:brush"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5D5D5D5D5D5F01"
+				item: { count: 1, id: "betterarcheology:archeology_table" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5D5D5D5D5D5D5F01"]
+			id: "5D5D5D5D5D5D5F02"
+			rewards: [{
+				count: 4
+				id: "6D5D5D5D5D5D5F02"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5D5D5D5D5D5F02"
+				item: { components: { "ftbquests:missing_item": "betterarcheology:rusty_metal_scrap" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["22AB362AE8E4EE30"]
+			id: "5B032582D072A015"
+			rewards: [
 				{
-					count: 8
-					id: "04E01884C8115708"
+					id: "03F06A3CA09CAC1B"
 					item: {
 						count: 1
-						id: "minecraft:golden_apple"
+						id: "immersive_armors:wither_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "03711F126D0CFEC2"
+					item: {
+						count: 1
+						id: "immersive_armors:wither_chestplate"
 					}
 					type: "item"
 				}
 			]
 			shape: "rsquare"
 			tasks: [{
-				id: "60EA6AD26FFBD05D"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["3149467B901F9659"]
-			id: "0D2C1F7B0E592E4A"
-			rewards: [{
-				id: "14AE11E86991C49F"
-				item: {
-					count: 1
-					id: "buildinggadgets2:gadget_destruction"
-				}
+				id: "7A5BF8620520233E"
+				item: { count: 1, id: "mekanismtools:osmium_chestplate" }
 				type: "item"
 			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "691568A8ED1F3F9C"
-				type: "checkmark"
-			}]
-			x: 0.0d
+			x: 2.0d
 			y: 14.0d
-		}
-		{
-			dependencies: ["0D2C1F7B0E592E4A"]
-			id: "1EE83FF7A041A040"
-			rewards: [{
-				count: 2
-				id: "33C332B03EF56E95"
-				item: {
-					count: 1
-					id: "buildinggadgets2:gadget_destruction"
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "46F723EEB476305E"
-				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 15.0d
 		}
 		{
 			dependencies: ["22AB362AE8E4EE30"]
@@ -1025,8 +1233,10 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 8L
 				id: "4D1FEEB20F2E4C6C"
-				type: "checkmark"
+				item: { count: 1, id: "minecraft:experience_bottle" }
+				type: "item"
 			}]
 			x: -2.0d
 			y: 12.0d
@@ -1045,8 +1255,10 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 16L
 				id: "40014C2410C82A0F"
-				type: "checkmark"
+				item: { count: 1, id: "minecraft:experience_bottle" }
+				type: "item"
 			}]
 			x: -2.0d
 			y: 13.0d
@@ -1054,7 +1266,6 @@
 		{
 			dependencies: [
 				"10455AE05BEA25A7"
-				"0D2C1F7B0E592E4A"
 				"3695BE38A2449D0A"
 			]
 			id: "5D554B91C806854A"
@@ -1087,7 +1298,7 @@
 					type: "item"
 				}
 				{
-					command: "/say 👁️ @p has risen to the rank of Saboteur!"
+					command: "/say [⚔] @p has risen to the rank of Slayer!"
 					id: "72F29C9718C896AB"
 					type: "command"
 				}
@@ -1126,8 +1337,10 @@
 			]
 			shape: "rsquare"
 			tasks: [{
+				count: 4L
 				id: "51FA4419114E2DA6"
-				type: "checkmark"
+				item: { count: 1, id: "securitycraft:mine" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 22.0d
@@ -1135,29 +1348,21 @@
 		{
 			dependencies: ["1433E2B3E399BE70"]
 			id: "77184318EBD79B5C"
-			rewards: [
-				{
-					id: "090E2F9C7B889111"
-					item: {
-						count: 1
-						id: "buildinggadgets2:gadget_destruction"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "542385071380F399"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
 				}
-				{
-					count: 16
-					id: "542385071380F399"
-					item: {
-						count: 1
-						id: "minecraft:ender_pearl"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 8L
 				id: "0F666CBAD1F54A68"
-				type: "checkmark"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 23.0d
@@ -1166,14 +1371,16 @@
 			dependencies: ["77184318EBD79B5C"]
 			id: "6B6252EC60426A27"
 			rewards: [{
-				command: "/say 💀 @p has sabotaged enemy infrastructure!"
+				command: "/say [⚔] @p hunts the ancient bosses of the Empire!"
 				id: "628C1E289DBA9476"
 				type: "command"
 			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 2L
 				id: "49EB4C4683482589"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:cursium_ingot" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 24.0d
@@ -1182,14 +1389,16 @@
 			dependencies: ["6B6252EC60426A27"]
 			id: "7D0C95B992E14A3A"
 			rewards: [{
-				command: "/say 👁️ @p moves unseen. No base is safe."
+				command: "/say [⚔] @p has slain the deep dungeon's apex predator."
 				id: "171AFC170FD4831B"
 				type: "command"
 			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 2L
 				id: "7FF5FDD2E5B5781D"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 25.0d
@@ -1219,7 +1428,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "04818FF208E5339A"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:soul_render" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 22.0d
@@ -1248,7 +1458,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "15C56B7329846AFD"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:tidal_claws" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 23.0d
@@ -1277,7 +1488,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "777BA350C46FB8B9"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:astrape" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 24.0d
@@ -1296,8 +1508,10 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 8L
 				id: "2ECE02308D537544"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 25.0d
@@ -1505,6 +1719,91 @@
 			y: 23.0d
 		}
 		{
+			dependencies: ["5D554B91C806854A"]
+			id: "115788B8ABBC8289"
+			rewards: [{
+				id: "6D5D5D5D5D5D6001"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5D5D5D5D5D6001"
+				item: { count: 1, id: "minecraft:silence_armor_trim_smithing_template" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5D554B91C806854A"]
+			id: "5D5D5D5D5D5D8001"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "6D5D5D5D5D5D8001"
+				item: {
+					count: 1
+					id: "apotheosis:sigil_of_socketing"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5D5D5D5D5D8001"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:diamond_spell_book" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["5D554B91C806854A"]
+			id: "0A4FE35E0A7AA9FB"
+			rewards: [{
+				id: "6D5D5D5D5D5D7001"
+				item: {
+					components: {
+						"ftbquests:missing_item": "easyanvils:anvil"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5D5D5D5D5D7001"
+				item: { components: { "ftbquests:missing_item": "easyanvils:anvil" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			id: "098CA45A381EAA8C"
+			rewards: [{
+				count: 4
+				id: "6D5D5D5D5D5D7002"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5D5D5D5D5D7002"
+				item: { count: 1, id: "disenchanting_table:disenchanting_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 23.0d
+		}
+		{
 			dependencies: [
 				"2EE1CA64CBF63118"
 				"7D0C95B992E14A3A"
@@ -1531,7 +1830,7 @@
 					type: "item"
 				}
 				{
-					command: "/say 👁️ @p has risen to the rank of Shadow!"
+					command: "/say [⚔] @p has risen to the rank of Warlord!"
 					id: "10B1ADC1C42E55BB"
 					type: "command"
 				}
@@ -1593,14 +1892,15 @@
 			dependencies: ["0050784DA11CCAA2"]
 			id: "01D844455B1FFB57"
 			rewards: [{
-				command: "/say 👁️ @p wears Ignitium armor. They are nearly unstoppable."
+				command: "/say [⚔] @p wears Ignitium armor. They are nearly unstoppable."
 				id: "2E8AD4F31175818A"
 				type: "command"
 			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "2B9995A954D6295C"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:ignitium_elytra_chestplate" }
+				type: "item"
 			}]
 			x: -2.0d
 			y: 34.0d
@@ -1635,7 +1935,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "62E8ED8B89821D5C"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
 			}]
 			x: 2.0d
 			y: 33.0d
@@ -1676,8 +1977,10 @@
 			]
 			shape: "rsquare"
 			tasks: [{
+				count: 2L
 				id: "7990D56AE5649038"
-				type: "checkmark"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 31.0d
@@ -1725,14 +2028,15 @@
 			]
 			id: "3AD4292207C8DDB8"
 			rewards: [{
-				command: "/say ⚔️ @p has defeated every Cataclysm boss. They are The Cataclysmfarer."
+				command: "/say [⚔] @p has defeated every Cataclysm boss. They are The Cataclysmfarer."
 				id: "0899C5414E48CFD3"
 				type: "command"
 			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6B6A465CA2F0AC42"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 34.0d
@@ -1741,80 +2045,18 @@
 			dependencies: ["3AD4292207C8DDB8"]
 			id: "7C5F01A33E0CCBB3"
 			rewards: [{
-				command: "/say ⚔️ @p wields a Legendary Arsenal! Five boss weapons, each deadlier than the last."
+				command: "/say [⚔] @p wields a Legendary Arsenal! Five boss weapons, each deadlier than the last."
 				id: "2A947BE2A6F9A1FC"
 				type: "command"
 			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "3FC67A05D413AA00"
-				type: "checkmark"
+				item: { count: 1, id: "cataclysm:wither_assault_shoulder_weapon" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 35.0d
-		}
-		{
-			dependencies: ["3149467B901F9659"]
-			id: "5B032582D072A015"
-			rewards: [
-				{
-					id: "03F06A3CA09CAC1B"
-					item: {
-						count: 1
-						id: "immersive_armors:wither_helmet"
-					}
-					type: "item"
-				}
-				{
-					id: "03711F126D0CFEC2"
-					item: {
-						count: 1
-						id: "immersive_armors:wither_chestplate"
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "7A5BF8620520233E"
-				item: { count: 1, id: "mekanismtools:osmium_chestplate" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["09F168BFCE91091E"]
-			id: "665640884D7BAADD"
-			rewards: [
-				{
-					count: 8
-					id: "133741270A9FB7F4"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "329E709D192E0E44"
-					item: {
-						count: 1
-						id: "minecraft:ender_pearl"
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				count: 8L
-				id: "73D6D4BE2A8B6328"
-				item: { count: 1, id: "create_confectionery:soothing_hot_chocolate" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -1824,7 +2066,7 @@
 			]
 			id: "104F8703B9F1FAFD"
 			rewards: [{
-				command: "/say 👁️ @p has achieved Scout Supremacy! Nothing escapes their gaze."
+				command: "/say [⚔] @p has achieved EXPEDITIONER SUPREMACY! No boss stands against them."
 				id: "073BA37C0FC3315C"
 				type: "command"
 			}]

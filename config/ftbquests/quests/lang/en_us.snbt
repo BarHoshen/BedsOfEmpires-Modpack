@@ -5,38 +5,38 @@
 	chapter.0710134146B02E78.title: "Survival"
 	chapter.089E9B1D759A25CB.chapter_subtitle: ["Defend. Fortify. Conquer."]
 	chapter.089E9B1D759A25CB.title: "Military"
-	chapter.09EC7E5A245ED2B1.chapter_subtitle: ["Explore. Infiltrate. Sabotage."]
-	chapter.09EC7E5A245ED2B1.title: "Scout"
-	chapter.0B8DEFADD41F66BA.chapter_subtitle: ["Master the arcane arts"]
+	chapter.09EC7E5A245ED2B1.chapter_subtitle: ["Explore. Hunt. Conquer."]
+	chapter.09EC7E5A245ED2B1.title: "Expeditioner"
+	chapter.0B8DEFADD41F66BA.chapter_subtitle: ["Two schools, one mastery."]
 	chapter.0B8DEFADD41F66BA.title: "Magic"
 	chapter.0E3E56D58F1EEA44.chapter_subtitle: ["Cook. Decorate. Nurture."]
-	chapter.0E3E56D58F1EEA44.title: "Housewife"
+	chapter.0E3E56D58F1EEA44.title: "Steadkeeper"
 	chapter.1BA7CE3EF94A3CAC.chapter_subtitle: ["Master the arcane arts"]
 	chapter.1BA7CE3EF94A3CAC.title: "Magic"
 	chapter.38CBE269E8677FB0.chapter_subtitle: ["Transmute. Transform. Transcend."]
 	chapter.38CBE269E8677FB0.title: "Alchemy"
-	chapter.4EA500581BB5235A.chapter_subtitle: ["Transmute. Transform. Transcend."]
+	chapter.4EA500581BB5235A.chapter_subtitle: ["Master matter and energy."]
 	chapter.4EA500581BB5235A.title: "Alchemy"
-	chapter.5E6C63CA489C00EA.chapter_subtitle: ["Explore. Infiltrate. Sabotage."]
-	chapter.5E6C63CA489C00EA.title: "Scout"
-	chapter.765CD72DD62B0F28.chapter_subtitle: ["Farm. Store. Automate."]
-	chapter.765CD72DD62B0F28.title: "Economy"
-	chapter.7A139BABADAACAC9.chapter_subtitle: ["Farm. Store. Automate."]
-	chapter.7A139BABADAACAC9.title: "Economy"
+	chapter.5E6C63CA489C00EA.chapter_subtitle: ["Explore. Hunt. Conquer."]
+	chapter.5E6C63CA489C00EA.title: "Expeditioner"
+	chapter.765CD72DD62B0F28.chapter_subtitle: ["Move. Store. Network."]
+	chapter.765CD72DD62B0F28.title: "Logistics"
+	chapter.7A139BABADAACAC9.chapter_subtitle: ["Move. Store. Network."]
+	chapter.7A139BABADAACAC9.title: "Logistics"
 	chapter.7A8F3E2D1C0B9465.chapter_subtitle: ["Build. Automate. Dominate."]
 	chapter.7A8F3E2D1C0B9465.title: "Engineering"
 	chapter.8B4C5D6E7F081923.title: "Magic"
 	chapter.9D2A3B4C5D6E7F01.chapter_subtitle: ["Defend. Fortify. Conquer."]
 	chapter.9D2A3B4C5D6E7F01.title: "Military"
-	chapter.AE6B7C8D9E0F1A23.chapter_subtitle: ["Farm. Store. Automate."]
-	chapter.AE6B7C8D9E0F1A23.title: "Economy"
+	chapter.AE6B7C8D9E0F1A23.chapter_subtitle: ["Move. Store. Network."]
+	chapter.AE6B7C8D9E0F1A23.title: "Logistics"
 	chapter.BF3C4D5E6F7A8B90.title: "Alchemy"
 	chapter.CA1B2C3D4E5F6789.chapter_subtitle: ["Cook. Decorate. Nurture."]
-	chapter.CA1B2C3D4E5F6789.title: "Housewife"
-	chapter.DB3C4D5E6F7A8B01.title: "Scout"
+	chapter.CA1B2C3D4E5F6789.title: "Steadkeeper"
+	chapter.DB3C4D5E6F7A8B01.title: "Expeditioner"
 	chapter_group.D47E8F9A0B1C2D3E.title: "Alchemy Path"
-	chapter_group.DA2B3C4D5E6F7890.title: "Housewife Path"
-	chapter_group.EB4D5E6F7A8B9C01.title: "Scout Path"
+	chapter_group.DA2B3C4D5E6F7890.title: "Steadkeeper Path"
+	chapter_group.EB4D5E6F7A8B9C01.title: "Expeditioner Path"
 	quest.00025CFD0EB4E9AA.quest_desc: [
 		"Steel casings are the frame of every"
 		"Mekanism machine. Craft in bulk."
@@ -45,7 +45,7 @@
 	quest.00948C3F101396D7.quest_desc: [
 		"Time to use that radar. Get within range of an enemy base and study their defenses. How many layers of walls? Where are the cameras? Where's the bed?"
 		""
-		"Don't engage — observe. A good scout brings intel back alive."
+		"Don't engage — observe. A good expeditioner brings intel back alive."
 	]
 	quest.00948C3F101396D7.quest_subtitle: "Study the enemy"
 	quest.00948C3F101396D7.title: "Recon Kit"
@@ -66,9 +66,9 @@
 		"The drill mines, the flamethrower smelts,"
 		"the whisk grapples."
 	]
-	quest.032D8D0A019D7A2E.quest_desc: ["A scout finds what others miss. The Structure Compass locates any structure in the world — dungeons, villages, even enemy-built structures. Here's a spyglass too."]
+	quest.032D8D0A019D7A2E.quest_desc: ["An expeditioner finds what others miss. The Structure Compass locates any structure in the world — dungeons, villages, even enemy-built structures. Here's a spyglass too."]
 	quest.032D8D0A019D7A2E.quest_subtitle: "Find what's hidden"
-	quest.032D8D0A019D7A2E.title: "Taste of Scouting"
+	quest.032D8D0A019D7A2E.title: "Taste of Expedition"
 	quest.035E571871B49883.quest_desc: [
 		"Stores stress units. Charge when"
 		"you have excess power, discharge when needed."
@@ -99,14 +99,18 @@
 	quest.048E104AF2811693.quest_desc: ["Elite circuits unlock the Digital Miner and advanced factories. Your transmutation capabilities grow exponentially."]
 	quest.048E104AF2811693.quest_subtitle: "Master transmuter"
 	quest.048E104AF2811693.title: "Elite Processing"
-	quest.0498EA8FD481E0BD.quest_desc: ["Iron's Spells bosses guard structures and drop powerful loot. Bring potions and good armor."]
-	quest.0498EA8FD481E0BD.title: "Iron's: First Boss"
+	quest.0498EA8FD481E0BD.quest_desc: ["Mithril ore is rare. Mine it deep, in the Deep Dark or in dungeon ruins."]
+	quest.0498EA8FD481E0BD.title: "Raw Mithril"
 	quest.05391668D50EE5E2.quest_desc: ["Effect glyph — applies bonemeal to crops and saplings. Projectile + Grow + AOE = instant farm."]
 	quest.05391668D50EE5E2.title: "Glyph: Grow"
+	quest.053CB264E06F2E52.quest_desc: ["A grand feast served on a placeable feast block — multiple players eat from one block. Cook a Honey Glazed Ham as the centerpiece."]
+	quest.053CB264E06F2E52.title: "Grand Feast"
 	quest.057DB04B5ACA5675.quest_desc: ["A real factory processes items through multiple stages automatically. Build one."]
 	quest.057DB04B5ACA5675.quest_subtitle: "Multi-stage processing"
 	quest.0595F0137D1E2FDD.quest_desc: ["Makes you invisible. Self + Invisibility = stealth mode. Great for recon."]
 	quest.0595F0137D1E2FDD.title: "Glyph: Invisibility"
+	quest.05F530A4DC277202.quest_desc: ["The endgame stack upgrade — quadruple stack sizes in your backpack."]
+	quest.05F530A4DC277202.title: "Endgame Stack Upgrade"
 	quest.05F57AA45DAD1ABC.quest_desc: ["Familiar that grants Speed 2 buff while nearby."]
 	quest.05F57AA45DAD1ABC.title: "Familiar: Starbuncle"
 	quest.06184E2EB25731E8.quest_desc: [
@@ -148,10 +152,14 @@
 	quest.09443F6E80D69565.title: "MekaSuit Pants"
 	quest.096C7A51B3680CEC.quest_desc: ["No more manual mining. Build a drill contraption that mines for you. This is the turning point — resources are no longer a bottleneck."]
 	quest.096C7A51B3680CEC.quest_subtitle: "No more pickaxes"
+	quest.098CA45A381EAA8C.quest_desc: ["Recycle enchantments off old gear. Perfect for the Expeditioner who cycles through boss loot."]
+	quest.098CA45A381EAA8C.title: "Disenchanting Table"
 	quest.09E25C40875FC0CF.quest_desc: [
 		"You understand rotation, processing,"
 		"and logistics. Time for advanced engineering."
 	]
+	quest.0A4FE35E0A7AA9FB.quest_desc: ["The Easy Anvil never breaks. Critical for the Expeditioner who upgrades gear constantly."]
+	quest.0A4FE35E0A7AA9FB.title: "Easy Anvil"
 	quest.0A70434DC71800DD.quest_desc: ["Place the Ritual Brazier and surround it with Arcane Pedestals holding tablets."]
 	quest.0A70434DC71800DD.title: "Ritual Brazier"
 	quest.0AAE809744D95EAE.quest_desc: ["SecurityCraft protects your base with cameras, mines, and lasers. Reinforce a block to get started — here's a security starter kit."]
@@ -193,8 +201,8 @@
 	quest.0E73D67EC534555F.title: "Ultimate Caster"
 	quest.0EDF50572BC06432.quest_desc: ["Launch splash potions at enemies. Combined with Ars Nouveau custom potions, this is devastating in PvP."]
 	quest.0EDF50572BC06432.title: "Flask Cannon"
-	quest.0F4F1815AD0F8C9D.quest_desc: ["Defeat 3 different Iron's Spells bosses to prove your combat magic prowess."]
-	quest.0F4F1815AD0F8C9D.title: "Boss Hunter: 3 Bosses"
+	quest.0F4F1815AD0F8C9D.quest_desc: ["The Netherite Spell Book — forged in the Nether, channels the deepest wells of mana."]
+	quest.0F4F1815AD0F8C9D.title: "Netherite Spell Book"
 	quest.0F6E178A5F86A469.quest_desc: [
 		"Catalysts let fans bulk-process items"
 		"without needing lava/water/soul fire."
@@ -204,6 +212,8 @@
 	quest.102E955389416576.quest_desc: ["Augment glyph — splits a projectile into multiple copies. More targets, more chaos."]
 	quest.102E955389416576.title: "Glyph: Split"
 	quest.10781200C784571E.title: "Chemical Oxidizer"
+	quest.115788B8ABBC8289.quest_desc: ["With Trim Effects, armor trims grant combat bonuses based on the trim material. Apply a trim to gear and gain new powers."]
+	quest.115788B8ABBC8289.title: "Combat Trim"
 	quest.11A0D380EC5446E3.quest_desc: ["Extends potion duration while this familiar is active."]
 	quest.11A0D380EC5446E3.title: "Familiar: Wixie"
 	quest.12BD051B12521D5F.quest_desc: [
@@ -259,7 +269,7 @@
 	quest.1880DE6DBE388531.quest_subtitle: "No fly zone"
 	quest.1880DE6DBE388531.title: "Anti-Air Emplacement"
 	quest.18F760BFA7B047DB.title: "Ultimate Factory"
-	quest.1902B1EA80E395F8.quest_desc: ["Socket Apotheosis gems into your magic gear. A Scout teammate has surplus sigils."]
+	quest.1902B1EA80E395F8.quest_desc: ["Socket Apotheosis gems into your magic gear. An Expeditioner teammate has surplus sigils."]
 	quest.1902B1EA80E395F8.title: "Gem-Socketed Staves"
 	quest.19FA226E0E26ACF1.quest_desc: [
 		"Top-tier energiser + motor. Your"
@@ -315,7 +325,7 @@
 	quest.21D2AE2BF288D9C2.quest_desc: [
 		"Cataclysm bosses hit hard. Soothing Hot Chocolate gives Regeneration II, gingerbread gives Resistance, combat chocolates give Speed and Haste."
 		""
-		"Solo: you'd need to set up Create Confectionery processing from scratch. With a Housewife teammate: they're swimming in chocolates. Raid prep is a team effort."
+		"Solo: you'd need to set up Create Confectionery processing from scratch. With a Steadkeeper teammate: they're swimming in chocolates. Raid prep is a team effort."
 	]
 	quest.21D2AE2BF288D9C2.quest_subtitle: "Chocolate before dungeons"
 	quest.21D2AE2BF288D9C2.title: "Dungeon Rations"
@@ -323,7 +333,7 @@
 	quest.2227FE26D06D048D.title: "Potion Flask"
 	quest.22490E5094943A73.quest_desc: ["+2 earth spell damage while this familiar is active."]
 	quest.22490E5094943A73.title: "Familiar: Drygmy"
-	quest.22515B694097C5DA.quest_desc: ["A scout moves at night. Prove you can survive the darkness — the mobs you face out here are nothing compared to what guards enemy bases."]
+	quest.22515B694097C5DA.quest_desc: ["An expeditioner moves at night. Prove you can survive the darkness — the mobs you face out here are nothing compared to what guards enemy bases."]
 	quest.22515B694097C5DA.quest_subtitle: "Own the darkness"
 	quest.22515B694097C5DA.title: "Night Runner"
 	quest.22705E51AE8BC3B8.quest_desc: ["Summons evoker-style fangs. Hits through shields and armor."]
@@ -331,8 +341,12 @@
 	quest.22FDB27E6B0C558E.quest_desc: ["Spell turrets auto-cast spells at targets. This is your magical equivalent of SecurityCraft turrets. Set them to cast damage spells at intruders."]
 	quest.22FDB27E6B0C558E.quest_subtitle: "Automated magical defense"
 	quest.22FDB27E6B0C558E.title: "Spell Turret Defense"
-	quest.2303181F76DA78E1.quest_desc: ["The ultimate Iron's Spells boss. 1000 hearts. Bring everything you have."]
-	quest.2303181F76DA78E1.title: "Echo of Tyros"
+	quest.2303181F76DA78E1.quest_desc: [
+		"The Netherite Mage armor — the apex of the spellcaster's craft."
+		""
+		"Maximum mana, maximum spell power, maximum survivability."
+	]
+	quest.2303181F76DA78E1.title: "Netherite Mage Armor"
 	quest.232F21F09B6F6BB9.quest_desc: ["Effect glyph — summons a swarm of vexes to attack your enemies."]
 	quest.232F21F09B6F6BB9.title: "Glyph: Summon Vex"
 	quest.23302A0268BB62A7.quest_desc: [
@@ -393,10 +407,10 @@
 		"⚙️ Engineering — Build factories, trains, and airships with Create"
 		"⚗️ Magic — Master spells and rituals with Ars Nouveau"
 		"🛡️ Military — Fortify, arm, and conquer with SecurityCraft and Big Cannons"
-		"🌾 Economy — Farm, store, and automate with Mystical Agriculture and AE2"
+		"[⛓] Logistics — Move, store, and network with AE2 and Hypertube"
 		"🔬 Alchemy — Transmute, process, and go nuclear with Mekanism"
-		"🏠 Housewife — Cook, decorate, and nurture with Farmer's Delight and Create"
-		"👁️ Scout — Explore, infiltrate, and sabotage with Cataclysm and Apotheosis"
+		"[✿] Steadkeeper — Cook, decorate, and nurture with Farmer's Delight and Create"
+		"[⚔] Expeditioner — Explore, hunt bosses, and conquer with Cataclysm and Apotheosis"
 		""
 		"You can pursue multiple paths. The resources here will get you started on any of them."
 	]
@@ -423,7 +437,7 @@
 	quest.2B5D1F8E8079D6B8.quest_desc: [
 		"Soldiers fight harder on a full stomach. Stock your armory with 32 high-tier meals — Steak and Potatoes gives Nourishment that prevents hunger drain mid-combat."
 		""
-		"Solo: you'd need to set up farming, cooking, and gather dozens of ingredients. With a Housewife teammate: they have surplus meals from their quest rewards. Ask nicely."
+		"Solo: you'd need to set up farming, cooking, and gather dozens of ingredients. With a Steadkeeper teammate: they have surplus meals from their quest rewards. Ask nicely."
 	]
 	quest.2B5D1F8E8079D6B8.quest_subtitle: "Fed soldiers fight harder"
 	quest.2B5D1F8E8079D6B8.title: "Battle Rations"
@@ -460,12 +474,10 @@
 	quest.2E537EADD2221E3D.quest_desc: ["Advanced circuits unlock the next tier of transmutation machines."]
 	quest.2E537EADD2221E3D.quest_subtitle: "Deeper transmutations"
 	quest.2E537EADD2221E3D.title: "Advanced Processing"
-	quest.300204A9D9CD4A1C.quest_desc: [
-		"The endgame power system. Converts"
-		"polonium into antimatter. Antimatter is used"
-		"for the most powerful items in Mekanism."
-	]
-	quest.300204A9D9CD4A1C.title: "Supercritical Phase Shifter"
+	quest.2F3983B74A7D9F1E.quest_desc: ["The endgame meal kit: golden apples and golden carrots for top-tier teammate buffs."]
+	quest.2F3983B74A7D9F1E.title: "Golden Provisions"
+	quest.300204A9D9CD4A1C.quest_desc: ["Construct the SPS multiblock. Polonium goes in. Plutonium comes out."]
+	quest.300204A9D9CD4A1C.title: "Polonium Pellet"
 	quest.308C16CD9B0047EC.quest_desc: ["Pushes targets away. Useful for knocking enemies off ledges or into traps."]
 	quest.308C16CD9B0047EC.title: "Glyph: Knockback"
 	quest.30950C6646596CFB.quest_desc: ["Form glyph — casts the spell on yourself. Self + Blink = teleport forward."]
@@ -491,12 +503,13 @@
 		"strongest survive."
 	]
 	quest.334CC524FE2022CE.title: "World Tier: Pinnacle"
-	quest.3365B31B181F72C4.title: "Rank: Nuclear Alchemist"
+	quest.3365B31B181F72C4.quest_desc: ["You bend matter to your will. Now you must learn to split it."]
+	quest.3365B31B181F72C4.title: "Nuclear Alchemist"
 	quest.33A47D79824E0B3A.quest_desc: [
 		"Steam engines provide the most SU."
 		"Feed a blaze burner with fuel for massive output."
 	]
-	quest.33BDE202DE6A1C9E.quest_desc: ["The Structure Compass points toward any structure in the world — dungeons, villages, enemy-built structures. A scout's most basic tool."]
+	quest.33BDE202DE6A1C9E.quest_desc: ["The Structure Compass points toward any structure in the world — dungeons, villages, enemy-built structures. An expeditioner's most basic tool."]
 	quest.33BDE202DE6A1C9E.quest_subtitle: "Find what's hidden"
 	quest.33BDE202DE6A1C9E.title: "Trailblazer"
 	quest.33FAE4FB82F735EE.quest_desc: ["Apotheosis gems socket into your gear, adding powerful stat bonuses. Combined with boss-drop weapons, you become the best-equipped fighter on the server."]
@@ -527,6 +540,7 @@
 	quest.3841E77706FC82FD.title: "Nuclear Arsenal"
 	quest.38BD14ADD58B320F.quest_desc: ["Apply 3 threads to your armor to unlock their full potential."]
 	quest.38BD14ADD58B320F.title: "Threaded Armor"
+	quest.393F4F98D2790508.quest_desc: ["Fusion. Antimatter. Quantum storage. You stand at the apex of alchemical science."]
 	quest.393F4F98D2790508.title: "Alchemical Supremacy"
 	quest.394123C7AF68358A.quest_desc: ["The Enrichment Chamber transmutes raw ore into purified forms, doubling your yield. The foundation of all alchemy."]
 	quest.394123C7AF68358A.quest_subtitle: "The first transmutation"
@@ -537,7 +551,7 @@
 	quest.3A27854AA0D3773D.quest_desc: [
 		"The ultimate food automation: AE2 requests ingredients, Create machines process them through Farmer's Delight recipes, finished meals return to storage."
 		""
-		"Solo: you'd need to learn both cooking and factory automation. With a Housewife + Engineering teammate: one provides the recipes, the other the machines. You wire it all together."
+		"Solo: you'd need to learn both cooking and factory automation. With a Steadkeeper + Engineering teammate: one provides the recipes, the other the machines. You wire it all together."
 	]
 	quest.3A27854AA0D3773D.quest_subtitle: "The kitchen never sleeps"
 	quest.3A27854AA0D3773D.title: "Automated Kitchen"
@@ -556,7 +570,8 @@
 	quest.3C0ED3DC31B502CE.title: "Glyph: Blink"
 	quest.3C99B7015244CFD8.quest_desc: ["A separate spell system focused on combat. Iron's Spells uses discovered scrolls and structured spell classes."]
 	quest.3C99B7015244CFD8.title: "Iron's Spellbook: Flimsy"
-	quest.3D217C2A33395328.title: "Rank: Transmuter"
+	quest.3D217C2A33395328.quest_desc: ["Industry takes shape. Energy flows through your hands."]
+	quest.3D217C2A33395328.title: "Transmuter"
 	quest.3D247E0B1F841AB0.title: "Module: Vein Mining"
 	quest.3DB61D3786431F47.quest_desc: ["The highest tier of Mystical Agriculture. You can now grow anything — diamonds, netherite, anything."]
 	quest.3DB61D3786431F47.quest_subtitle: "The highest tier"
@@ -574,14 +589,16 @@
 	quest.3EC834C0E84133F5.quest_desc: ["Cataclysm dungeons contain bosses that drop weapons no factory can produce. Find one using the dungeon locator eyes — here's a few to get started."]
 	quest.3EC834C0E84133F5.quest_subtitle: "Enter the depths"
 	quest.3EC834C0E84133F5.title: "Dungeon Diver"
+	quest.3F6501D416CFE745.quest_desc: ["The Steadkeeper's home gets the final touch — full tatami mats for the dining area."]
+	quest.3F6501D416CFE745.title: "Tatami Decor"
 	quest.3F94744DF5A0E2B2.quest_desc: ["Fast player transport through tubes. Connect your base to outposts or defensive positions."]
 	quest.3F94744DF5A0E2B2.quest_subtitle: "Fast travel"
 	quest.3F9CB33F2E0F6087.quest_desc: ["Familiars fight alongside you and provide passive bonuses."]
 	quest.3F9CB33F2E0F6087.quest_subtitle: "Summon a companion"
 	quest.3F9CB33F2E0F6087.title: "Familiar Bond"
-	quest.3FF9B807A689AE7C.quest_desc: ["The Steampunk armor set has built-in RADAR — you can detect nearby entities through walls. Essential for scouting enemy bases without being seen."]
+	quest.3FF9B807A689AE7C.quest_desc: ["The Steampunk armor set has built-in RADAR — you can detect nearby entities through walls. Essential for expeditioning into enemy bases without being seen."]
 	quest.3FF9B807A689AE7C.quest_subtitle: "See through walls"
-	quest.3FF9B807A689AE7C.title: "Steampunk Scout"
+	quest.3FF9B807A689AE7C.title: "Steampunk Expeditioner"
 	quest.402FF87B045D8E06.quest_desc: ["Find your first diamond. Here's a bunch more — you'll need them for enchanting and advanced recipes."]
 	quest.402FF87B045D8E06.quest_subtitle: "A miner's dream"
 	quest.41BC1643B03D6CB5.title: "Elite Control Circuit"
@@ -599,6 +616,8 @@
 	quest.449A48A2EE7F1983.quest_desc: ["Iron's Spells 'n Spellbooks adds combat-focused magic. Separate spell book, separate spell system — powerful for PvP."]
 	quest.449A48A2EE7F1983.quest_subtitle: "Combat-focused magic"
 	quest.449A48A2EE7F1983.title: "Iron's Spellcasting"
+	quest.449B851F919D32AD.quest_desc: ["Hidden trapdoors for cellars, attics, and secret passages."]
+	quest.449B851F919D32AD.title: "Trapdoors"
 	quest.44EEA6ACC998DEA5.quest_desc: [
 		"Moving stairs and walkways."
 		"The civilized way to travel vertically."
@@ -614,7 +633,7 @@
 	quest.45A858AE4F3026B7.quest_subtitle: "Danger and reward"
 	quest.45A858AE4F3026B7.title: "World Tier: Frontier"
 	quest.45F0E0FF27B8C1B9.quest_desc: [
-		"Scout three different enemy bases and return alive each time. You know their layouts, their defenses, their weaknesses."
+		"Explore three different enemy bases and return alive each time. You know their layouts, their defenses, their weaknesses."
 		""
 		"Your team doesn't fight blind. Every battle they win started with your intel."
 	]
@@ -637,7 +656,7 @@
 		"Here are supplies to get started."
 	]
 	quest.48307E92D95E8291.quest_subtitle: "Transmute. Transform. Transcend."
-	quest.48307E92D95E8291.title: "Welcome to Alchemy"
+	quest.48307E92D95E8291.title: "Initiate"
 	quest.48E4E0DCF4D1B289.quest_desc: ["Factories process multiple items simultaneously. Industrial-scale transmutation."]
 	quest.48E4E0DCF4D1B289.quest_subtitle: "Scale your operations"
 	quest.48E4E0DCF4D1B289.title: "Factory Upgrade"
@@ -648,6 +667,10 @@
 	quest.49685B9D9614E170.quest_desc: ["Gas processing is Mekanism's unique mechanic. Oxidize, compress, and inject gases for advanced materials — true elemental transformation."]
 	quest.49685B9D9614E170.quest_subtitle: "Gaseous transmutation"
 	quest.49685B9D9614E170.title: "Gas Processing"
+	quest.4A591BD3FD68D76F.quest_desc: ["Stockpile vanilla building basics for your Chipped/Macaw decorations."]
+	quest.4A591BD3FD68D76F.title: "Building Stockpile"
+	quest.4A8749AA43DEAE9C.quest_desc: ["Cap the feast with a Gleaming Salad — the rarest, most-buffed feast block."]
+	quest.4A8749AA43DEAE9C.title: "Gleaming Feast"
 	quest.4B4C1CFCCBB00D74.quest_desc: ["Welcome to Beds of Empires. Your bed is your life — if it's destroyed and you die, you're out. Start by gathering wood and prepare to defend your bed through the night."]
 	quest.4B4C1CFCCBB00D74.quest_subtitle: "Every journey starts here"
 	quest.4B7893AC3CB2935B.quest_desc: ["The Inscription Table lets you assign spells to your spellbook slots."]
@@ -675,7 +698,7 @@
 	quest.4E9CE7F2B4753322.quest_desc: ["You have mastered advanced magic, defeated bosses, and built arcane infrastructure. The final mysteries of the arcane await."]
 	quest.4E9CE7F2B4753322.title: "Rank: Transcendent"
 	quest.4EAB4F00D8D053EC.quest_desc: [
-		"The ultimate sabotage mission. You've scouted their base, you know the layout. Now destroy their most critical system — their AE2 controller, Mekanism reactor, or Create factory core."
+		"The ultimate sabotage mission. You've expeditioned their base, you know the layout. Now destroy their most critical system — their AE2 controller, Mekanism reactor, or Create factory core."
 		""
 		"Without their automation backbone, they're reduced to manual labor while your team moves in for the kill."
 	]
@@ -782,9 +805,11 @@
 	quest.58AF944A1E6AFFC6.quest_desc: ["A drawer isn't enough? A limited barrel can hold 32 stacks!"]
 	quest.58AF944A1E6AFFC6.title: "Limited Barrel"
 	quest.594BEB6B5C0AAAC2.title: "Combiner"
+	quest.5981575E318AF316.quest_desc: ["Macaw's Fences add dozens of styles to wall off rooms and gardens."]
+	quest.5981575E318AF316.title: "Fences & Gates"
 	quest.59CF60EC8CF428BF.quest_desc: ["Auto-craft cannon ammunition using your AE2 + Create pipeline."]
-	quest.59CF60EC8CF428BF.quest_subtitle: "War Profiteer"
-	quest.59CF60EC8CF428BF.title: "War Economy"
+	quest.59CF60EC8CF428BF.quest_subtitle: "War Logistician"
+	quest.59CF60EC8CF428BF.title: "War Logistics"
 	quest.5A00000000000001.quest_desc: [
 		"Welcome to Beds of Empires!"
 		"Your bed is your life — if it's destroyed"
@@ -868,10 +893,9 @@
 		"⚙️ Engineering — Build factories, trains, and airships with Create"
 		"⚗️ Magic — Master spells and rituals with Ars Nouveau"
 		"🛡️ Military — Fortify, arm, and conquer with SecurityCraft and Big Cannons"
-		"🌾 Economy — Farm, store, and automate with Mystical Agriculture and AE2"
 		"🔬 Alchemy — Transmute, process, and go nuclear with Mekanism"
-		"🏠 Housewife — Cook, decorate, and nurture with Farmer's Delight and Create"
-		"👁️ Scout — Explore, infiltrate, and sabotage with Cataclysm and Apotheosis"
+		"[✿] Steadkeeper — Cook, decorate, and nurture with Farmer's Delight and Create"
+		"[⚔] Expeditioner — Explore, hunt bosses, and conquer with Cataclysm and Apotheosis"
 	]
 	quest.5A00000000000011.quest_subtitle: "Try each path before committing"
 	quest.5A00000000000011.title: "Path Selection Ready"
@@ -896,18 +920,18 @@
 	quest.5A00000000000018.quest_desc: ["SecurityCraft protects your base with cameras, mines, and lasers."]
 	quest.5A00000000000018.quest_subtitle: "Reinforce and detect"
 	quest.5A00000000000018.title: "Taste of Military"
-	quest.5A00000000000019.quest_desc: ["Mystical Agriculture lets you GROW resources. AE2 stores them digitally."]
-	quest.5A00000000000019.quest_subtitle: "Grow and store"
-	quest.5A00000000000019.title: "Taste of Economy"
+	quest.5A00000000000019.quest_desc: ["AE2 stores items digitally. Hypertubes and trains move them across the map."]
+	quest.5A00000000000019.quest_subtitle: "Move and store"
+	quest.5A00000000000019.title: "Taste of Logistics"
 	quest.5A0000000000001A.quest_desc: ["Mekanism powers the path of Alchemy — ore transmutation and eventually nuclear energy."]
 	quest.5A0000000000001A.quest_subtitle: "Transmutation begins"
 	quest.5A0000000000001A.title: "Taste of Alchemy"
 	quest.5A0000000000001B.quest_desc: ["Farmer's Delight turns cooking into a full system with powerful food buffs."]
 	quest.5A0000000000001B.quest_subtitle: "The art of cooking"
-	quest.5A0000000000001B.title: "Taste of Housewife"
-	quest.5A0000000000001C.quest_desc: ["A scout finds what others miss. The Structure Compass locates any structure in the world."]
+	quest.5A0000000000001B.title: "Taste of Steadkeeper"
+	quest.5A0000000000001C.quest_desc: ["An expeditioner finds what others miss. The Structure Compass locates any structure in the world."]
 	quest.5A0000000000001C.quest_subtitle: "Find what's hidden"
-	quest.5A0000000000001C.title: "Taste of Scouting"
+	quest.5A0000000000001C.title: "Taste of Expedition"
 	quest.5A0000000000001E.quest_desc: ["Craft a boat and explore the waterways."]
 	quest.5A0000000000001E.quest_subtitle: "Explore the waterways"
 	quest.5A0000000000001E.title: "Build a Boat"
@@ -920,6 +944,48 @@
 	quest.5A00000000000021.quest_desc: ["A tidy and organized warrior uh? Here's some decorations for your doll house"]
 	quest.5A00000000000021.quest_subtitle: "Make it feel like home"
 	quest.5A00000000000021.title: "Decorate Your Base"
+	quest.5A0F000000000001.quest_desc: [
+		"Defense begins with iron — and lots of it."
+		""
+		"Stockpile four iron blocks to begin building your home's first guardian. This is not a cheap path."
+	]
+	quest.5A0F000000000001.title: "Iron Stockpile"
+	quest.5A0F000000000002.quest_desc: ["A pumpkin, carved with the right face, gives the Golem its eyes."]
+	quest.5A0F000000000002.title: "Carved Pumpkin"
+	quest.5A0F000000000003.quest_desc: [
+		"Stack four iron blocks in a T-shape and place a carved pumpkin on top."
+		""
+		"The Iron Golem will defend your base while you sleep — and unlike SecurityCraft turrets, no electricity required."
+		""
+		"(Honor system: Golem construction cannot be detected automatically. Click to confirm once placed.)"
+	]
+	quest.5A0F000000000003.title: "Iron Golem Constructed"
+	quest.5A0F000000000004.quest_desc: ["A simple dispenser. Loaded with arrows, it becomes a turret."]
+	quest.5A0F000000000004.title: "Dispenser"
+	quest.5A0F000000000005.quest_desc: [
+		"Four dispensers. Sixty-four arrows."
+		""
+		"Place dispensers facing approach routes, fill with arrows, and wire them to redstone activators."
+	]
+	quest.5A0F000000000005.title: "Arrow Volley"
+	quest.5A0F000000000006.quest_desc: [
+		"The tripwire is the trigger."
+		""
+		"String stretched across an approach activates dispensers when crossed — automated defense without redstone clocks."
+	]
+	quest.5A0F000000000006.title: "Tripwire Trigger"
+	quest.5A0F000000000007.quest_desc: [
+		"Eight dispensers. Four tripwires. Four iron blocks."
+		""
+		"A complete defensive perimeter — the survivor's answer to a raid. Not as deadly as Military's SecurityCraft turrets, but it costs nothing to maintain."
+	]
+	quest.5A0F000000000007.title: "Defense Perimeter"
+	quest.5A5A5A5A5A5A5001.quest_desc: ["The Storage Lectern catalogs every item the Magic path produces. Right-click with a book to register chests as inventories."]
+	quest.5A5A5A5A5A5A5001.title: "Storage Lectern"
+	quest.5A5A5A5A5A5A5002.quest_desc: ["Expand your magical library with a Scribe's Table to craft glyphs and a Source Jar to power your devices."]
+	quest.5A5A5A5A5A5A5002.title: "Catalog Expansion"
+	quest.5A5A5A5A5A5A5003.quest_desc: ["The Bookwyrm sorts and organizes your library — the Magic path's automated storage assistant."]
+	quest.5A5A5A5A5A5A5003.title: "Bookwyrm Familiar"
 	quest.5A5DC6C0C3C719F7.quest_desc: [
 		"Powered armor with built-in tools,"
 		"flight, and damage absorption. Iron Man."
@@ -936,14 +1002,118 @@
 	quest.5A859D0D3B140813.title: "The Philosopher's Stone"
 	quest.5B3621AA6465FF3F.quest_desc: ["Form glyph — applies spell effects on contact. Touch + Lightning + Split = chain lightning."]
 	quest.5B3621AA6465FF3F.title: "Glyph: Touch"
-	quest.5BAB243E77057B37.title: "Rank: Philosopher"
+	quest.5B5B5B5B5B5B5001.quest_desc: ["Amplify the laser's output. Multiple beams converging deliver lethal force to anything that breaches the perimeter."]
+	quest.5B5B5B5B5B5B5001.title: "Laser Amplifier"
+	quest.5B5B5B5B5B5B5002.quest_desc: ["The Tractor Beam captures and immobilizes — perfect for funneling intruders into the killzone."]
+	quest.5B5B5B5B5B5B5002.title: "Laser Tractor Beam"
+	quest.5B5B5B5B5B5B5003.quest_desc: [
+		"The hearth feeds the machine."
+		""
+		"Trade with a Steadkeeper for plant material, then crush it into Bio Fuel to power your Bio Generator."
+	]
+	quest.5B5B5B5B5B5B5003.title: "Crossroads: Hearth & Forge"
+	quest.5B5B5B5B5B5B5B01.quest_desc: ["Boss spell books drop from defeated mages. Trade with an Expeditioner who hunts them — or hunt yourself."]
+	quest.5B5B5B5B5B5B5B01.title: "Crossroads: Magic & Expedition"
+	quest.5B5B5B5B5B5C0001.quest_desc: ["Building Gadgets 2 turns block placement into a precision art. The Building Gadget places blocks in patterns from your inventory. Essential for the Steadkeeper's home construction."]
+	quest.5B5B5B5B5B5C0001.title: "Building Gadget"
+	quest.5B5B5B5B5B5C0002.quest_desc: ["Swap blocks of one type for another with a single click. Refurbish entire walls in seconds."]
+	quest.5B5B5B5B5B5C0002.title: "Exchanging Gadget"
+	quest.5B5B5B5B5B5C0003.quest_desc: ["Demolish unwanted structures by selecting an area. Drops go to your inventory — clean teardowns, no broken tools."]
+	quest.5B5B5B5B5B5C0003.title: "Destruction Gadget"
+	quest.5B5B5B5B5B5C0004.quest_desc: ["Copy a structure with the gadget, save it to a template via the manager, and paste your design anywhere. The Steadkeeper's blueprint suite."]
+	quest.5B5B5B5B5B5C0004.title: "Copy & Paste"
+	quest.5B5B5B5B5B5C0101.quest_desc: ["Every Steadkeeper feeds the team — and the team needs more than soup. Brew potions to support."]
+	quest.5B5B5B5B5B5C0101.title: "Brewing Stand"
+	quest.5B5B5B5B5B5C0102.quest_desc: ["Brew your first potion. The brewing stand transforms water bottles into tools of war."]
+	quest.5B5B5B5B5B5C0102.title: "First Potion"
+	quest.5B5B5B5B5B5C0103.quest_desc: ["Add gunpowder to throw potions at enemies — or buff a teammate at range."]
+	quest.5B5B5B5B5B5C0103.title: "Splash Potion"
+	quest.5B5B5B5B5B5C0104.quest_desc: ["Add dragon's breath to leave lingering clouds. Area denial in PvP."]
+	quest.5B5B5B5B5B5C0104.title: "Lingering Potion"
+	quest.5B5B5B5B5B5C0105.quest_desc: ["The Potion Combiner brewing stand variant lets you blend multiple potion effects into a single bottle. Combat support tier-up."]
+	quest.5B5B5B5B5B5C0105.title: "Potion Blending Stand"
+	quest.5B5B5B5B5B5C0106.quest_desc: ["A blended potion combines multiple effects into one drink. Strength + Speed + Regen in a single sip — the Steadkeeper's combat brew."]
+	quest.5B5B5B5B5B5C0106.title: "Blended Potion"
+	quest.5B5B5B5B5B5C0201.quest_desc: ["The Slice & Dice slicer combines Create rotation with Farmer's Delight chopping. Industrial cooking begins."]
+	quest.5B5B5B5B5B5C0201.title: "Slicer"
+	quest.5B5B5B5B5B5C0202.quest_desc: ["The Sprinkler waters crops automatically using Create's fluid system. Hands-free farming."]
+	quest.5B5B5B5B5B5C0202.title: "Sprinkler"
+	quest.5B5B5B5B5B5C0301.quest_desc: ["Find a Goblin Trader (they spawn in caves) and trade with them. Their wares are unique."]
+	quest.5B5B5B5B5B5C0301.title: "Goblin Trader Trade"
+	quest.5B5B5B5B5B5C0401.quest_desc: ["The Steadkeeper's home is defended not by machines, but by people. Recruit a Guard Villager and equip them with armor and weapons."]
+	quest.5B5B5B5B5B5C0401.title: "Guard Recruit"
+	quest.5B5B5B5B5B5C0402.quest_desc: ["Stack four iron blocks in a T-shape and place a carved pumpkin on top. The Iron Golem is the Steadkeeper's heaviest defender."]
+	quest.5B5B5B5B5B5C0402.title: "Iron Golem Materials"
+	quest.5B5B5B5B5B5C0403.quest_desc: ["Build an Iron Golem somewhere on your base. (Honor system — golem construction is not detected automatically.)"]
+	quest.5B5B5B5B5B5C0403.title: "Iron Golem Constructed"
+	quest.5B5B5B5B5B5C0501.quest_desc: ["The Steadkeeper's pantry. Drawers stack hundreds of items into single slots, perfect for organized food storage."]
+	quest.5B5B5B5B5B5C0501.title: "Storage Drawers"
+	quest.5B5B5B5B5B5C0502.quest_desc: ["Connect drawers into a unified network."]
+	quest.5B5B5B5B5B5C0502.title: "Drawer Controller"
+	quest.5B5B5B5B5B5C0601.quest_desc: ["The Expeditioner's grown crops feed the brewer's stand. Trade with them for MystAg essences and bypass mob hunting."]
+	quest.5B5B5B5B5B5C0601.title: "Crossroads: Hearth & Wilderness"
+	quest.5BAB243E77057B37.quest_desc: ["Matter and energy answer to your call. Now master what lies between."]
+	quest.5BAB243E77057B37.title: "Master Alchemist"
 	quest.5BE09AC36C409313.quest_desc: [
-		"Ignitium armor is forged from the deepest Cataclysm dungeon materials. The chestplate can combine with an Elytra — a flying scout in legendary armor."
+		"Ignitium armor is forged from the deepest Cataclysm dungeon materials. The chestplate can combine with an Elytra — a flying boss-hunter in legendary armor."
 		""
 		"Lava Walker boots, Flame Reflex leggings, Gaze of Heat helmet. You are a force of nature."
 	]
 	quest.5BE09AC36C409313.quest_subtitle: "Legendary dungeon armor"
 	quest.5BE09AC36C409313.title: "Ignitium Armor"
+	quest.5C0F000000000001.quest_desc: [
+		"The Soldier's storage solution: drawers, organized by ammo type."
+		""
+		"Each drawer holds thousands of arrows, gunpowder, or shells. Quick visual count, fast retrieval — military efficiency."
+	]
+	quest.5C0F000000000001.title: "Storage Drawers — Munitions Depot"
+	quest.5C0F000000000002.quest_desc: ["The Drawer Controller links your munitions depot into a single unified inventory."]
+	quest.5C0F000000000002.title: "Drawer Controller"
+	quest.5C0F000000000003.quest_desc: ["Compacting drawers auto-convert items between forms — gunpowder blocks become powder, ingots become blocks, ammo stays organized."]
+	quest.5C0F000000000003.title: "Compacting Drawers"
+	quest.5C0F000000000010.quest_desc: ["The Copper Bow — the basic ranged sidearm. Fires further than vanilla bows."]
+	quest.5C0F000000000010.title: "Copper Bow"
+	quest.5C0F000000000011.quest_desc: ["The Diamond Bow — high power, high precision. The Soldier's reliable ranged weapon."]
+	quest.5C0F000000000011.title: "Diamond Bow"
+	quest.5C0F000000000012.quest_desc: [
+		"The Blaze Bow — fires flaming projectiles."
+		""
+		"And the Amethyst Bow — crystalline force, piercing armor."
+	]
+	quest.5C0F000000000012.title: "Specialty Bows"
+	quest.5C0F000000000020.quest_desc: ["The Iron Shield — improved durability over vanilla."]
+	quest.5C0F000000000020.title: "Iron Shield"
+	quest.5C0F000000000021.quest_desc: ["The Diamond Shield — for the Soldier who expects to be hit and intends to keep standing."]
+	quest.5C0F000000000021.title: "Diamond Shield"
+	quest.5C0F000000000022.quest_desc: ["The Netherite Shield. The pinnacle of defensive equipment. Walks through lava, shrugs off fire."]
+	quest.5C0F000000000022.title: "Netherite Shield"
+	quest.5C0F000000000030.quest_desc: [
+		"The front line cannot fight on an empty stomach."
+		""
+		"Trade with a Steadkeeper for a hearty Farmer's Delight meal — extended saturation and combat buffs for the Soldier."
+	]
+	quest.5C0F000000000030.title: "Crossroads: Soldier's Rations"
+	quest.5C0F000000000040.quest_desc: [
+		"The strongest cannons need engineered components."
+		""
+		"Trade with an Engineer for Create's Precision Mechanism — the heart of the Big Cannon's targeting system."
+	]
+	quest.5C0F000000000040.title: "Crossroads: Cannon Components"
+	quest.5C0F000000000050.quest_desc: [
+		"Apotheosis gems socket into armor and weapons for massive combat bonuses."
+		""
+		"Boss-tier gems drop from Cataclysm and Apotheosis bosses — territory the Expeditioner already hunts. Trade with them."
+	]
+	quest.5C0F000000000050.title: "Crossroads: Soldier's Gem"
+	quest.5C5C5C5C5C5C5001.quest_desc: [
+		"The QIO Drive Array is the heart of the Alchemist's storage system."
+		""
+		"Quantum Item Orchestration: every item, instantly accessible from any connected dashboard."
+	]
+	quest.5C5C5C5C5C5C5001.title: "QIO Drive Array"
+	quest.5C5C5C5C5C5C5002.title: "QIO Dashboard"
+	quest.5C5C5C5C5C5C5003.title: "QIO Storage Drives"
+	quest.5C5C5C5C5C5C5004.title: "QIO Network: Import & Export"
 	quest.5C88311394663B4B.quest_desc: ["Effect glyph — applies the wither debuff to targets. Damage over time that bypasses armor."]
 	quest.5C88311394663B4B.title: "Glyph: Wither"
 	quest.5CBC04B7953AD3F3.quest_desc: ["Enter the Nether. Bring armor. Here are supplies you'd normally spend hours farming."]
@@ -960,6 +1130,34 @@
 		"Fast player transport. Connect your"
 		"base to outposts or defensive positions."
 	]
+	quest.5D5D5D5D5D5D5001.quest_desc: [
+		"Radiation is a tool, not a curse — but only for those who suit up."
+		""
+		"The full Hazmat Suit blocks radioactive contamination from spent fuel, antimatter byproducts, and breached reactors."
+	]
+	quest.5D5D5D5D5D5D5001.title: "Hazmat Mask"
+	quest.5D5D5D5D5D5D5002.title: "Hazmat Gown"
+	quest.5D5D5D5D5D5D5003.title: "Hazmat Pants"
+	quest.5D5D5D5D5D5D5004.title: "Hazmat Boots — Suit Complete"
+	quest.5D5D5D5D5D5D5D01.quest_desc: ["Rare materials grow from the ground if you have the right essence. The Expeditioner's farm is the team's resource pool."]
+	quest.5D5D5D5D5D5D5D01.title: "Inferium Essence"
+	quest.5D5D5D5D5D5D5D02.title: "Prudentium Essence"
+	quest.5D5D5D5D5D5D5D03.title: "Tertium Essence"
+	quest.5D5D5D5D5D5D5D04.title: "Imperium Essence"
+	quest.5D5D5D5D5D5D5D05.title: "Supremium Essence"
+	quest.5D5D5D5D5D5D5D06.title: "Awakened Supremium"
+	quest.5D5D5D5D5D5D5D07.quest_desc: ["Mystical Agradditions allows you to GROW nether stars. The Expeditioner's farming game."]
+	quest.5D5D5D5D5D5D5D07.title: "Nether Star Seeds"
+	quest.5D5D5D5D5D5D5E01.quest_desc: ["The Expeditioner's portable storage. Carry your loot home from the deepest dungeons."]
+	quest.5D5D5D5D5D5D5E01.title: "Explorer's Pack"
+	quest.5D5D5D5D5D5D5E02.title: "Iron Backpack"
+	quest.5D5D5D5D5D5D5E03.title: "Diamond Backpack"
+	quest.5D5D5D5D5D5D5F01.quest_desc: ["Unearth treasures the Empire has forgotten."]
+	quest.5D5D5D5D5D5D5F01.title: "Archaeologist"
+	quest.5D5D5D5D5D5D5F02.quest_desc: ["A pristine artifact recovered from the deep past. Better Archaeology rewards patient excavation."]
+	quest.5D5D5D5D5D5D5F02.title: "Ancient Artifact"
+	quest.5D5D5D5D5D5D8001.quest_desc: ["Magic enhances steel. Trade with a Magic player for a high-tier Iron's Spells spell book — combat spells turn boss fights into surgery."]
+	quest.5D5D5D5D5D5D8001.title: "Crossroads: Spell-Sword"
 	quest.5D79EB1EBB751CFF.quest_desc: [
 		"The night is dangerous. Prove you can handle it."
 		"Once you survive it, choose if you wish to build a home around your bed or defend your bed yourself."
@@ -969,8 +1167,58 @@
 	quest.5DADFAB91CD8E337.quest_desc: ["Upgrade your tools. Stone is faster than wood."]
 	quest.5DADFAB91CD8E337.quest_subtitle: "Stone beats wood"
 	quest.5DE12B70CBC0F554.quest_desc: ["Auto-farm Mystical Agriculture seeds for Iron, Gold, Diamond, and Netherite simultaneously."]
-	quest.5DE12B70CBC0F554.quest_subtitle: "Magnate"
+	quest.5DE12B70CBC0F554.quest_subtitle: "Architect"
 	quest.5DE12B70CBC0F554.title: "Infinite Resources"
+	quest.5E0F000000000001.quest_desc: [
+		"The Engineer's storage solution: chests with upgrade slots."
+		""
+		"Stack upgrades, hopper upgrades, magnet upgrades — every chest becomes a smart container."
+	]
+	quest.5E0F000000000001.title: "Sophisticated Chest"
+	quest.5E0F000000000002.quest_desc: ["The iron chest is sturdier and accepts more upgrades. The Engineer's preferred storage tier."]
+	quest.5E0F000000000002.title: "Iron Chest"
+	quest.5E0F000000000003.quest_desc: [
+		"The Sophisticated Storage Controller links multiple chests into a unified inventory."
+		""
+		"For the ULTIMATE storage network, see the Logistics path's AE2 ME system. The Engineer can connect Create machines to it via Create Applied Kinetics."
+	]
+	quest.5E0F000000000003.title: "Storage Controller"
+	quest.5E0F000000000010.quest_desc: [
+		"The Engineer's defense: machines that grind."
+		""
+		"A Mechanical Saw on a contraption frame becomes a moving blade — anything that walks into it gets cut."
+	]
+	quest.5E0F000000000010.title: "Mechanical Saw — Blade Defense"
+	quest.5E0F000000000011.quest_desc: [
+		"Two Crushing Wheels facing each other, spinning in opposite directions."
+		""
+		"Anything that falls between them — mob, block, player — is instantly processed. The Engineer's killzone."
+	]
+	quest.5E0F000000000011.title: "Crushing Wheel Corridor"
+	quest.5E0F000000000012.quest_desc: [
+		"The Encased Fan blows mobs along a corridor. Place fire underneath — the corridor becomes a furnace."
+		""
+		"A simple, cheap, brutal defense."
+	]
+	quest.5E0F000000000012.title: "Encased Fan — Fire Corridor"
+	quest.5E0F000000000013.quest_desc: [
+		"A Deployer with a sword, mounted on a contraption — the Engineer's automated guardian."
+		""
+		"Combine with rotational input and a clock to create patrol paths around the base."
+	]
+	quest.5E0F000000000013.title: "Deployer Sentinel"
+	quest.5E0F000000000020.quest_desc: [
+		"Create Enchantment Industry runs on experience."
+		""
+		"A Blaze Enchanter consumes XP to enchant items, but the XP must come from somewhere. Trade with an Expeditioner — they farm bosses for XP and have surplus to share."
+	]
+	quest.5E0F000000000020.title: "Crossroads: Industry & Expedition"
+	quest.5E5E5E5E5E5E5001.quest_desc: [
+		"Why mine when you can grow?"
+		""
+		"Trade with an Expeditioner for grown resource crops. Mystical Agriculture transmutes essence into raw material — a steady supply for advanced Mekanism processing."
+	]
+	quest.5E5E5E5E5E5E5001.title: "Crossroads: Forge & Field"
 	quest.5E91A9F491BF094E.title: "Advanced Factory"
 	quest.5F1533A0429BBA91.quest_desc: [
 		"Triples ore output. Requires oxygen"
@@ -981,6 +1229,11 @@
 		"Electron tubes are the 'circuit' of"
 		"Create. Needed for almost every advanced machine."
 	]
+	quest.5F5F5F5F5F5F5001.quest_desc: ["The Mekanism Jetpack — full vertical mobility powered by hydrogen from your electrolytic separator."]
+	quest.5F5F5F5F5F5F5001.title: "Jetpack"
+	quest.5F5F5F5F5F5F5002.title: "Free Runners"
+	quest.5F5F5F5F5F5F5003.quest_desc: ["Armored variants for the front line. The Alchemist who fights up close needs more than a lab coat."]
+	quest.5F5F5F5F5F5F5003.title: "Armored Mobility"
 	quest.5FD1B914ABAC8481.quest_desc: [
 		"Large cogwheels change speed/torque."
 		"Small-to-large halves speed, doubles torque."
@@ -1000,10 +1253,11 @@
 	quest.625F00C7046A46DE.quest_desc: ["Relays transport source between jars and machines. The Dominion Wand links them together."]
 	quest.625F00C7046A46DE.title: "Source Relay"
 	quest.633EF94993FDFA41.quest_desc: [
-		"Mekanism lasers concentrate energy"
-		"into a beam. Defense and offense."
+		"Every Alchemist must defend their workshop."
+		""
+		"The Mekanism Laser fires a precision energy beam — the foundation of an automated defense network."
 	]
-	quest.633EF94993FDFA41.title: "Mekanism Laser"
+	quest.633EF94993FDFA41.title: "Defense Beam"
 	quest.637B0C54C9651C1F.quest_desc: ["Complete 5 different rituals to prove your mastery of the arcane arts."]
 	quest.637B0C54C9651C1F.title: "Ritual Mastery"
 	quest.63D0B27A5E911617.quest_desc: ["Immobilizes targets in place. Projectile + Snare + AOE = crowd control."]
@@ -1065,9 +1319,9 @@
 	quest.68A0831F507A96FF.quest_subtitle: "Master the arcane arts"
 	quest.68A0831F507A96FF.title: "Welcome to Magic"
 	quest.69BB2444E382CC02.quest_desc: [
-		"Your scout has copied the enemy base layout with the Copy Paste Gadget. Now you know where their bed is, where the mines are, and where the walls are weakest."
+		"Your expeditioner has copied the enemy base layout with the Copy Paste Gadget. Now you know where their bed is, where the mines are, and where the walls are weakest."
 		""
-		"Solo: you'd need to craft Building Gadgets and risk scouting yourself. With a Scout teammate: they bring back the template. You plan the artillery strike."
+		"Solo: you'd need to craft Building Gadgets and risk exploring yourself. With an Expeditioner teammate: they bring back the template. You plan the artillery strike."
 	]
 	quest.69BB2444E382CC02.quest_subtitle: "Intel wins wars"
 	quest.69BB2444E382CC02.title: "Pre-Strike Briefing"
@@ -1075,6 +1329,23 @@
 	quest.69C0E6BFA704FF9C.quest_subtitle: "Logistics Master"
 	quest.69CCC481B6C9C907.quest_desc: ["Belts move items between machines. Funnels insert and extract. This is the backbone of every factory."]
 	quest.69CCC481B6C9C907.quest_subtitle: "Move items automatically"
+	quest.6A6A6A6A6A6A5002.title: "Plutonium Pellet"
+	quest.6A6A6A6A6A6A5003.quest_desc: [
+		"The Antiprotonic Nucleosynthesizer is the apex of Mekanism science."
+		""
+		"It consumes obscene amounts of energy to forge antimatter — the rarest substance in the universe."
+	]
+	quest.6A6A6A6A6A6A5003.title: "Antiprotonic Nucleosynthesizer"
+	quest.6A6A6A6A6A6A5004.quest_desc: ["The first pellet of antimatter ever held by your hands. Worth more than every empire on the map combined."]
+	quest.6A6A6A6A6A6A5004.title: "First Antimatter"
+	quest.6B6B6B6B6B6B5001.quest_desc: [
+		"Bridge the chemical pipeline to the ME Network."
+		""
+		"Trade with a Logistics architect for ME Chemical Storage Cells. Your gases and slurries become fully digital."
+	]
+	quest.6B6B6B6B6B6B5001.title: "Crossroads: Chemistry & Network"
+	quest.6B6B6B6B6B6B5002.title: "1k Chemical Storage Cell"
+	quest.6B6B6B6B6B6B5003.title: "Portable Chemical Cell"
 	quest.6C15243D914FF425.quest_desc: ["Effect glyph — sets targets on fire. Projectile + Ignite + AOE = fire bombardment."]
 	quest.6C15243D914FF425.title: "Glyph: Ignite"
 	quest.6C37303CCD775B1D.quest_desc: ["The Scribe's Table is where you learn glyphs and inscribe spell parchments."]
@@ -1086,7 +1357,7 @@
 	quest.6D9C6CB2540F80EA.quest_desc: [
 		"Apotheosis gems add raw stat bonuses to socketed gear — including magical weapons. A socketed Archmage staff with combat gems is devastating."
 		""
-		"Solo: you'd need to grind Apotheosis content, fight bosses, and level gem cutting. With a Scout teammate: they have Sigils of Socketing and gems from their dungeon runs. Trade magic for intel."
+		"Solo: you'd need to grind Apotheosis content, fight bosses, and level gem cutting. With an Expeditioner teammate: they have Sigils of Socketing and gems from their dungeon runs. Trade magic for intel."
 	]
 	quest.6D9C6CB2540F80EA.quest_subtitle: "Gems meet magic"
 	quest.6D9C6CB2540F80EA.title: "Gem-Socketed Staves"
@@ -1105,7 +1376,7 @@
 	quest.6E9E28B414BCF083.quest_desc: [
 		"Every automated base has a single point of failure: its power source. Find their generators, chunk loaders, or source jars and destroy them."
 		""
-		"Without power, their machines stop. Without chunk loading, their farms die. Without source, their turrets go silent. One scout can cripple an empire."
+		"Without power, their machines stop. Without chunk loading, their farms die. Without source, their turrets go silent. One expeditioner can cripple an empire."
 	]
 	quest.6E9E28B414BCF083.quest_subtitle: "Kill their infrastructure"
 	quest.6E9E28B414BCF083.title: "Sabotage: Power Cut"
@@ -1147,7 +1418,7 @@
 	]
 	quest.70FEF19DA1FD4700.title: "Chemical Injection Chamber"
 	quest.71FE6A5A12389C41.quest_desc: [
-		"Now that you've scouted their base, it's time for sabotage. Plant mines along paths they use — entrances, corridors near their bed, around their storage."
+		"Now that you've explored their base, it's time for sabotage. Plant mines along paths they use — entrances, corridors near their bed, around their storage."
 		""
 		"Requires knowledge from the Military path's Minefield quest. You need to know your explosives."
 	]
@@ -1175,9 +1446,11 @@
 	quest.739DAA3454F9C554.quest_desc: ["Ars Elemental adds elemental specialization. Each element enhances specific glyph types."]
 	quest.739DAA3454F9C554.title: "Elemental Focus"
 	quest.73BAA8AF2ACD5602.quest_desc: [
-		"Drones scout, mine, and haul"
+		"Drones explore, mine, and haul"
 		"autonomously. Equip modules and deploy."
 	]
+	quest.73D4FBE2535F6512.quest_desc: ["Stylish doors for the Steadkeeper's home — Create Deco's metal-framed entries."]
+	quest.73D4FBE2535F6512.title: "Decorative Doors"
 	quest.750903BB997EE8F5.quest_desc: [
 		"Converts gas to fluid and back. Essential for"
 		"many advanced recipes."
@@ -1200,6 +1473,8 @@
 	quest.779DE56CA7A17C11.title: "Ritual: Sanctuary"
 	quest.78011191A9F8AE5E.quest_desc: ["The Dominion Wand links machines, relays, and containers. Essential for automation."]
 	quest.78011191A9F8AE5E.title: "Dominion Wand"
+	quest.7816101FBEF2AA84.quest_desc: ["The Grandmaster's confectionery: ruby chocolate, black chocolate — high-tier sugar buffs for the team."]
+	quest.7816101FBEF2AA84.title: "Confectionery Mastery"
 	quest.7930B17AC42C074D.quest_desc: ["Crushing wheels break down ores into more materials than a furnace. Double your ore output."]
 	quest.7930B17AC42C074D.quest_subtitle: "Double your ores"
 	quest.7998AA438690842E.quest_desc: ["{image: width:100 height:100 align:center}"]
@@ -1212,13 +1487,10 @@
 		"at scale. More efficient than alternator chains."
 	]
 	quest.7AD62BEFA25BF6A3.quest_desc: ["Fully automated resource pipeline: Mystical Ag farm → Create processing → AE2 storage, all without manual input."]
-	quest.7AD62BEFA25BF6A3.quest_subtitle: "Tycoon"
+	quest.7AD62BEFA25BF6A3.quest_subtitle: "Curator"
 	quest.7AD62BEFA25BF6A3.title: "Self-Sustaining Empire"
-	quest.7B0965038BCE0203.quest_desc: [
-		"The pinnacle of nuclear alchemy."
-		"Fusing atoms = essentially unlimited energy."
-	]
-	quest.7B0965038BCE0203.title: "Thermonuclear Fusion"
+	quest.7B0965038BCE0203.quest_desc: ["Ignite the hohlraum. Achieve fusion. Match the heart of a star."]
+	quest.7B0965038BCE0203.title: "Achieved Fusion"
 	quest.7B2C24B72475FA3A.quest_desc: ["The strongest conventional armor. A direct sword hit barely scratches you. But cannons still hurt."]
 	quest.7B2C24B72475FA3A.quest_subtitle: "Nearly impervious"
 	quest.7B2C24B72475FA3A.title: "Refined Obsidian"
@@ -1230,12 +1502,18 @@
 	quest.7C1164F01C503F4C.title: "Iron Defenders"
 	quest.7C2198B9541727D9.quest_desc: ["Augment glyph — makes spells hit in an area instead of a single target. Projectile + Snare + AOE = crowd control."]
 	quest.7C2198B9541727D9.title: "Glyph: AOE"
-	quest.7C6A764DC6BEC38A.quest_desc: ["Mithril armor enhances spell power and provides strong physical protection."]
-	quest.7C6A764DC6BEC38A.title: "Mithril Armor"
+	quest.7C6A764DC6BEC38A.quest_desc: [
+		"The Wizard's robes — woven with mithril and infused with magical thread."
+		""
+		"Reduces spell mana cost and grants spell power bonuses to the wearer."
+	]
+	quest.7C6A764DC6BEC38A.title: "Wizard's Robes"
 	quest.7CD36012D4823E37.quest_desc: [
 		"Copies enchanted books, written books,"
 		"and train schedules. Mass-produce enchantments."
 	]
+	quest.7D3E5236B782FA53.quest_desc: ["Reinforced glass — the Steadkeeper's home windows withstand cannon fire. A fortified feast hall awaits."]
+	quest.7D3E5236B782FA53.title: "Fortified Windows"
 	quest.7DE1081F8383601D.title: "Fission Reactor Casing"
 	quest.7EEDBFDEA27616E2.quest_desc: [
 		"Programmable redstone sequences."
@@ -1449,10 +1727,10 @@
 	quest.AD00000000000043.quest_desc: ["Win — be the last with a surviving bed."]
 	quest.AD00000000000043.quest_subtitle: "Emperor"
 	quest.AD00000000000043.title: "Last Bed Standing"
-	quest.AD00000000000044.quest_desc: ["32 high-tier meals for your fighters. Grindy alone — trivial with a Housewife teammate."]
+	quest.AD00000000000044.quest_desc: ["32 high-tier meals for your fighters. Grindy alone — trivial with a Steadkeeper teammate."]
 	quest.AD00000000000044.quest_subtitle: "Fed soldiers fight harder"
 	quest.AD00000000000044.title: "Battle Rations"
-	quest.AD00000000000045.quest_desc: ["Your scout copied the enemy base. Now you know exactly where to aim."]
+	quest.AD00000000000045.quest_desc: ["Your expeditioner copied the enemy base. Now you know exactly where to aim."]
 	quest.AD00000000000045.quest_subtitle: "Intel wins wars"
 	quest.AD00000000000045.title: "Pre-Strike Briefing"
 	quest.AD00000000000046.quest_desc: ["The ultimate weapon — nuclear devastation."]
@@ -1462,12 +1740,12 @@
 	quest.AD00000000000047.quest_subtitle: "The fortress stands"
 	quest.AD00000000000047.title: "Military Supremacy"
 	quest.AE00000000000001.quest_desc: [
-		"Welcome to the Economy path. You'll grow resources from nothing, store thousands of items digitally, and build a self-sustaining empire."
+		"Welcome to the Logistics path. Master AE2 to store thousands of items digitally, then move them across the map with Hypertubes, trains, and the Quantum Network Bridge."
 		""
-		"Here's a starter kit: inferium essence, prosperity shards, storage drawers, and a backpack. Three branches await: Storage Drawers, Mystical Agriculture, and Backpack Logistics."
+		"Here's a starter kit: storage drawers, a backpack, certus quartz, and fluix crystals. Two branches await: Storage Drawers and Sophisticated Backpacks — the bridge to AE2."
 	]
-	quest.AE00000000000001.quest_subtitle: "Your economy begins here"
-	quest.AE00000000000001.title: "Welcome to Economy"
+	quest.AE00000000000001.quest_subtitle: "Your network begins here"
+	quest.AE00000000000001.title: "Welcome to Logistics"
 	quest.AE00000000000002.quest_desc: ["Storage Drawers hold massive amounts of a single item type. Place one and start organizing."]
 	quest.AE00000000000002.quest_subtitle: "Bulk item storage"
 	quest.AE00000000000002.title: "First Drawer"
@@ -1514,12 +1792,12 @@
 	quest.AE00000000000010.quest_subtitle: "Craft anywhere"
 	quest.AE00000000000010.title: "Crafting Upgrade"
 	quest.AE00000000000011.quest_desc: [
-		"All three Farmer branches complete. You've earned your rank."
+		"Both starter branches complete. You've earned your rank."
 		""
-		"Here's a starter kit for the next tier: certus quartz, fluix crystals, prudentium essence, and AE2 cores. Time to go digital."
+		"Here's a starter kit for the next tier: certus quartz, fluix crystals, and AE2 cores. Time to go digital."
 	]
-	quest.AE00000000000011.quest_subtitle: "Merchant"
-	quest.AE00000000000011.title: "Rank: Merchant"
+	quest.AE00000000000011.quest_subtitle: "Logistician"
+	quest.AE00000000000011.title: "Rank: Logistician"
 	quest.AE00000000000012.quest_desc: ["Certus Quartz is the foundation of AE2. Mine it underground or grow it from Certus Quartz Buds."]
 	quest.AE00000000000012.quest_subtitle: "AE2 foundation"
 	quest.AE00000000000012.title: "Certus Quartz"
@@ -1572,19 +1850,19 @@
 	quest.AE00000000000022.quest_subtitle: "Never go hungry"
 	quest.AE00000000000022.title: "Feeding Upgrade"
 	quest.AE00000000000023.quest_desc: [
-		"All three Merchant branches complete. You've proven your trading acumen."
+		"All Logistician branches complete. You've proven your network acumen."
 		""
-		"Here's autocrafting components, 16k cells, imperium essence, and patterns. Time to automate everything."
+		"Here's autocrafting components, 16k cells, and patterns. Time to automate everything."
 	]
-	quest.AE00000000000023.quest_subtitle: "Tycoon"
-	quest.AE00000000000023.title: "Rank: Tycoon"
+	quest.AE00000000000023.quest_subtitle: "Networker"
+	quest.AE00000000000023.title: "Rank: Networker"
 	quest.AE00000000000024.quest_desc: [
-		"Awakened armor, self-sustaining pipeline, P2P tunnels — your economy is unstoppable."
+		"Quantum Network Bridge, wireless crafting terminal, cross-base trains — your network is unstoppable."
 		""
-		"Resources flow endlessly. You never touch a crafting table again."
+		"Every item answers your call. Distance is meaningless."
 	]
-	quest.AE00000000000024.quest_subtitle: "Resources flow endlessly"
-	quest.AE00000000000024.title: "Economic Supremacy"
+	quest.AE00000000000024.quest_subtitle: "Every item answers your call"
+	quest.AE00000000000024.title: "Logistical Supremacy"
 	quest.AE00000000000025.quest_desc: ["Blank patterns are encoded with recipes. You'll need many."]
 	quest.AE00000000000025.quest_subtitle: "Recipe templates"
 	quest.AE00000000000025.title: "Blank Pattern"
@@ -1625,12 +1903,12 @@
 	quest.AE00000000000031.quest_subtitle: "Always online"
 	quest.AE00000000000031.title: "Chunk Loader"
 	quest.AE00000000000032.quest_desc: [
-		"All Tycoon branches complete. Wireless AE2, supremium armor, Create+AE2 bridge, and chunk loading."
+		"All Networker branches complete. Wireless AE2, Create+AE2 bridge, hypertubes, and chunk loading."
 		""
-		"Here's awakened supremium essence. Time to build the ultimate economy."
+		"Time to build the Quantum Bridge — the ultimate logistics achievement."
 	]
-	quest.AE00000000000032.quest_subtitle: "Magnate"
-	quest.AE00000000000032.title: "Rank: Magnate"
+	quest.AE00000000000032.quest_subtitle: "Curator"
+	quest.AE00000000000032.title: "Rank: Curator"
 	quest.AE00000000000033.quest_desc: ["The ultimate essence tier. Requires the Awakening Altar and rare catalysts."]
 	quest.AE00000000000033.quest_subtitle: "Ultimate essence"
 	quest.AE00000000000033.title: "Awakened Supremium"
@@ -1662,23 +1940,23 @@
 	quest.AE0000000000003B.quest_desc: [
 		"Auto-produce meals via Create+AE2. The kitchen never sleeps."
 		""
-		"Requires both Applied Kinetics (Economy) and The Feast (Housewife)."
+		"Requires both Applied Kinetics (Logistics) and The Feast (Steadkeeper)."
 	]
 	quest.AE0000000000003B.quest_subtitle: "The kitchen never sleeps"
 	quest.AE0000000000003B.title: "Automated Kitchen"
 	quest.AE0000000000003C.quest_desc: [
 		"Auto-craft cannon ammunition using your self-sustaining pipeline."
 		""
-		"Requires both Self-Sustaining Pipeline (Economy) and Cannon Loader (Military)."
+		"Requires both Self-Sustaining Pipeline (Logistics) and Cannon Loader (Military)."
 	]
-	quest.AE0000000000003C.quest_subtitle: "War profiteer"
-	quest.AE0000000000003C.title: "War Economy"
+	quest.AE0000000000003C.quest_subtitle: "War logistician"
+	quest.AE0000000000003C.title: "War Logistics"
 	quest.AE0000000000003D.quest_desc: ["Pattern Providers hold encoded patterns and send them to adjacent machines for crafting."]
 	quest.AE0000000000003D.quest_subtitle: "Teach the system"
 	quest.AE0000000000003D.title: "Pattern Provider"
 	quest.BA00000000000001.quest_desc: ["Every empire runs on a full stomach. Here's a stove, cooking pot, cutting board, skillet, knife, and canvas to get your kitchen started."]
 	quest.BA00000000000001.quest_subtitle: "Your kitchen awaits"
-	quest.BA00000000000001.title: "Welcome to Housewife"
+	quest.BA00000000000001.title: "Welcome to Steadkeeper"
 	quest.BA00000000000002.quest_desc: ["The stove is the heart of any kitchen. Place it and start cooking simple recipes."]
 	quest.BA00000000000002.quest_subtitle: "Heat source for cooking"
 	quest.BA00000000000002.title: "Stove"
@@ -1720,7 +1998,7 @@
 	quest.BA0000000000000E.title: "Steak and Potatoes"
 	quest.BA0000000000000F.quest_desc: ["Your cooking skills have earned you a promotion. Time to master feasts, wine, chocolate, and seafood."]
 	quest.BA0000000000000F.quest_subtitle: "Advanced cooking unlocked"
-	quest.BA0000000000000F.title: "Rank: Chef"
+	quest.BA0000000000000F.title: "Rank: Artisan"
 	quest.BA00000000000010.quest_desc: ["Roast Chicken is a placeable feast block. Multiple players can eat from it."]
 	quest.BA00000000000010.quest_subtitle: "Your first feast"
 	quest.BA00000000000010.title: "Roast Chicken"
@@ -1757,7 +2035,7 @@
 	quest.BA0000000000001B.quest_desc: ["Candy Cane gives Haste. Caramel gives Speed."]
 	quest.BA0000000000001B.quest_subtitle: "Sugar rush"
 	quest.BA0000000000001B.title: "Candy"
-	quest.BA0000000000001C.quest_desc: ["Regeneration effect. The scout's best friend before dungeon raids."]
+	quest.BA0000000000001C.quest_desc: ["Regeneration effect. The expeditioner's best friend before dungeon raids."]
 	quest.BA0000000000001C.quest_subtitle: "Warmth and healing"
 	quest.BA0000000000001C.title: "Hot Chocolate"
 	quest.BA0000000000001D.quest_desc: ["Regeneration II. The best healing item you can produce."]
@@ -1774,7 +2052,7 @@
 	quest.BA00000000000020.title: "Seafood Feast"
 	quest.BA00000000000021.quest_desc: ["You've mastered cooking. Now master the art of making a house a home. Chipped, Macaw's, Create Furnitures, and backpack logistics await."]
 	quest.BA00000000000021.quest_subtitle: "Decoration mastery unlocked"
-	quest.BA00000000000021.title: "Rank: Interior Designer"
+	quest.BA00000000000021.title: "Rank: Castellan"
 	quest.BA00000000000022.quest_desc: ["The Carpenter's Table turns vanilla wood blocks into dozens of decorative variants."]
 	quest.BA00000000000022.quest_subtitle: "Woodworking mastery"
 	quest.BA00000000000022.title: "Carpenter's Table"
@@ -1823,9 +2101,9 @@
 	quest.BA00000000000031.quest_desc: ["Place decorative sourcestone variants for a magical aesthetic."]
 	quest.BA00000000000031.quest_subtitle: "Arcane decoration"
 	quest.BA00000000000031.title: "Sourcestone Deco"
-	quest.BA00000000000032.quest_desc: ["You are the Matriarch. Automated cooking, team support, and gingerbread architecture await."]
+	quest.BA00000000000032.quest_desc: ["You are the Grandmaster. Automated cooking, team support, and gingerbread architecture await."]
 	quest.BA00000000000032.quest_subtitle: "Domestic mastery"
-	quest.BA00000000000032.title: "Rank: Matriarch"
+	quest.BA00000000000032.title: "Rank: Grandmaster"
 	quest.BA00000000000033.quest_desc: ["Use Create machines to auto-produce chocolates and candies. A steady supply of combat buffs for your entire team."]
 	quest.BA00000000000033.quest_subtitle: "Automated confectionery"
 	quest.BA00000000000033.title: "Candy Factory"
@@ -1867,28 +2145,83 @@
 	quest.BA0000000000003B.title: "Domestic Supremacy"
 	reward_table.2DC1ED3A3F83CFF4.title: "Night weapons"
 	reward_table.71E4FDB3087C31BE.title: "Night home"
+	task.012D7CEE5D3ED0A5.title: "Honey Glazed Ham (Centerpiece)"
+	task.0600B0A887CF8CC1.title: "Gleaming Salad Block"
 	task.072644E8E7F89D4E.title: "Mount a cannon on an airship"
 	task.09786D8454B12237.title: "Activate Pinnacle"
+	task.136D415665C44729.title: "First Scroll"
 	task.16B66684FAF3E54E.title: "Connect two locations 100+ blocks apart"
+	task.1C20315C6A6735EE.title: "Ruby Chocolate Candy"
 	task.1CCB56E897189D64.title: "Build a train with station + controls"
 	task.20C7E26C1FC3A8F0.title: "Activate Ascent"
+	task.266B96CE10C4157D.title: "Warp Mastery"
 	task.27ABC69DA068A16E.title: "Build a moving drill contraption"
 	task.27EFC3AA5C7AB293.title: "Activate Frontier"
 	task.336A49A9C2A61296.title: "Activate Haven via CTRL+T"
 	task.3E77C24D492CB49B.title: "Wear all 4 MekaSuit pieces"
 	task.41F66397887EA1B8.title: "Build a working sequenced assembly line"
+	task.423342A511B1549B.title: "Decorative Trapdoor"
+	task.503AA52E888F9A9A.title: "Evoker Spell Book"
+	task.50E38B19BF2CFF90.title: "Reinforced Glass"
+	task.59C8173ECCBD40BB.title: "Golden Apples"
 	task.5A01000000000009.title: "Build"
 	task.5A0100000000000A.title: "Defend"
+	task.5A5A5A5A5A5A7001.title: "Storage Lectern"
+	task.5A5A5A5A5A5A7002.title: "Scribe's Table"
+	task.5A5A5A5A5A5A7003.title: "Bookwyrm Charm"
+	task.5B9502784EEE5B20.title: "Decorative Fence"
+	task.5DEA2FE9B3884773.title: "Apprentice Spellbook"
 	task.5F94DB7E895ACF33.title: "Build"
 	task.615290A4F8DBEFC8.title: "Build and fly an airship"
 	task.64232A1990FD4F98.title: "Build a Create New Age nuclear reactor"
 	task.6700C2C08256536C.title: "All systems running"
 	task.676839348E7FF3FE.title: "Activate Summit"
+	task.68D04DAA74522372.title: "Thread of Magic Capacity"
+	task.6B5B5B5B5B5C1001.title: "Building Gadget"
+	task.6B5B5B5B5B5C1002.title: "Exchanging Gadget"
+	task.6B5B5B5B5B5C1003.title: "Destruction Gadget"
+	task.6B5B5B5B5B5C1004.title: "Copy/Paste Gadget"
+	task.6B5B5B5B5B5C1005.title: "Template Manager"
+	task.6B5B5B5B5B5C1101.title: "Brewing Stand"
+	task.6B5B5B5B5B5C1102.title: "First Potion"
+	task.6B5B5B5B5B5C1103.title: "Splash Potion"
+	task.6B5B5B5B5B5C1104.title: "Lingering Potion"
+	task.6B5B5B5B5B5C1105.title: "Potion Blending Stand"
+	task.6B5B5B5B5B5C1106.title: "Blended Potion"
+	task.6B5B5B5B5B5C1201.title: "Slicer"
+	task.6B5B5B5B5B5C1202.title: "Sprinkler"
+	task.6B5B5B5B5B5C1301.title: "Trade with a Goblin Trader (honor system)"
+	task.6B5B5B5B5B5C1401.title: "Guard Spawn Egg"
+	task.6B5B5B5B5B5C1402.title: "Iron Blocks"
+	task.6B5B5B5B5B5C1403.title: "Construct an Iron Golem (honor system)"
+	task.6B5B5B5B5B5C1501.title: "Oak Drawer (1x1)"
+	task.6B5B5B5B5B5C1502.title: "Drawer Controller"
+	task.6B5B5B5B5B5C1601.title: "Tertium Essence"
 	task.6D68826E3111E9B5.title: "Build and activate a Fission Reactor"
+	task.6D8C371D56810576.title: "Full Tatami Mats"
+	task.70759737F747FD02.title: "Brass Door"
+	task.740019A4648E78EE.title: "Stack Upgrade Tier 4"
 	task.75FDD7E2505CB3CE.title: "Build and activate a Fusion Reactor"
 	task.7A144DDCA00867EB.title: "Apotheosis"
 	task.7D3688F6390C3B74.title: "Defend"
 	task.7D598A27638852C6.title: "Set up an automated train schedule"
+	task.7D5ADE6029675FEE.title: "Stockpile Stone"
+	task.7D5D5D5D5D5D5D01.title: "Inferium Essence"
+	task.7D5D5D5D5D5D5D02.title: "Prudentium Essence"
+	task.7D5D5D5D5D5D5D03.title: "Tertium Essence"
+	task.7D5D5D5D5D5D5D04.title: "Imperium Essence"
+	task.7D5D5D5D5D5D5D05.title: "Supremium Essence"
+	task.7D5D5D5D5D5D5D06.title: "Awakened Supremium"
+	task.7D5D5D5D5D5D5D07.title: "Nether Star Seeds"
+	task.7D5D5D5D5D5D5E01.title: "Explorer's Pack"
+	task.7D5D5D5D5D5D5E02.title: "Iron Backpack"
+	task.7D5D5D5D5D5D5E03.title: "Diamond Backpack"
+	task.7D5D5D5D5D5D5F01.title: "Archaeologist"
+	task.7D5D5D5D5D5D5F02.title: "Ancient Artifact"
+	task.7D5D5D5D5D5D6001.title: "Combat Trim"
+	task.7D5D5D5D5D5D7001.title: "Easy Anvil"
+	task.7D5D5D5D5D5D7002.title: "Disenchanting Table"
+	task.7D5D5D5D5D5D8001.title: "Crossroads: Spell-Sword"
 	task.7E3916C7BACF3222.title: "Build and activate the SPS"
 	task.7F3A11A6E5D48E6F.title: "Deploy a drone with at least 2 modules"
 }

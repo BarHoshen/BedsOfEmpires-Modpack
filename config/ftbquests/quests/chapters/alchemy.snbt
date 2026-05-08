@@ -45,6 +45,11 @@
 					}
 					type: "item"
 				}
+				{
+					command: "/say [⚗] @p has begun the path of the Alchemist!"
+					id: "0A0A0A0A0A0A0001"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -413,7 +418,7 @@
 					type: "item"
 				}
 				{
-					command: "/say 🔬 @p has risen to the rank of Transmuter!"
+					command: "/say [⚗] @p has risen to the rank of Transmuter!"
 					id: "11FBF717D74E8ACB"
 					type: "command"
 				}
@@ -668,91 +673,103 @@
 			y: 11.0d
 		}
 		{
-			dependencies: [
-				"3D217C2A33395328"
-				"5A00000000000010"
-			]
-			dependency_requirement: "one_completed"
-			id: "451D06BCEFDBCC6B"
+			dependencies: ["3D217C2A33395328"]
+			id: "633EF94993FDFA41"
 			rewards: [{
-				count: 16
-				id: "3AAD3ECF00C01149"
+				count: 4
+				id: "3015CB79EA2C45F7"
 				item: {
 					count: 1
-					id: "minecraft:experience_bottle"
+					id: "mekanism:laser"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "336A49A9C2A61296"
-				type: "checkmark"
+				id: "249F58BF2951D346"
+				item: { count: 1, id: "mekanism:laser" }
+				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["451D06BCEFDBCC6B"]
-			id: "208C13246EBFCBEA"
-			rewards: [
-				{
-					count: 32
-					id: "49503C6A084EFB2B"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
+			dependencies: ["633EF94993FDFA41"]
+			id: "5B5B5B5B5B5B5001"
+			rewards: [{
+				count: 4
+				id: "2F9FAC6C703971AF"
+				item: {
+					count: 1
+					id: "mekanism:laser_amplifier"
 				}
-				{
-					id: "57F577C606712975"
-					item: {
-						count: 1
-						id: "apotheosis:salvaging_table"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "27EFC3AA5C7AB293"
-				type: "checkmark"
+				type: "item"
 			}]
-			x: 5.5d
+			tasks: [{
+				id: "5B5B5B5B5B5B6001"
+				item: { count: 1, id: "mekanism:laser_amplifier" }
+				type: "item"
+			}]
+			x: 7.0d
 			y: 11.0d
 		}
 		{
-			dependencies: ["208C13246EBFCBEA"]
-			id: "72CA09443AFDCFF3"
+			dependencies: ["5B5B5B5B5B5B5001"]
+			id: "5B5B5B5B5B5B5002"
+			rewards: [{
+				count: 2
+				id: "5B5B5B5B5B5B7001"
+				item: {
+					count: 1
+					id: "mekanism:laser_tractor_beam"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B5B5B5B5B5B6002"
+				item: { count: 1, id: "mekanism:laser_tractor_beam" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3D217C2A33395328"]
+			id: "5B5B5B5B5B5B5003"
+			optional: true
 			rewards: [
 				{
-					count: 64
-					id: "734FD156E53559FC"
+					id: "5B5B5B5B5B5B7002"
 					item: {
 						count: 1
-						id: "minecraft:experience_bottle"
+						id: "mekanismgenerators:bio_generator"
 					}
 					type: "item"
 				}
 				{
-					id: "00AD51B2728D698F"
+					count: 16
+					id: "5B5B5B5B5B5B7003"
 					item: {
 						count: 1
-						id: "apotheosis:reforging_table"
+						id: "mekanism:bio_fuel"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "20C7E26C1FC3A8F0"
-				type: "checkmark"
+				count: 32L
+				id: "5B5B5B5B5B5B6003"
+				item: { count: 1, id: "mekanism:bio_fuel" }
+				type: "item"
 			}]
-			x: 5.5d
-			y: 12.0d
+			x: -7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
 				"750903BB997EE8F5"
 				"3AF0E817D4F6E719"
 				"4DA044C0BD2B4180"
+				"5B5B5B5B5B5B5001"
 			]
 			id: "3365B31B181F72C4"
 			rewards: [
@@ -784,7 +801,7 @@
 					type: "item"
 				}
 				{
-					command: "/say 🔬 @p has risen to the rank of Nuclear Alchemist!"
+					command: "/say [☢] @p has risen to the rank of Nuclear Alchemist!"
 					id: "1EA4477173512045"
 					type: "command"
 				}
@@ -893,28 +910,19 @@
 		{
 			dependencies: ["7DE1081F8383601D"]
 			id: "6FF4EE2E3FAA74B9"
-			rewards: [
-				{
-					id: "288B95890A2449E0"
-					item: {
-						count: 1
-						id: "mekanismgenerators:fission_reactor_logic_adapter"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "27A87E7FE8AD760E"
+				item: {
+					count: 1
+					id: "mekanismgenerators:fission_fuel_assembly"
 				}
-				{
-					count: 8
-					id: "27A87E7FE8AD760E"
-					item: {
-						count: 1
-						id: "mekanismgenerators:fission_fuel_assembly"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D68826E3111E9B5"
-				type: "checkmark"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 23.0d
@@ -1032,14 +1040,15 @@
 					type: "item"
 				}
 				{
-					command: "/say ⚡ @p has achieved nuclear fusion!"
+					command: "/say [☀] @p has achieved nuclear fusion!"
 					id: "02399C0749C2C8A3"
 					type: "command"
 				}
 			]
 			tasks: [{
 				id: "75FDD7E2505CB3CE"
-				type: "checkmark"
+				item: { count: 1, id: "mekanismgenerators:hohlraum" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 27.0d
@@ -1104,125 +1113,253 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["3365B31B181F72C4"]
-			id: "633EF94993FDFA41"
+			dependencies: ["00C6E87F2713BD80"]
+			id: "5C5C5C5C5C5C5001"
+			rewards: [{
+				count: 2
+				id: "5C5C5C5C5C5C7001"
+				item: {
+					count: 1
+					id: "mekanism:qio_drive_array"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C5C5C5C5C5C6001"
+				item: { count: 1, id: "mekanism:qio_drive_array" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["5C5C5C5C5C5C5001"]
+			id: "5C5C5C5C5C5C5002"
+			rewards: [{
+				count: 2
+				id: "5C5C5C5C5C5C7002"
+				item: {
+					count: 1
+					id: "mekanism:qio_dashboard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C5C5C5C5C5C6002"
+				item: { count: 1, id: "mekanism:qio_dashboard" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["5C5C5C5C5C5C5002"]
+			id: "5C5C5C5C5C5C5003"
 			rewards: [
 				{
 					count: 4
-					id: "3015CB79EA2C45F7"
+					id: "5C5C5C5C5C5C7003"
 					item: {
 						count: 1
-						id: "mekanism:laser"
+						id: "mekanism:qio_drive_base"
 					}
 					type: "item"
 				}
 				{
-					count: 4
-					id: "2F9FAC6C703971AF"
+					id: "5C5C5C5C5C5C7004"
 					item: {
 						count: 1
-						id: "mekanism:laser_amplifier"
+						id: "mekanism:qio_drive_hyper_dense"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "249F58BF2951D346"
-				item: { count: 1, id: "mekanism:laser" }
+				id: "5C5C5C5C5C5C6003"
+				item: { count: 1, id: "mekanism:qio_drive_base" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["5C5C5C5C5C5C5003"]
+			id: "5C5C5C5C5C5C5004"
+			rewards: [
+				{
+					count: 4
+					id: "5C5C5C5C5C5C7005"
+					item: {
+						count: 1
+						id: "mekanism:qio_importer"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C5C5C5C5C5C7006"
+					item: {
+						count: 1
+						id: "mekanism:qio_exporter"
+					}
+					type: "item"
+				}
+				{
+					id: "5C5C5C5C5C5C7007"
+					item: {
+						count: 1
+						id: "mekanism:portable_qio_dashboard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C5C5C5C5C5C6004"
+					item: { count: 1, id: "mekanism:qio_importer" }
+					type: "item"
+				}
+				{
+					id: "5C5C5C5C5C5C6005"
+					item: { count: 1, id: "mekanism:qio_exporter" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3365B31B181F72C4"]
+			id: "5D5D5D5D5D5D5001"
+			rewards: [{
+				id: "5D5D5D5D5D5D7001"
+				item: {
+					count: 1
+					id: "mekanism:hazmat_mask"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D5D5D5D5D5D6001"
+				item: { count: 1, id: "mekanism:hazmat_mask" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: 20.0d
 		}
 		{
-			dependencies: ["633EF94993FDFA41"]
-			id: "66262971139BFB37"
-			rewards: [
-				{
-					count: 16
-					id: "75178ACF5F274CFE"
-					item: {
-						components: {
-							"ftbquests:missing_item": "mekanismgenerators:boiler_casing"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+			dependencies: ["5D5D5D5D5D5D5001"]
+			id: "5D5D5D5D5D5D5002"
+			rewards: [{
+				id: "5D5D5D5D5D5D7002"
+				item: {
+					count: 1
+					id: "mekanism:hazmat_gown"
 				}
-				{
-					count: 4
-					id: "01C9544195D7DA32"
-					item: {
-						components: {
-							"ftbquests:missing_item": "mekanismgenerators:boiler_valve"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "0459C470F1C4634D"
-					item: {
-						components: {
-							"ftbquests:missing_item": "mekanismgenerators:superheating_element"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
-				count: 16L
-				id: "02E8F5CC1B19230F"
-				item: { components: { "ftbquests:missing_item": "16x mekanismgenerators:boiler_casing" }, count: 1, id: "ftbquests:missing_item" }
+				id: "5D5D5D5D5D5D6002"
+				item: { count: 1, id: "mekanism:hazmat_gown" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: 21.0d
 		}
 		{
-			dependencies: ["72CA09443AFDCFF3"]
-			id: "70CC5B0694DB44BB"
+			dependencies: ["5D5D5D5D5D5D5002"]
+			id: "5D5D5D5D5D5D5003"
 			rewards: [{
-				count: 4
-				id: "46A5A0132456C919"
+				id: "5D5D5D5D5D5D7003"
 				item: {
 					count: 1
-					id: "apotheosis:sigil_of_rebirth"
+					id: "mekanism:hazmat_pants"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "676839348E7FF3FE"
-				type: "checkmark"
+				id: "5D5D5D5D5D5D6003"
+				item: { count: 1, id: "mekanism:hazmat_pants" }
+				type: "item"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: 22.0d
 		}
 		{
-			dependencies: ["70CC5B0694DB44BB"]
-			id: "334CC524FE2022CE"
-			rewards: [{
-				description: ""
-				id: "5705A1DE93536B74"
-				type: "toast"
-			}]
+			dependencies: ["5D5D5D5D5D5D5003"]
+			id: "5D5D5D5D5D5D5004"
+			rewards: [
+				{
+					id: "5D5D5D5D5D5D7004"
+					item: {
+						count: 1
+						id: "mekanism:hazmat_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "5D5D5D5D5D5D7005"
+					item: {
+						count: 1
+						id: "mekanism:geiger_counter"
+					}
+					type: "item"
+				}
+				{
+					id: "5D5D5D5D5D5D7006"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "09786D8454B12237"
-				type: "checkmark"
+				id: "5D5D5D5D5D5D6004"
+				item: { count: 1, id: "mekanism:hazmat_boots" }
+				type: "item"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: 23.0d
+		}
+		{
+			dependencies: ["3365B31B181F72C4"]
+			id: "5E5E5E5E5E5E5001"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "5E5E5E5E5E5E7001"
+					item: {
+						count: 1
+						id: "mekanism:ingot_uranium"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5E5E5E5E5E5E7002"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "5E5E5E5E5E5E6001"
+				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 20.0d
 		}
 		{
 			dependencies: [
 				"7B0965038BCE0203"
-				"18F760BFA7B047DB"
-				"66262971139BFB37"
+				"5C5C5C5C5C5C5004"
+				"5D5D5D5D5D5D5004"
 			]
 			id: "5BAB243E77057B37"
 			rewards: [
@@ -1230,7 +1367,7 @@
 					id: "48B3978E03536A51"
 					item: {
 						count: 1
-						id: "mekanism:mekasuit_helmet"
+						id: "mekanism:atomic_disassembler"
 					}
 					type: "item"
 				}
@@ -1238,12 +1375,12 @@
 					id: "1B5B300155D9FA22"
 					item: {
 						count: 1
-						id: "mekanism:meka_tool"
+						id: "mekanism:hdpe_elytra"
 					}
 					type: "item"
 				}
 				{
-					command: "/say 🔬 @p has risen to the rank of Philosopher!"
+					command: "/say [⚛] @p has risen to the rank of Master Alchemist!"
 					id: "253BE93B3B27A7CC"
 					type: "command"
 				}
@@ -1256,122 +1393,6 @@
 			}]
 			x: 0.0d
 			y: 29.0d
-		}
-		{
-			dependencies: ["5BAB243E77057B37"]
-			id: "14CAED92F96C6DFE"
-			tasks: [{
-				id: "14BB031A6BED2A16"
-				item: { count: 1, id: "mekanism:mekasuit_helmet" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["14CAED92F96C6DFE"]
-			id: "53EC99C21C70135F"
-			rewards: [{
-				id: "05DA38DF9245E16E"
-				item: {
-					count: 1
-					id: "minecraft:elytra"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "32DB5FCF074BF90C"
-				item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["53EC99C21C70135F"]
-			id: "09443F6E80D69565"
-			tasks: [{
-				id: "5A7D875EC4A84F2D"
-				item: { count: 1, id: "mekanism:mekasuit_pants" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["09443F6E80D69565"]
-			id: "2E34C5DBD0CD8172"
-			tasks: [{
-				id: "3DBF91AF79B30457"
-				item: { count: 1, id: "mekanism:mekasuit_boots" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 33.0d
-		}
-		{
-			dependencies: ["2E34C5DBD0CD8172"]
-			id: "5A5DC6C0C3C719F7"
-			rewards: [{
-				command: "/say 🔬 @p has donned the full MekaSuit. Good luck stopping them."
-				id: "744F63B47C6537DD"
-				type: "command"
-			}]
-			tasks: [{
-				id: "3E77C24D492CB49B"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 34.0d
-		}
-		{
-			dependencies: ["5BAB243E77057B37"]
-			id: "5642C415489EFCDA"
-			tasks: [{
-				id: "0B2EE7D38E67961E"
-				item: { count: 1, id: "mekanism:meka_tool" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["5642C415489EFCDA"]
-			id: "3D247E0B1F841AB0"
-			rewards: [{
-				id: "4FF58A1BC23971D8"
-				item: {
-					count: 1
-					id: "mekanism:module_attack_amplification_unit"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "62DCDE0FB29498F3"
-				item: { count: 1, id: "mekanism:module_vein_mining_unit" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["3D247E0B1F841AB0"]
-			id: "0B465F1D269A6D54"
-			rewards: [{
-				id: "637EC110CD4F7EE7"
-				item: {
-					count: 1
-					id: "mekanism:module_gravitational_modulating_unit"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "241C4B65A10D8959"
-				item: { count: 1, id: "mekanism:module_teleportation_unit" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 32.0d
 		}
 		{
 			dependencies: ["5BAB243E77057B37"]
@@ -1402,51 +1423,257 @@
 				item: { count: 1, id: "mekanism:sps_casing" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.0d
 			y: 30.0d
 		}
 		{
 			dependencies: ["0C20DDD7B0CDD205"]
 			id: "300204A9D9CD4A1C"
+			rewards: [{
+				count: 8
+				id: "6A6A6A6A6A6A7001"
+				item: {
+					count: 1
+					id: "mekanism:pellet_polonium"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "7E3916C7BACF3222"
-				type: "checkmark"
+				id: "6A6A6A6A6A6A6001"
+				item: { count: 1, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["300204A9D9CD4A1C"]
+			id: "6A6A6A6A6A6A5002"
+			rewards: [{
+				count: 8
+				id: "6A6A6A6A6A6A7002"
+				item: {
+					count: 1
+					id: "mekanism:pellet_plutonium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A6A6A6A6A6A6002"
+				item: { count: 1, id: "mekanism:pellet_plutonium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["6A6A6A6A6A6A5002"]
+			id: "6A6A6A6A6A6A5003"
+			rewards: [{
+				id: "6A6A6A6A6A6A7003"
+				item: {
+					count: 1
+					id: "mekanism:antiprotonic_nucleosynthesizer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A6A6A6A6A6A6003"
+				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["6A6A6A6A6A6A5003"]
+			id: "6A6A6A6A6A6A5004"
+			rewards: [
+				{
+					count: 8
+					id: "6A6A6A6A6A6A7004"
+					item: {
+						count: 1
+						id: "mekanism:pellet_antimatter"
+					}
+					type: "item"
+				}
+				{
+					command: "/say [✦] @p has forged ANTIMATTER. The fundamental laws bend to their will."
+					id: "6A6A6A6A6A6A7005"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6A6A6A6A6A6A6004"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["5BAB243E77057B37"]
+			id: "5F5F5F5F5F5F5001"
+			rewards: [{
+				id: "5F5F5F5F5F5F7001"
+				item: {
+					count: 1
+					id: "mekanism:jetpack"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F5F5F5F5F5F6001"
+				item: { count: 1, id: "mekanism:jetpack" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["5F5F5F5F5F5F5001"]
+			id: "5F5F5F5F5F5F5002"
+			rewards: [{
+				id: "5F5F5F5F5F5F7002"
+				item: {
+					count: 1
+					id: "mekanism:free_runners"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F5F5F5F5F5F6002"
+				item: { count: 1, id: "mekanism:free_runners" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["5F5F5F5F5F5F5002"]
+			id: "5F5F5F5F5F5F5003"
+			rewards: [
+				{
+					id: "5F5F5F5F5F5F7003"
+					item: {
+						count: 1
+						id: "mekanism:jetpack_armored"
+					}
+					type: "item"
+				}
+				{
+					id: "5F5F5F5F5F5F7004"
+					item: {
+						count: 1
+						id: "mekanism:free_runners_armored"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F5F5F5F5F5F6003"
+					item: { count: 1, id: "mekanism:jetpack_armored" }
+					type: "item"
+				}
+				{
+					id: "5F5F5F5F5F5F6004"
+					item: { count: 1, id: "mekanism:free_runners_armored" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["5BAB243E77057B37"]
+			id: "6B6B6B6B6B6B5001"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "6B6B6B6B6B6B7001"
+				item: {
+					count: 1
+					id: "appmek:chemical_cell_housing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B6B6B6B6B6B6001"
+				item: { count: 1, id: "appmek:chemical_cell_housing" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["6B6B6B6B6B6B5001"]
+			id: "6B6B6B6B6B6B5002"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "6B6B6B6B6B6B7002"
+				item: {
+					count: 1
+					id: "appmek:chemical_storage_cell_1k"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B6B6B6B6B6B6002"
+				item: { count: 1, id: "appmek:chemical_storage_cell_1k" }
+				type: "item"
 			}]
 			x: 3.0d
 			y: 31.0d
 		}
 		{
-			dependencies: ["5A5DC6C0C3C719F7"]
-			dependency_requirement: "one_completed"
-			id: "737D35C31391BB26"
+			dependencies: ["6B6B6B6B6B6B5002"]
+			id: "6B6B6B6B6B6B5003"
 			optional: true
 			rewards: [{
-				command: "/say 🌟 @p has achieved The Philosopher's Stone! All paths of alchemy converge."
-				id: "2625F56EC390BDDD"
-				type: "command"
+				id: "6B6B6B6B6B6B7003"
+				item: {
+					count: 1
+					id: "appmek:portable_chemical_cell_1k"
+				}
+				type: "item"
 			}]
 			tasks: [{
-				id: "6700C2C08256536C"
-				type: "checkmark"
+				id: "6B6B6B6B6B6B6003"
+				item: { count: 1, id: "appmek:portable_chemical_cell_1k" }
+				type: "item"
 			}]
-			x: 0.0d
-			y: 36.0d
+			x: 3.0d
+			y: 32.0d
 		}
 		{
 			dependencies: [
-				"5A5DC6C0C3C719F7"
-				"300204A9D9CD4A1C"
-				"0B465F1D269A6D54"
+				"6A6A6A6A6A6A5004"
+				"5F5F5F5F5F5F5003"
 			]
 			id: "393F4F98D2790508"
 			rewards: [
 				{
-					description: ""
+					count: 4
 					id: "609DAA557E43EF54"
-					type: "toast"
+					item: {
+						count: 1
+						id: "mekanism:pellet_antimatter"
+					}
+					type: "item"
 				}
 				{
-					command: "/say 🔬 @p has achieved Alchemical Supremacy! Matter bends to their will."
+					id: "609DAA557E43EF55"
+					item: {
+						count: 1
+						id: "mekanism:atomic_disassembler"
+					}
+					type: "item"
+				}
+				{
+					command: "/say [⚗⚛✦] @p has achieved ALCHEMICAL SUPREMACY. Matter bends to their will."
 					id: "22583437BD76779F"
 					type: "command"
 				}
@@ -1458,7 +1685,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 38.0d
+			y: 37.0d
 		}
 	]
 }

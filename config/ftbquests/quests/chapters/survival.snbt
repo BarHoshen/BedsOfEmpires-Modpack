@@ -855,7 +855,7 @@
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 12.5d
 		}
 		{
@@ -887,7 +887,7 @@
 				id: "5A01000000000014"
 				type: "dimension"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 13.0d
 		}
 		{
@@ -928,7 +928,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 6.5d
+			x: 4.5d
 			y: 13.5d
 		}
 		{
@@ -987,8 +987,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 14.5d
+			x: 6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5A00000000000011"]
@@ -1763,6 +1763,218 @@
 			}]
 			x: -5.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["5A0000000000000E"]
+			id: "5A0F000000000001"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "5A0F100000000001"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5A0F200000000001"
+				item: { count: 1, id: "minecraft:iron_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5A0F000000000001"]
+			id: "5A0F000000000002"
+			optional: true
+			rewards: [{
+				id: "5A0F100000000002"
+				item: {
+					count: 1
+					id: "minecraft:carved_pumpkin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A0F200000000002"
+				item: { count: 1, id: "minecraft:carved_pumpkin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5A0F000000000002"]
+			id: "5A0F000000000003"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5A0F100000000003"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					command: "/say [⛨] @p has erected an Iron Golem to guard their home."
+					id: "5A0F100000000004"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5A0F200000000003"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5A0F000000000003"]
+			id: "5A0F000000000004"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5A0F100000000005"
+					item: {
+						count: 1
+						id: "minecraft:dispenser"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A0F100000000006"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A0F200000000004"
+				item: { count: 1, id: "minecraft:dispenser" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5A0F000000000004"]
+			id: "5A0F000000000005"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "5A0F100000000007"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "5A0F200000000005"
+					item: { count: 1, id: "minecraft:dispenser" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "5A0F200000000006"
+					item: { count: 1, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A0F000000000005"]
+			id: "5A0F000000000006"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "5A0F100000000008"
+				item: {
+					count: 1
+					id: "minecraft:tripwire_hook"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "5A0F200000000007"
+					item: { count: 1, id: "minecraft:tripwire_hook" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5A0F200000000008"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5A0F000000000006"]
+			id: "5A0F000000000007"
+			optional: true
+			rewards: [
+				{
+					id: "5A0F100000000009"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A0F10000000000A"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					command: "/say [⛨] @p has fortified their base. Approach with caution."
+					id: "5A0F10000000000B"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5A0F200000000009"
+					item: { count: 1, id: "minecraft:dispenser" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5A0F20000000000A"
+					item: { count: 1, id: "minecraft:tripwire_hook" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5A0F20000000000B"
+					item: { count: 1, id: "minecraft:iron_block" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 17.0d
 		}
 	]
 }

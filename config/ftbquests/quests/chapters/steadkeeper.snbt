@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "housewife"
+	filename: "steadkeeper"
 	group: ""
 	id: "0E3E56D58F1EEA44"
 	order_index: 6
@@ -61,6 +61,11 @@
 						id: "farmersdelight:canvas"
 					}
 					type: "item"
+				}
+				{
+					command: "/say [✿] @p has begun the path of the Steadkeeper!"
+					id: "5B5B5B5B5B5C9001"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -466,7 +471,7 @@
 					type: "item"
 				}
 				{
-					command: "/say 🏠 @p has risen to the rank of Chef!"
+					command: "/say [✿] @p has risen to the rank of Artisan!"
 					id: "48CCD038A369FD3E"
 					type: "command"
 				}
@@ -570,7 +575,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "4053DF8774E82340"
-				type: "checkmark"
+				item: { count: 1, id: "farmersdelight:apple_pie" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 12.0d
@@ -1024,6 +1030,391 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["5109E80E435C6134"]
+			id: "5B5B5B5B5B5C0001"
+			rewards: [{
+				id: "6B5B5B5B5B5C0001"
+				item: {
+					count: 1
+					id: "buildinggadgets2:gadget_building"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1001"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0001"]
+			id: "5B5B5B5B5B5C0002"
+			rewards: [{
+				id: "6B5B5B5B5B5C0002"
+				item: {
+					count: 1
+					id: "buildinggadgets2:gadget_exchanging"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1002"
+				item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0002"]
+			id: "5B5B5B5B5B5C0003"
+			rewards: [{
+				id: "6B5B5B5B5B5C0003"
+				item: {
+					count: 1
+					id: "buildinggadgets2:gadget_destruction"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1003"
+				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0003"]
+			id: "5B5B5B5B5B5C0004"
+			rewards: [
+				{
+					id: "6B5B5B5B5B5C0004"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+					}
+					type: "item"
+				}
+				{
+					id: "6B5B5B5B5B5C0005"
+					item: {
+						count: 1
+						id: "buildinggadgets2:template_manager"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6B5B5B5B5B5C1004"
+					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+					type: "item"
+				}
+				{
+					id: "6B5B5B5B5B5C1005"
+					item: { count: 1, id: "buildinggadgets2:template_manager" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5109E80E435C6134"]
+			id: "5B5B5B5B5B5C0101"
+			rewards: [{
+				id: "6B5B5B5B5B5C0101"
+				item: {
+					count: 1
+					id: "minecraft:brewing_stand"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1101"
+				item: { count: 1, id: "minecraft:brewing_stand" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0101"]
+			id: "5B5B5B5B5B5C0102"
+			rewards: [{
+				count: 4
+				id: "6B5B5B5B5B5C0102"
+				item: {
+					count: 1
+					id: "minecraft:glass_bottle"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1102"
+				item: { count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0102"]
+			id: "5B5B5B5B5B5C0103"
+			rewards: [{
+				count: 4
+				id: "6B5B5B5B5B5C0103"
+				item: {
+					count: 1
+					id: "minecraft:gunpowder"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1103"
+				item: { count: 1, id: "minecraft:splash_potion" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0103"]
+			id: "5B5B5B5B5B5C0104"
+			rewards: [{
+				id: "6B5B5B5B5B5C0104"
+				item: {
+					count: 1
+					id: "minecraft:dragon_breath"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1104"
+				item: { count: 1, id: "minecraft:lingering_potion" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0104"]
+			id: "5B5B5B5B5B5C0105"
+			rewards: [{
+				id: "6B5B5B5B5B5C0105"
+				item: {
+					count: 1
+					id: "potion_blending:potion_blending_stand"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1105"
+				item: { count: 1, id: "potion_blending:potion_blending_stand" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0105"]
+			id: "5B5B5B5B5B5C0106"
+			rewards: [{
+				count: 2
+				id: "6B5B5B5B5B5C0106"
+				item: {
+					components: {
+						"ftbquests:missing_item": "potion_blending:blended_potion"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1106"
+				item: { components: { "ftbquests:missing_item": "potion_blending:blended_potion" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5109E80E435C6134"]
+			id: "5B5B5B5B5B5C0201"
+			rewards: [{
+				id: "6B5B5B5B5B5C0201"
+				item: {
+					count: 1
+					id: "sliceanddice:slicer"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1201"
+				item: { count: 1, id: "sliceanddice:slicer" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0201"]
+			id: "5B5B5B5B5B5C0202"
+			rewards: [{
+				id: "6B5B5B5B5B5C0202"
+				item: {
+					count: 1
+					id: "sliceanddice:sprinkler"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1202"
+				item: { count: 1, id: "sliceanddice:sprinkler" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0092C730747A57EF"]
+			id: "5B5B5B5B5B5C0301"
+			optional: true
+			rewards: [{
+				id: "6B5B5B5B5B5C0301"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1301"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5109E80E435C6134"]
+			id: "5B5B5B5B5B5C0401"
+			rewards: [{
+				id: "6B5B5B5B5B5C0401"
+				item: {
+					count: 1
+					id: "guardvillagers:guard_spawn_egg"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1401"
+				item: { count: 1, id: "guardvillagers:guard_spawn_egg" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0401"]
+			id: "5B5B5B5B5B5C0402"
+			rewards: [{
+				count: 4
+				id: "6B5B5B5B5B5C0402"
+				item: {
+					count: 1
+					id: "minecraft:iron_block"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "6B5B5B5B5B5C1402"
+				item: { count: 1, id: "minecraft:iron_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0402"]
+			id: "5B5B5B5B5B5C0403"
+			rewards: [{
+				id: "6B5B5B5B5B5C0403"
+				item: {
+					count: 1
+					id: "minecraft:carved_pumpkin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1403"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0092C730747A57EF"]
+			id: "5B5B5B5B5B5C0501"
+			rewards: [{
+				count: 4
+				id: "6B5B5B5B5B5C0501"
+				item: {
+					count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1501"
+				item: { count: 1, id: "storagedrawers:oak_full_drawers_1" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B5B5B5B5B5C0501"]
+			id: "5B5B5B5B5B5C0502"
+			rewards: [{
+				id: "6B5B5B5B5B5C0502"
+				item: {
+					count: 1
+					id: "storagedrawers:controller"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B5B5B5B5B5C1502"
+				item: { count: 1, id: "storagedrawers:controller" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
 			dependencies: [
 				"3E8CDAF4BDFB843A"
 				"68851EBC979797AB"
@@ -1099,7 +1490,7 @@
 					type: "item"
 				}
 				{
-					command: "/say 🏠 @p has risen to the rank of Interior Designer!"
+					command: "/say [✿] @p has risen to the rank of Castellan!"
 					id: "32D643304151F3AA"
 					type: "command"
 				}
@@ -1180,8 +1571,10 @@
 			]
 			shape: "rsquare"
 			tasks: [{
+				count: 64L
 				id: "7D5ADE6029675FEE"
-				type: "checkmark"
+				item: { count: 1, id: "minecraft:stone" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 22.0d
@@ -1267,7 +1660,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "70759737F747FD02"
-				type: "checkmark"
+				item: { count: 1, id: "createdeco:brass_door" }
+				type: "item"
 			}]
 			x: -3.0d
 			y: 21.0d
@@ -1278,7 +1672,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "5B9502784EEE5B20"
-				type: "checkmark"
+				item: { count: 1, id: "mcwfences:oak_stockade_fence" }
+				type: "item"
 			}]
 			x: -3.0d
 			y: 22.0d
@@ -1289,7 +1684,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "423342A511B1549B"
-				type: "checkmark"
+				item: { components: { "ftbquests:missing_item": "mcwtrpdoors:oak_classic_trapdoor" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
 			}]
 			x: -3.0d
 			y: 23.0d
@@ -1515,11 +1911,56 @@
 			id: "3F6501D416CFE745"
 			shape: "rsquare"
 			tasks: [{
+				count: 4L
 				id: "6D8C371D56810576"
-				type: "checkmark"
+				item: { count: 1, id: "farmersdelight:full_tatami_mat" }
+				type: "item"
 			}]
 			x: -5.0d
 			y: 22.0d
+		}
+		{
+			dependencies: ["73BEFD29C4A96C6F"]
+			id: "5B5B5B5B5B5C0601"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "6B5B5B5B5B5C0601"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6B5B5B5B5B5C0602"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B5B5B5B5B5C0603"
+					item: {
+						count: 1
+						id: "minecraft:ghast_tear"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "6B5B5B5B5B5C1601"
+				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 20.0d
 		}
 		{
 			dependencies: [
@@ -1558,7 +1999,7 @@
 					type: "item"
 				}
 				{
-					command: "/say 🏠 @p has risen to the rank of Matriarch!"
+					command: "/say [✿] @p has risen to the rank of Grandmaster!"
 					id: "3A8AABCE754DF454"
 					type: "command"
 				}
@@ -1597,8 +2038,10 @@
 			]
 			shape: "rsquare"
 			tasks: [{
+				count: 16L
 				id: "1C20315C6A6735EE"
-				type: "checkmark"
+				item: { count: 1, id: "create_confectionery:ruby_chocolate_candy" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 30.0d
@@ -1673,8 +2116,10 @@
 			]
 			shape: "rsquare"
 			tasks: [{
+				count: 8L
 				id: "59C8173ECCBD40BB"
-				type: "checkmark"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 32.0d
@@ -1723,7 +2168,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "740019A4648E78EE"
-				type: "checkmark"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_4" }
+				type: "item"
 			}]
 			x: -3.0d
 			y: 31.0d
@@ -1732,14 +2178,15 @@
 			dependencies: ["76227C34BE273A14"]
 			id: "053CB264E06F2E52"
 			rewards: [{
-				command: "/say 🏠 @p has prepared a Grand Feast! All are welcome."
+				command: "/say [✿] @p has prepared a Grand Feast! All are welcome."
 				id: "1D75D66E5642ED62"
 				type: "command"
 			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "012D7CEE5D3ED0A5"
-				type: "checkmark"
+				item: { count: 1, id: "farmersdelight:honey_glazed_ham_block" }
+				type: "item"
 			}]
 			x: 3.0d
 			y: 30.0d
@@ -1750,7 +2197,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "0600B0A887CF8CC1"
-				type: "checkmark"
+				item: { count: 1, id: "farmersdelight:gleaming_salad_block" }
+				type: "item"
 			}]
 			x: 3.0d
 			y: 31.0d
@@ -1769,8 +2217,10 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 4L
 				id: "50E38B19BF2CFF90"
-				type: "checkmark"
+				item: { count: 1, id: "securitycraft:reinforced_glass" }
+				type: "item"
 			}]
 			x: 5.0d
 			y: 30.0d
@@ -1783,7 +2233,7 @@
 			]
 			id: "690419EE2EEF6E5A"
 			rewards: [{
-				command: "/say 🏠 @p has achieved Domestic Supremacy! Their home is legendary."
+				command: "/say [✿] @p has achieved Steadkeeper's Mastery! Their hearth feeds the empire."
 				id: "10BBF5532971282D"
 				type: "command"
 			}]

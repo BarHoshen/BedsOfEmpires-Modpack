@@ -2008,5 +2008,312 @@
 			x: 0.0d
 			y: 36.0d
 		}
+		{
+			dependencies: ["592B6B8FC7F6C891"]
+			id: "5C0F000000000001"
+			rewards: [{
+				count: 4
+				id: "5C0F100000000001"
+				item: {
+					count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5C0F200000000001"
+				item: { count: 1, id: "storagedrawers:oak_full_drawers_1" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5C0F000000000001"]
+			id: "5C0F000000000002"
+			rewards: [
+				{
+					count: 2
+					id: "5C0F100000000002"
+					item: {
+						count: 1
+						id: "storagedrawers:controller"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C0F100000000003"
+					item: {
+						count: 1
+						id: "storagedrawers:controller_io"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C0F200000000002"
+				item: { count: 1, id: "storagedrawers:controller" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5C0F000000000002"]
+			id: "5C0F000000000003"
+			rewards: [{
+				count: 2
+				id: "5C0F100000000004"
+				item: {
+					count: 1
+					id: "storagedrawers:compacting_drawers_3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C0F200000000003"
+				item: { count: 1, id: "storagedrawers:compacting_drawers_3" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["592B6B8FC7F6C891"]
+			id: "5C0F000000000010"
+			rewards: [{
+				count: 2
+				id: "5C0F100000000010"
+				item: {
+					count: 1
+					id: "more_bows_and_arrows:copper_bow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C0F200000000010"
+				item: { count: 1, id: "more_bows_and_arrows:copper_bow" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5C0F000000000010"]
+			id: "5C0F000000000011"
+			rewards: [
+				{
+					id: "5C0F100000000011"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:diamond_bow"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5C0F100000000012"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:diamond_arrow"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C0F200000000011"
+				item: { count: 1, id: "more_bows_and_arrows:diamond_bow" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5C0F000000000011"]
+			id: "5C0F000000000012"
+			rewards: [
+				{
+					id: "5C0F100000000013"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:blaze_bow"
+					}
+					type: "item"
+				}
+				{
+					id: "5C0F100000000014"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:amethyst_bow"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5C0F100000000015"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:blaze_rod_arrow"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C0F200000000012"
+					item: { count: 1, id: "more_bows_and_arrows:blaze_bow" }
+					type: "item"
+				}
+				{
+					id: "5C0F200000000013"
+					item: { count: 1, id: "more_bows_and_arrows:amethyst_bow" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["592B6B8FC7F6C891"]
+			id: "5C0F000000000020"
+			rewards: [{
+				count: 2
+				id: "5C0F100000000020"
+				item: {
+					count: 1
+					id: "new_shield_variants:iron_shield"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C0F200000000020"
+				item: { count: 1, id: "new_shield_variants:iron_shield" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5C0F000000000020"]
+			id: "5C0F000000000021"
+			rewards: [{
+				id: "5C0F100000000021"
+				item: {
+					count: 1
+					id: "new_shield_variants:diamond_shield"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C0F200000000021"
+				item: { count: 1, id: "new_shield_variants:diamond_shield" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5C0F000000000021"]
+			id: "5C0F000000000022"
+			rewards: [{
+				id: "5C0F100000000022"
+				item: {
+					count: 1
+					id: "new_shield_variants:netherite_shield"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C0F200000000022"
+				item: { count: 1, id: "new_shield_variants:netherite_shield" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["592B6B8FC7F6C891"]
+			id: "5C0F000000000030"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "5C0F100000000030"
+				item: {
+					count: 1
+					id: "farmersdelight:beef_stew"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C0F200000000030"
+					item: { count: 1, id: "farmersdelight:beef_stew" }
+					type: "item"
+				}
+				{
+					id: "5C0F200000000031"
+					item: { count: 1, id: "farmersdelight:steak_and_potatoes" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["48B29E485F372BF0"]
+			id: "5C0F000000000040"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "5C0F100000000040"
+				item: {
+					count: 1
+					id: "createbigcannons:cast_iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5C0F200000000040"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["48B29E485F372BF0"]
+			id: "5C0F000000000050"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5C0F100000000050"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5C0F100000000051"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C0F200000000050"
+				item: { count: 1, id: "apotheosis:gem" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 21.0d
+		}
 	]
 }

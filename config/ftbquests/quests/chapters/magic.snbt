@@ -278,7 +278,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "5DEA2FE9B3884773"
-				type: "checkmark"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
 			}]
 			x: 1.0d
 			y: 5.0d
@@ -977,7 +978,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "68D04DAA74522372"
-				type: "checkmark"
+				item: { count: 1, id: "ars_nouveau:thread_magic_capacity" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: 17.0d
@@ -1481,7 +1483,8 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "136D415665C44729"
-				type: "checkmark"
+				item: { count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
 			}]
 			x: 5.0d
 			y: 13.0d
@@ -2143,8 +2146,10 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 4L
 				id: "328185CAC72120D2"
-				type: "checkmark"
+				item: { count: 1, id: "irons_spellbooks:raw_mithril" }
+				type: "item"
 			}]
 			x: 5.0d
 			y: 22.0d
@@ -2177,11 +2182,8 @@
 				{
 					id: "32A979332F7A0C3C"
 					item: {
-						components: {
-							"ftbquests:missing_item": "irons_spellbooks:mithril_helmet"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "irons_spellbooks:wizard_helmet"
 					}
 					type: "item"
 				}
@@ -2189,42 +2191,58 @@
 					id: "205B8CE64FA8417B"
 					item: {
 						components: {
-							"ftbquests:missing_item": "irons_spellbooks:mithril_chestplate"
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "irons_spellbooks:wizard_chestplate"
 					}
 					type: "item"
 				}
 				{
 					id: "5943614508BE297D"
 					item: {
-						components: {
-							"ftbquests:missing_item": "irons_spellbooks:mithril_leggings"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "irons_spellbooks:wizard_leggings"
 					}
 					type: "item"
 				}
 				{
 					id: "18C9AABF654E73FA"
 					item: {
-						components: {
-							"ftbquests:missing_item": "irons_spellbooks:mithril_boots"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "irons_spellbooks:wizard_boots"
 					}
 					type: "item"
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "0484CB38985760D0"
-				item: { components: { "ftbquests:missing_item": "irons_spellbooks:mithril_chestplate" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0484CB38985760D0"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:wizard_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0484CB38985760D1"
+					item: { count: 1, id: "irons_spellbooks:wizard_helmet" }
+					type: "item"
+				}
+				{
+					id: "0484CB38985760D2"
+					item: { count: 1, id: "irons_spellbooks:wizard_leggings" }
+					type: "item"
+				}
+				{
+					id: "0484CB38985760D3"
+					item: { count: 1, id: "irons_spellbooks:wizard_boots" }
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 24.0d
 		}
@@ -2409,8 +2427,10 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 4L
 				id: "266B96CE10C4157D"
-				type: "checkmark"
+				item: { count: 1, id: "ars_nouveau:warp_scroll" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 33.0d
@@ -2570,19 +2590,31 @@
 		{
 			dependencies: ["1AF59A51F1BC47BA"]
 			id: "0F4F1815AD0F8C9D"
-			rewards: [{
-				count: 16
-				id: "154775E39AB2CCA7"
-				item: {
-					count: 1
-					id: "irons_spellbooks:mithril_ingot"
+			rewards: [
+				{
+					count: 16
+					id: "154775E39AB2CCA7"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mithril_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "154775E39AB2CCA8"
+					item: {
+						count: 1
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "31408371DC0BF15F"
-				type: "checkmark"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_spell_book" }
+				type: "item"
 			}]
 			x: 5.0d
 			y: 32.0d
@@ -2590,11 +2622,71 @@
 		{
 			dependencies: ["0F4F1815AD0F8C9D"]
 			id: "2303181F76DA78E1"
+			rewards: [
+				{
+					id: "676FC00F89EC90EC"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "676FC00F89EC90ED"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "676FC00F89EC90EE"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "676FC00F89EC90EF"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			tasks: [{
-				id: "676FC00F89EC90EB"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "676FC00F89EC90EB"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_mage_chestplate" }
+					type: "item"
+				}
+				{
+					id: "676FC00F89EC9100"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_helmet" }
+					type: "item"
+				}
+				{
+					id: "676FC00F89EC9101"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_leggings" }
+					type: "item"
+				}
+				{
+					id: "676FC00F89EC9102"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_boots" }
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 33.0d
 		}
@@ -2705,6 +2797,114 @@
 			}]
 			x: 0.0d
 			y: 36.0d
+		}
+		{
+			dependencies: ["08C398BC8CB044AE"]
+			id: "5A5A5A5A5A5A5001"
+			rewards: [
+				{
+					count: 4
+					id: "5A5A5A5A5A5A6001"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5A5A5A5A5A5A6002"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_jar"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5A5A5A5A5A5A7001"
+				item: { count: 1, id: "ars_nouveau:storage_lectern" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5A5A5A5A5A5A5001"]
+			id: "5A5A5A5A5A5A5002"
+			rewards: [{
+				count: 4
+				id: "5A5A5A5A5A5A6003"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_jar"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5A5A5A5A5A5A7002"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5A5A5A5A5A5A5002"]
+			id: "5A5A5A5A5A5A5003"
+			rewards: [{
+				count: 2
+				id: "5A5A5A5A5A5A6004"
+				item: {
+					count: 1
+					id: "ars_nouveau:bookwyrm_charm"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5A5A5A5A5A5A7003"
+				item: { count: 1, id: "ars_nouveau:bookwyrm_charm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["144EE6864F5F45D0"]
+			id: "5B5B5B5B5B5B5B01"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "36CF7423AA6AB93B"
+					item: {
+						count: 1
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "5971F3D7A89CE1F4"
+					item: {
+						components: {
+							"ftbquests:missing_item": "irons_spellbooks:scroll_pouch"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "503AA52E888F9A9A"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:evoker_spell_book" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 22.0d
 		}
 	]
 }

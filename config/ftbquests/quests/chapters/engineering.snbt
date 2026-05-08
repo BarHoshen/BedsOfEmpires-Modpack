@@ -2202,5 +2202,217 @@
 			x: 0.0d
 			y: 36.0d
 		}
+		{
+			dependencies: ["09E25C40875FC0CF"]
+			id: "5E0F000000000001"
+			rewards: [{
+				count: 4
+				id: "5E0F100000000001"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E0F200000000001"
+				item: { count: 1, id: "sophisticatedstorage:chest" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5E0F000000000001"]
+			id: "5E0F000000000002"
+			rewards: [
+				{
+					count: 2
+					id: "5E0F100000000002"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:iron_chest"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E0F100000000003"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_1"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E0F200000000002"
+				item: { count: 1, id: "sophisticatedstorage:iron_chest" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5E0F000000000002"]
+			id: "5E0F000000000003"
+			rewards: [
+				{
+					count: 2
+					id: "5E0F100000000004"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:controller"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5E0F100000000005"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:hopper_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E0F200000000003"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7ABC6C287BC73F7D"]
+			id: "5E0F000000000010"
+			rewards: [{
+				count: 4
+				id: "5E0F100000000010"
+				item: {
+					count: 1
+					id: "create:mechanical_saw"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E0F200000000010"
+				item: { count: 1, id: "create:mechanical_saw" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["5E0F000000000010"]
+			id: "5E0F000000000011"
+			rewards: [{
+				count: 4
+				id: "5E0F100000000011"
+				item: {
+					count: 1
+					id: "create:crushing_wheel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5E0F200000000011"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5E0F000000000011"]
+			id: "5E0F000000000012"
+			rewards: [
+				{
+					count: 4
+					id: "5E0F100000000012"
+					item: {
+						count: 1
+						id: "create:encased_fan"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5E0F100000000013"
+					item: {
+						count: 1
+						id: "create:propeller"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "5E0F200000000012"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["5E0F000000000012"]
+			id: "5E0F000000000013"
+			rewards: [{
+				count: 4
+				id: "5E0F100000000014"
+				item: {
+					count: 1
+					id: "create:deployer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5E0F200000000013"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["7ABC6C287BC73F7D"]
+			id: "5E0F000000000020"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "5E0F100000000020"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E0F100000000021"
+					item: {
+						components: {
+							"ftbquests:missing_item": "create_enchantment_industry:hyper_experience_bucket"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "5E0F200000000020"
+				item: { count: 1, id: "minecraft:experience_bottle" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 21.0d
+		}
 	]
 }
