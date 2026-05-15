@@ -1,0 +1,11 @@
+[
+  {"version":2},
+  {"recipe":"create:crafting/kinetics/mechanical_crafter","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":["create:sandpaper_polishing/rose_quartz_using_deployer",{"ingredients":[{"item":"create:rose_quartz"},{"tag":"create:sandpaper"}],"results":[{"id":"create:polished_rose_quartz"}],"type":"create:deploying"}],"recipeType":"create:deploying","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/kinetics/deployer","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"farmersdelight:tree_bark"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createaddition:alternator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:sequenced_assembly/precision_mechanism","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"},
+  {"recipe":"aquaculturedelight:large_fish_with_vegetables","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create_connected:sequenced_assembly/control_chip","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"}
+]

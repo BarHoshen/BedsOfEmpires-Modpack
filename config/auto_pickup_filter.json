@@ -1,7 +1,11 @@
 [
   "create:ornate_iron_window",
   "ae2wtlib:wireless_pattern_access_terminal",
+  "minecraft:stripped_warped_hyphae",
   "minecraft:enchanted_book",
   "apotheosis:potion_charm",
-  "mekanism:basic_smelting_factory"
+  "chipped:blank_deepslate_carving",
+  "minecraft:firework_rocket",
+  "mekanism:basic_smelting_factory",
+  "minecraft:stone_pickaxe"
 ]
